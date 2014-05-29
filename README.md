@@ -1,0 +1,2 @@
+# Shamman
+### a Sails application
