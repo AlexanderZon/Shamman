@@ -11,7 +11,7 @@
  * For more information on adapter configuration, check out:
  * http://sailsjs.org/#documentation
  */
-
+/*
 module.exports.adapters = {
 
   // If you leave the adapter config unspecified 
@@ -37,3 +37,20 @@ module.exports.adapters = {
     database: 'YOUR_MYSQL_DB'
   }
 };
+*/
+module.exports.adapters = {
+  'default': 'mysql',
+
+  mysql: {
+    module   : 'sails-mysql',
+    host     : 'localhost',
+    port     : 3306,
+    user     : 'root',
+    password : '',
+    database : 'shamman'
+
+    // OR (exlicit sets take precedence)
+    //module   : 'sails-mysql',
+    //url      : 'mysql2://USER:PASSWORD@HOST:PORT/DATABASENAME'
+    }
+  };
