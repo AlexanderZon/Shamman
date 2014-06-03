@@ -11,6 +11,7 @@ module.exports = {
 	attributes: {
 		id: 'INTEGER',
 		disease_id: 'INTEGER',
+		status: 'STRING',
 		user_id: 'INTEGER',
 	},
 };

@@ -38,6 +38,8 @@ module.exports.adapters = {
   }
 };
 */
+
+/* ------ MYSQL --------
 module.exports.adapters = {
   'default': 'mysql',
 
@@ -53,4 +55,20 @@ module.exports.adapters = {
     //module   : 'sails-mysql',
     //url      : 'mysql2://USER:PASSWORD@HOST:PORT/DATABASENAME'
     }
-  };
+
+
+    */
+
+  module.exports.adapters = {
+    'default': 'mongo',
+    mongo: {
+      module: 'sails-mongo',
+      host: 'localhost',
+      port: 27017,
+      user: '',
+      password: '',
+      database: 'shamman',
+
+    },
+
+};
