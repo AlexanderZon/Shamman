@@ -50,6 +50,8 @@
         </div>
       </div>
     </form>
+    <% if(user != null) { %>
+
     <ul class="nav navbar-nav navbar-right m-n hidden-xs nav-user user">
       <li class="hidden-xs"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="i i-chat3"></i> <span class="badge badge-sm up bg-danger count"><%= 2 %></span> </a>
         <section class="dropdown-menu aside-xl animated flipInY">
@@ -74,6 +76,11 @@
         </ul>
       </li>
     </ul>
+
+    <% } else { %>
+      <a href="#" class="btn btn-s-md btn-primary btn-rounded"><%= __('Login') %></a>
+      <a href="#" class="btn btn-s-md btn-default btn-rounded"><%= __('Sign up') %></a>
+    <% } %>
   </header>
   <section>
     <section class="hbox stretch">
@@ -82,6 +89,7 @@
         <section class="vbox">
           <section class="w-f scrollable">
             <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="10px" data-color="#333333">
+              <% if(user != null) { %>
               <div class="clearfix wrapper dk nav-user hidden-xs">
                 <div class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb avatar pull-left m-r"> <img src="images/a10.jpg"> <i class="on md b-black"></i> </span> <span class="hidden-nav-xs clear"> <span class="block m-t-xs"> <strong class="font-bold text-lt">Alexis.Montenegro</strong> <b class="caret"></b> </span> <span class="text-muted text-xs block">Administrador</span> </span> </a>
                   <ul class="dropdown-menu animated fadeInRight m-t-xs">
@@ -95,9 +103,10 @@
                   </ul>
                 </div>
               </div>
+              <% } %> 
               <!-- nav -->
               <nav class="nav-primary hidden-xs">
-                <% if(true) { %>
+                <% if(user == 'administrator') { %>
                 <div class="text-muted text-sm hidden-nav-xs padder m-t-sm m-b-sm"><%= __('Administration') %></div>
                 <ul class="nav nav-main" data-ride="collapse">
                   <li class="active"> <a href="index.html" class="auto"> <i class="i i-statistics icon"> </i> <span class="font-bold"><%= __('Overview') %></span> </a> </li>

@@ -102,6 +102,13 @@
 	"Do you really want to Logout from our system?": "¿Realmente deseas salir de nuestro sistema?",
 	"No, I don´t": "No, no quiero",
 	"Go back": "Volver",
-	"Yes, I want": "Si, si quiero"
+	"Yes, I want": "Si, si quiero",
+	"Page Not Found": "Página no encontrada",
+	"Something's fishy here.": "Algo apesta aquí",
+	"The page you were trying to reach doesn't exist.": "La página a la que intentas acceder no existe",
+	"Why": "¿Porqué",
+	"might this be happening?": "podría estar pasando esto?"
+
+
 
 }

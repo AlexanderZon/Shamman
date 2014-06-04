@@ -33,7 +33,7 @@ module.exports.routes = {
   // 
   // (This would also work if you had a file at: `/views/home.ejs`)
   '/': function(res, res){
-      return res.view('home/index', {login:false})
+      return res.view('home/index', {login:false, user: 'administrator'})
   },
 
 /* -------------- Authentication Routes --------------- */
