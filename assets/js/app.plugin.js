@@ -179,7 +179,7 @@
                     '<i class="fa fa-envelope-o fa-2x text-success"></i>'+
                   '</span>'+
                   '<span class="media-body block m-b-none">'+
-                    'Sophi sent you a email<br>'+
+                    'Shamman te envió un mensaje<br>'+
                     '<small class="text-muted">1 minutes ago</small>'+
                   '</span>'+
                 '</a>';	
