@@ -7,30 +7,24 @@ $(document).ready( function(){
     events = [
       [
         "4/"+month+"/"+year, 
-        'Meet a friend', 
+        'Otorrino', 
         '#', 
         '#177bbb', 
-        'Contents here'
+        'Exámen médico'
       ],
       [
         "7/"+month+"/"+year, 
-        'Kick off meeting!', 
+        'Oftalmólogo!', 
         '#', 
         '#1bbacc', 
-        'Have a kick off meeting with .inc company'
+        'Examen médico'
       ],
       [
         "17/"+month+"/"+year, 
-        'Milestone release', 
+        'Otorrino', 
         '#', 
         '#fcc633', 
-        'Contents here'
-      ],
-      [
-        "19/"+month+"/"+year, 
-        'A link', 
-        'http://www.google.com', 
-        '#e33244'
+        'Cirugia de amigdalas'
       ]
     ];
     $('#calendar').calendar({

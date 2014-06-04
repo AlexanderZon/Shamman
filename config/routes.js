@@ -32,8 +32,35 @@ module.exports.routes = {
   // located at `views/home/index.ejs`
   // 
   // (This would also work if you had a file at: `/views/home.ejs`)
-  '/': {
-    view: 'home/index'
+  '/': function(res, res){
+      return res.view('home/index', {login:false})
+  },
+
+/* -------------- Authentication Routes --------------- */
+
+  'get /login': {
+    controller: 'login',
+    action: 'get'
+  },
+  'post /login': {
+    controller: 'login',
+    action: 'session'
+  },
+  'get /signup': {
+    controller: 'login',
+    action: 'signup'
+  },
+  'post /signup': {
+    controller: 'login',
+    action: 'create'
+  },
+  'get /logout': {
+    controller: 'login',
+    action: 'logout'
+  },
+  'post /logout': {
+    controller: 'login',
+    action: 'signout'
   }
 
   /*

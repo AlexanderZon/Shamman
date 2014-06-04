@@ -1,4 +1,4 @@
-
+<% if(!login) { %>
 <!DOCTYPE html>
 <html lang="en" class="app">
 <head>
@@ -6,7 +6,7 @@
 <title><%- title %></title>
 <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<link rel="x-icon" href="/images/logo.png"/>
+<link rel="shortcut icon" href="/images/logo.png">
 <link rel="stylesheet" href="css/app.v1.css" type="text/css" />
 <link rel="stylesheet" href="js/calendar/bootstrap_calendar.css" type="text/css" />
 <!--[if lt IE 9]> <script src="js/ie/html5shiv.js"></script> <script src="js/ie/respond.min.js"></script> <script src="js/ie/excanvas.js"></script> <![endif]-->
@@ -154,7 +154,7 @@
                   <li> <a href="mail.html#projects"> <i class="i i-circle-sm text-info-dk"></i> <span><%= __('Friends') %></span> </a> </li>
                   <li> <a href="mail.html#projects"> <i class="i i-circle-sm text-info-dk"></i> <span><%= __('Datasheet') %></span> </a> </li>
                 </ul>
-                <div class="text-muted text-xs hidden-nav-xs padder m-t-sm m-b-sm">Circles</div>
+                <div class="text-muted text-xs hidden-nav-xs padder m-t-sm m-b-sm"><%= __('Information') %></div>
                 <ul class="nav">
                   <li> <a href="#"> <i class="i i-circle-sm-o text-success-lt"></i> <span><%= __('Contact') %></span> </a> </li>
                   <li> <a href="#"> <i class="i i-circle-sm-o text-success-lt"></i> <span><%= __('Developers') %></span> </a> </li>
@@ -170,7 +170,13 @@
       <!-- /.aside -->
       <section id="content">
 
+<% } %>
+
+<!--  ************************ BODY ******************************* -->
+
         <%- body %>
+
+<!--  ************************ BODY ******************************* -->
 
     </section>
   </section>
