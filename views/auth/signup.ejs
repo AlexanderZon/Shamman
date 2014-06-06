@@ -73,6 +73,7 @@
 
 <script type="text/javascript">
   $(document).on('ready', function(){
+    $.jGrowl.defaults.closerTemplate = "<div>Ocultar todas las notificaciones</div>";
     $('#form_signup').on('submit', function(){
       if(!validate()) return false;
       else{

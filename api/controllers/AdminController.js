@@ -27,9 +27,11 @@ module.exports = {
     // Send a JSON response
     try{
       if(req.session.usertype == 'administrator'){
+        req.session.login = false;
         return res.view('admin/index', req.session);
       }
       else if(req.session.usertype == 'user'){
+        req.session.login = false;
         res.redirect('/');
       }
       else{

@@ -26,7 +26,7 @@ module.exports = {
     
     // Send a JSON response
     if(req.session.username != null){
-      return res.redirect('/');
+      return res.redirect('/admin');
     }
     else{
       req.session.user = null;
@@ -134,19 +134,20 @@ module.exports = {
         else{
           console.log("User Created! " + user);
           res.view('auth/login', {
+            login: true,
             message: "Excelente eres un usuario, ahora inicia sesión!",
             type: "sucessful",
             error: true
           });
         }
-      }).error(function (err){
+      })/*.error(function (err){
           console.log("Error al crear el usuario! " + err);
           res.view('auth/signup', {
             message: "Error al crear el usuario!",
             type: "error",
             error: true
           });
-      });
+      });*/
     }
     catch(e){
       console.log(e);
@@ -162,7 +163,12 @@ module.exports = {
    signup: function (req, res) {
     
     // Send a JSON response
-    return res.view('auth/signup', {login:true});
+    if(req.session.username != null){
+      return res.redirect('/admin');
+    }
+    else{
+      return res.view('auth/signup', {login:true});
+    }
 
   },
 
