@@ -27,8 +27,6 @@ module.exports = {
     // Send a JSON response
     try{
       if(req.session.usertype == 'administrator'){
-        __PANEL = req.session;
-        __PANEL.login = false;
         return res.view('admin/index', req.session);
       }
       else if(req.session.usertype == 'user'){

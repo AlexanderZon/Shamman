@@ -10,7 +10,7 @@ module.exports = {
 	tableName: 'sh_auditory',
 	attributes: {
 		id: 'INTEGER',
-		user_id: 'INTEGER',
+		user_id: 'STRING',
 		action: 'JSON',
 		status: 'STRING',
 		type: 'STRING',

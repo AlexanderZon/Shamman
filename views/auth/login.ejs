@@ -2,7 +2,6 @@
 <html lang="en" class="app">
 <head>
 
-
 <link rel="stylesheet" href="/css/app.v1.css" type="text/css" />
 <link rel="stylesheet" href="/js/jgrowl/jquery.jgrowl.min.css" type="text/css" />
 <!--[if lt IE 9]> <script src="js/ie/html5shiv.js"></script> <script src="js/ie/respond.min.js"></script> <script src="js/ie/excanvas.js"></script> <![endif]-->
@@ -16,21 +15,17 @@
 <link rel="stylesheet" href="/css/app.v1.css" type="text/css" />
 <link rel="shortcut icon" href="/images/logo.png">
 <!--[if lt IE 9]> <script src="js/ie/html5shiv.js"></script> <script src="js/ie/respond.min.js"></script> <script src="js/ie/excanvas.js"></script> <![endif]-->
-
-
-<link rel="stylesheet" href="/js/jgrowl/jquery.jgrowl.min.css" type="text/css" />
-<link rel="stylesheet" href="/js/chosen/chosen.min.css" type="text/css" />
 <!--[if lt IE 9]> <script src="js/ie/html5shiv.js"></script> <script src="js/ie/respond.min.js"></script> <script src="js/ie/excanvas.js"></script> <![endif]-->
-
-<script src="/js/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="/js/jgrowl/jquery.jgrowl.min.js"></script>
 </head>
 <body class="">
 <section id="content" class="m-t-lg wrapper-md animated fadeInUp">
   <div class="container aside-xl"> <a class="navbar-brand block" href="index.html">Shamman</a>
     <section class="m-b-lg">
       <header class="wrapper text-center"> <strong><%= __('Sign in to get in touch') %></strong> </header>
-      <form action="index.html" id="login_form">
+      <% if(error){ %>
+      <header class="wrapper text-center"> <strong><%= message %></strong> </header>
+      <% } %>
+      <form action="/login" method="post" id="login_form">
       <input type='hidden' name='_csrf' value='<%= _csrf %>'>
         <div class="list-group">
           <div class="list-group-item">
@@ -65,17 +60,7 @@
     $('#login_form').on('submit', function(){
       if(!validate()) return false;
       else{
-        var data = $('#login_form').serialize();
-        $.ajax({
-          url: '/login',
-          type: 'POST',
-          data: data
-        }).done(function(data){
-          $.jGrowl(data.message);
-        }).error(function(){
-          $.jGrowl(data.message);
-        });
-        return false;
+        return true;
       }
     });
   });

@@ -22,13 +22,21 @@ module.exports = {
    *    `/auditory/get`
    */
    get: function (req, res) {
+
     
     // Send a JSON response
-    if(__PANEL.username != null){
+    if(req.session.username != null){
       return res.redirect('/');
     }
     else{
-      return res.view('auth/login', {login:true});
+      req.session.user = null;
+      req.session.usertype = null;
+      req.session.username = null;
+      req.session.useremail = null;
+      req.session.authenticated = null;
+      req.session.display_name = null;
+      req.session.login = false;
+      return res.view('auth/login', {login:true, error: false});
     }
 
   },
@@ -47,7 +55,7 @@ module.exports = {
           error: true
         });
       }
-      if(user){
+      if(user[0]){
         /*
         bcrypt.compare(req.body.password, user.password, function (err, match) {
           if (err) res.json({ error: 'Server error' }, 500);
@@ -65,7 +73,7 @@ module.exports = {
         */
         if(user[0].pass == req.body.password){
           //Password match
-          console.log(req.session);
+          //console.log(req.session);
           req.session.user = user[0].id;
           req.session.usertype = user[0].type;
           req.session.username = user[0].login;
@@ -76,18 +84,20 @@ module.exports = {
         }
         else{
           // invalid password
-          return res.json({
-            message: 'Contraseña Inválida: ',
+          return res.view('auth/login', {
+            message: 'Contraseña Inválida',
             type: 'invalidPassword',
-            error: false
+            error: true,
+            login: true
           });
         }
       }
       else{
-        return res.json({
+        return res.view('auth/login',{
           message: 'Usuario desconocido',
           type: 'unknownUser',
-          error: true
+          error: true,
+          login: true
         });
       }
     });    
@@ -102,6 +112,46 @@ module.exports = {
     
     // Send a JSON response
     /* Verify and Insert User data */
+    try{
+      Users.create({
+        login: req.body.username,
+        pass: req.body.password,
+        email: req.body.email,
+        first_name: req.body.first_name,
+        last_name: req.body.last_name,
+        display_name: req.body.first_name + " " + req.body.last_name,
+        status: 'publish',
+        type: 'user'
+      }).done(function (err, user){
+        if(err){
+          console.log(err);
+          res.view('auth/signup', {
+            message: "Error al crear usurio!",
+            type: "error",
+            error: true
+          });
+        }
+        else{
+          console.log("User Created! " + user);
+          res.view('auth/login', {
+            message: "Excelente eres un usuario, ahora inicia sesión!",
+            type: "sucessful",
+            error: true
+          });
+        }
+      }).error(function (err){
+          console.log("Error al crear el usuario! " + err);
+          res.view('auth/signup', {
+            message: "Error al crear el usuario!",
+            type: "error",
+            error: true
+          });
+      });
+    }
+    catch(e){
+      console.log(e);
+      res.json(e);
+    }
 
   },
 
@@ -124,8 +174,30 @@ module.exports = {
    logout: function (req, res) {
     
     // Send a JSON response
+
+    try{
+      if(req.session.user == null){
+        return res.redirect('/login');
+      }
+      else{
+        return res.view('auth/logout', {login:true});
+      }
+    }
+    catch(e){
+      __error = {
+        message: "LoginController:logout",
+        err: e,
+      };
+      req.session.user != null ? __user_id = null: __user_id = req.session.user;
+      Auditory.create({
+        user_id: __user_id,
+        action: __error,
+        status: "notviewed",
+        type: "system"
+      });
+      console.log(__error);
+    }
     
-    return res.view('auth/logout', {login:true});
 
   },
 
@@ -138,6 +210,14 @@ module.exports = {
     
     // Send a JSON response
     /* Destroy the req.session.DATA  */
+    req.session.user = null;
+    req.session.usertype = null;
+    req.session.username = null;
+    req.session.useremail = null;
+    req.session.authenticated = null;
+    req.session.display_name = null;
+
+    res.redirect('/admin');
 
   },
 

@@ -11,26 +11,21 @@
 </head>
 <body class="">
 <section id="content" class="m-t-lg wrapper-md animated fadeInDown">
-  <div class="container aside-xl"> <a class="navbar-brand block" href="index.html">Shamman</a>
-    <section class="m-b-lg">
+  <div class="container aside-xl">
+    <section class="m-b-lg white">
       <header class="wrapper text-center"> <strong><%= __('Do you really want to Logout from our system?') %></strong> </header>
-      <form action="http://flatfull.com/themes/scale/index.html">
+      <form action="logout" method="post">
+        <input type='hidden' name='_csrf' value='<%= _csrf %>'>
         <div class="list-group">
         <button type="submit" class="btn btn-lg btn-primary btn-block"><%= __('Yes, I want') %></button>
         <div class="line line-dashed"></div>
         <p class="text-muted text-center"><small><%= __('No, I don´t') %></small></p>
-        <a href="login" class="btn btn-lg btn-default btn-block"><%= __('Go back') %></a>
+        <a href="/admin" class="btn btn-lg btn-default btn-block"><%= __('Go back') %></a>
       </form>
     </section>
   </div>
 </section>
 <!-- footer -->
-<footer id="footer">
-  <div class="text-center padder clearfix">
-    <p> <small><%= __('Web app framework base on Sails.js') %><br>
-      &copy; 2014</small> </p>
-  </div>
-</footer>
 <!-- / footer -->
 <!-- Bootstrap -->
 <!-- App -->
