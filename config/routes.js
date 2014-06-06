@@ -67,33 +67,35 @@ module.exports.routes = {
   /* -------------- User Routes ----------------------*/
 
   'get /admin/users': {
-    controller: 'users',
+    controller: 'adminUsers',
     action: 'get'
   },
-  'get /admin/users/create': function(req, res){
-    res.view('admin/users/create', __PANEL);
+  'get /admin/users/create': {
+    controller: 'adminUsers',
+    action: 'getCreate'
   },
   'post /admin/users/create': {
-    controller: 'users',
+    controller: 'adminUsers',
     action: 'create'
   },
   'get /admin/users/edit/:id?': {
-    controller: 'users',
+    controller: 'adminUsers',
     action: 'getOne'
   },
   'post /admin/users/edit/:id?': {
-    controller: 'users',
+    controller: 'adminUsers',
     action: 'update'
   },
-  'get /users/delete': function(req, res) {
-    res.redirect('/users');
+  'get /admin/users/delete': {
+    controller: 'adminUsers',
+    action: 'getDelete'
   },
   'post /admin/users/delete/:id': {
-    controller: 'users',
+    controller: 'adminUsers',
     action: 'delete'
   },
   'get /admin/users/:id?':{
-    controller: 'users',
+    controller: 'adminUsers',
     action: 'getOne'
   },
 

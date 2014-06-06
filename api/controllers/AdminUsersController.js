@@ -1,5 +1,5 @@
 /**
- * UsersController
+ * AdminUsersController
  *
  * @module      :: Controller
  * @description	:: A set of functions called `actions`.
@@ -67,6 +67,48 @@ module.exports = {
       if(req.session.usertype == 'administrator'){
         req.session.login = false;
         return res.view('admin/users/index', req.session);
+      }
+      else if(req.session.usertype == 'user'){
+        req.session.login = false;
+        res.redirect('/');
+      }
+      else{
+        res.redirect('/login');
+      }
+    }
+    catch(e){
+      res.redirect('/login');
+    }
+  },
+
+   getCreate: function (req, res) {
+    
+    // Send a JSON response
+    try{
+      if(req.session.usertype == 'administrator'){
+	    req.session.login = false;
+	    res.view('admin/users/create', req.session);
+      }
+      else if(req.session.usertype == 'user'){
+        req.session.login = false;
+        res.redirect('/');
+      }
+      else{
+        res.redirect('/login');
+      }
+    }
+    catch(e){
+      res.redirect('/login');
+    }
+  },
+
+   getDelete: function (req, res) {
+    
+    // Send a JSON response
+    try{
+      if(req.session.usertype == 'administrator'){
+	    req.session.login = false;
+	    res.view('admin/users/delete', req.session);
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;
