@@ -33,7 +33,7 @@ module.exports.routes = {
   // 
   // (This would also work if you had a file at: `/views/home.ejs`)
   '/': function(res, res){
-      return res.view('home/index', {login:false, user: 'administrator'})
+      return res.view('home/index', __PANEL);
   },
 
 /* -------------- Authentication Routes --------------- */
@@ -61,6 +61,46 @@ module.exports.routes = {
   'post /logout': {
     controller: 'login',
     action: 'signout'
+  },
+
+  /* -------------- User Routes ----------------------*/
+
+  'get /users': {
+    controller: 'users',
+    action: 'get'
+  },
+  'get /users/create': function(req, res){
+    res.view('admin/users/create', __PANEL);
+  },
+  'post /users/create': {
+    controller: 'users',
+    action: 'create'
+  },
+  'get /users/edit/:id?': {
+    controller: 'users',
+    action: 'getOne'
+  },
+  'post /users/edit/:id?': {
+    controller: 'users',
+    action: 'update'
+  },
+  'get /users/delete': function(req, res) {
+    res.redirect('/users');
+  },
+  'post /users/delete/:id': {
+    controller: 'users',
+    action: 'delete'
+  },
+  'get /users/:id?':{
+    controller: 'users',
+    action: 'getOne'
+  },
+
+  /* -------------- Admin -------------- */
+
+  'get /admin': {
+    controller: 'admin',
+    action: 'get'
   }
 
   /*

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" class="app">
+<head>
+<meta charset="utf-8" />
+<title>Shamman | Crear usuario</title>
+<meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="./images/logo.png">
+<link rel="stylesheet" href="./css/app.v1.css" type="text/css" />
+<link rel="stylesheet" href="./js/calendar/bootstrap_calendar.css" type="text/css" />
+<link rel="stylesheet" href="./js/jgrowl/jquery.jgrowl.min.css" type="text/css" />
+<link rel="stylesheet" href="./js/chosen/chosen.min.css" type="text/css" />
+<!--[if lt IE 9]> <script src="js/ie/html5shiv.js"></script> <script src="js/ie/respond.min.js"></script> <script src="js/ie/excanvas.js"></script> <![endif]-->
+<script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="./js/jgrowl/jquery.jgrowl.min.js"></script>
+<script type="text/javascript" src="./js/chosen/chosen.jquery.min.js"></script>
+
+<script type="text/javascript">
+
+  $(document).ready( function(){
+    //$.jGrowl("This notification will live a little longer.", { life: 1000 });
+     $("#type").chosen({no_results_text: "Oops, nothing found!"});
+     //console.log("C")
+  });
+  
+</script>
+</head>
+<body class="">
+<section class="vbox">
+  <header class="bg-white header header-md navbar navbar-fixed-top-xs box-shadow">
+    <div class="navbar-header aside-md dk"> <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav"> <i class="fa fa-bars"></i> </a> <a href="index.html" class="navbar-brand"><img src="./images/logo.png" class="m-r-sm">Shamman</a> <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user"> <i class="fa fa-cog"></i> </a> </div>
+    <ul class="nav navbar-nav hidden-xs">
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="i i-grid"></i> </a>
+        <section class="dropdown-menu aside-lg bg-white on animated fadeInLeft">
+          <div class="row m-l-none m-r-none m-t m-b text-center">
+            <div class="col-xs-4">
+              <div class="padder-v"> <a href="#"> <span class="m-b-xs block"> <i class="i i-mail i-2x text-primary-lt"></i> </span> <small class="text-muted">Buzón</small> </a> </div>
+            </div>
+            <div class="col-xs-4">
+              <div class="padder-v"> <a href="#"> <span class="m-b-xs block"> <i class="i i-calendar i-2x text-danger-lt"></i> </span> <small class="text-muted">Calendario</small> </a> </div>
+            </div>
+            <div class="col-xs-4">
+              <div class="padder-v"> <a href="#"> <span class="m-b-xs block"> <i class="i i-map i-2x text-success-lt"></i> </span> <small class="text-muted">Mapa</small> </a> </div>
+            </div>
+            <div class="col-xs-4">
+              <div class="padder-v"> <a href="#"> <span class="m-b-xs block"> <i class="i i-paperplane i-2x text-info-lt"></i> </span> <small class="text-muted">Formación</small> </a> </div>
+            </div>
+            <div class="col-xs-4">
+              <div class="padder-v"> <a href="#"> <span class="m-b-xs block"> <i class="i i-images i-2x text-muted"></i> </span> <small class="text-muted">Fotos</small> </a> </div>
+            </div>
+            <div class="col-xs-4">
+              <div class="padder-v"> <a href="#"> <span class="m-b-xs block"> <i class="i i-clock i-2x text-warning-lter"></i> </span> <small class="text-muted">Historial</small> </a> </div>
+            </div>
+          </div>
+        </section>
+      </li>
+    </ul>
+    <form class="navbar-form navbar-left input-s-lg m-t m-l-n-xs hidden-xs" role="search">
+      <div class="form-group">
+        <div class="input-group"> <span class="input-group-btn">
+          <button type="submit" class="btn btn-sm bg-white b-white btn-icon"><i class="fa fa-search"></i></button>
+          </span>
+          <input type="text" class="form-control input-sm no-border" placeholder="Búsqueda rápida...">
+        </div>
+      </div>
+    </form>
+    
+    
+
+    <ul class="nav navbar-nav navbar-right m-n hidden-xs nav-user user">
+      <li class="hidden-xs"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="i i-chat3"></i> <span class="badge badge-sm up bg-danger count">2</span> </a>
+        <section class="dropdown-menu aside-xl animated flipInY">
+          <section class="panel bg-white">
+            <header class="panel-heading b-light bg-light"> <strong>Tú tienes <span class="count">2</span> notificaciones</strong> </header>
+            <div class="list-group list-group-alt"> <a href="#" class="media list-group-item"> <span class="pull-left thumb-sm"> <img src="./images/a10.jpg" alt="Alexis dice" class="img-circle"> </span> <span class="media-body block m-b-none"> Alexis Montenegro, tienes nuevas recomendaciones para tus diagnósticos <br>
+              <small class="text-muted">10 minutes ago</small> </span> </a> <a href="#" class="media list-group-item"> <span class="media-body block m-b-none"> Shamman 1.0 ha salido de la guarida<br>
+              <small class="text-muted">1 hour ago</small> </span> </a> </div>
+            <footer class="panel-footer text-sm"> <a href="#" class="pull-right"><i class="fa fa-cog"></i></a> <a href="#notes" data-toggle="class:show animated fadeInRight">Ver todas las notificaciones</a> </footer>
+          </section>
+        </section>
+      </li>
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="./images/a10.jpg"> </span> Alexis.Montenegro <b class="caret"></b> </a>
+        <ul class="dropdown-menu animated fadeInRight">
+          <span class="arrow top"></span>
+          <li> <a href="#">Configuraciones</a> </li>
+          <li> <a href="profile.html">Perfil</a> </li>
+          <li> <a href="#"> <span class="badge bg-danger pull-right">3</span>Notificaciones </a> </li>
+          <li> <a href="docs.html">Ayuda</a> </li>
+          <li class="divider"></li>
+          <li> <a href="modal.lockme.html" data-toggle="ajaxModal" >Cerrar Sesión</a> </li>
+        </ul>
+      </li>
+    </ul>
+
+    
+  </header>
+  <section>
+    <section class="hbox stretch">
+      <!-- .aside -->
+
+      <aside class="bg-black aside-md hidden-print" id="nav">
+        <section class="vbox">
+          <section class="w-f scrollable">
+            <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="10px" data-color="#333333">
+              
+              <div class="progress progress-sm progress-striped active m-t-xs m-b-none">
+                  <div class="progress-bar bg-success" data-toggle="tooltip" data-original-title="25%" style="width: 25%"></div>
+                </div>
+              <div class="clearfix wrapper dk nav-user hidden-xs">
+
+                <div class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb avatar pull-left m-r"> <img src="./images/a10.jpg"> <i class="on md b-black"></i> </span> <span class="hidden-nav-xs clear"> <span class="block m-t-xs"> <strong class="font-bold text-lt">Alexis.Montenegro</strong> <b class="caret"></b> </span> <span class="text-muted text-xs block">Administrador</span> </span> </a>
+                  <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                    <span class="arrow top hidden-nav-xs"></span>
+                    <li> <a href="#">Configuraciones</a> </li>
+                    <li> <a href="profile.html">Perfil</a> </li>
+                    <li> <a href="#"> <span class="badge bg-danger pull-right">3</span> Notificaciones </a> </li>
+                    <li> <a href="docs.html">Ayuda</a> </li>
+                    <li class="divider"></li>
+                    <li> <a href="modal.lockme.html" data-toggle="ajaxModal" >Cerrar Sesión</a> </li>
+                  </ul>
+                </div>
+              </div>
+               
+              <!-- nav -->
+              <nav class="nav-primary hidden-xs">
+                
+                <div class="text-muted text-sm hidden-nav-xs padder m-t-sm m-b-sm">Administración</div>
+                <ul class="nav nav-main" data-ride="collapse">
+                  <li class="active"> <a href="index.html" class="auto"> <i class="i i-statistics icon"> </i> <span class="font-bold">Resumen</span> </a> </li>
+                  <li > <a href="#" class="auto"> <span class="pull-right text-muted"> <i class="i i-circle-sm-o text"></i> <i class="i i-circle-sm text-active"></i> </span>  <i class="fa fa-medkit icon"> </i> <span class="font-bold">Enfermedades</span> </a>
+                    <ul class="nav dk">
+                      <li > <a href="layout-color.html" class="auto"> <i class="i i-dot"></i> <span>Ver</span> </a> </li>
+                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span>Añadir nuevo</span> </a> </li>
+                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span>Actualizar</span> </a> </li>
+                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span>Eliminar</span> </a> </li>
+                    </ul>
+                  </li>
+                  <li > <a href="#" class="auto"> <span class="pull-right text-muted"> <i class="i i-circle-sm-o text"></i> <i class="i i-circle-sm text-active"></i> </span> <i class="fa fa-stethoscope icon"> </i> <span class="font-bold">Síntomas</span> </a>
+                    <ul class="nav dk">
+                      <li > <a href="layout-color.html" class="auto"> <i class="i i-dot"></i> <span>Ver</span> </a> </li>
+                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span>Añadir nuevo</span> </a> </li>
+                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span>Actualizar</span> </a> </li>
+                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span>Eliminar</span> </a> </li>
+                    </ul>
+                  </li>
+                  <li > <a href="#" class="auto"> <span class="pull-right text-muted"> <i class="i i-circle-sm-o text"></i> <i class="i i-circle-sm text-active"></i> </span> <i class="i i-docs icon"> </i> <span class="font-bold">Propiedades</span> </a>
+                    <ul class="nav dk">
+                      <li > <a href="layout-color.html" class="auto"> <i class="i i-dot"></i> <span>Ver</span> </a> </li>
+                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span>Añadir nuevo</span> </a> </li>
+                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span>Actualizar</span> </a> </li>
+                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span>Eliminar</span> </a> </li>
+                    </ul>
+                  </li>
+                  <li > <a href="#" class="auto"> <span class="pull-right text-muted"> <i class="i i-circle-sm-o text"></i> <i class="i i-circle-sm text-active"></i> </span><i class="fa fa-user icon"> </i> <span class="font-bold">Usuarios</span> </a>
+                    <ul class="nav dk">
+                      <li > <a href="layout-color.html" class="auto"> <i class="i i-dot"></i> <span>Ver</span> </a> </li>
+                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span>Añadir nuevo</span> </a> </li>
+                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span>Actualizar</span> </a> </li>
+                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span>Eliminar</span> </a> </li>
+                    </ul>
+                  </li>
+                  <li > <a href="#" class="auto"> <i class="fa fa-th-list icon"> </i> <span class="font-bold">Hoja de datos</span> </a>
+                  </li>
+                  <li > <a href="#" class="auto">  <b class="badge bg-info pull-right">4</b><b class="badge bg-danger pull-right">4</b><i class="fa fa-trophy icon"> </i> <span class="font-bold">Auditoria</span> </a>
+                  </li>
+                  <li > <a href="#" class="auto"> <i class="fa fa-wrench icon"> </i> <span class="font-bold">Opciones</span> </a>
+                  </li>
+                </ul>
+                <div class="line dk hidden-nav-xs"></div>
+                
+                <div class="text-muted text-xs hidden-nav-xs padder m-t-sm m-b-sm">Aplicación</div>
+                <ul class="nav">
+                  <li> <a href="mail.html#work"> <i class="i i-circle-sm text-info-dk"></i> <span>Inicio</span> </a> </li>
+                  <li > <a href="#" class="auto"> <i class="i i-circle-sm text-info-dk"></i> <span>Perfil</span> </a>
+                    <ul class="nav dk">
+                      <li > <a href="layout-color.html" class="auto"> <i class="i i-dot"></i> <span>Ver</span> </a> </li>
+                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span>Actualizar</span> </a> </li>
+                    </ul>
+                  </li>
+                  <li> <a href="mail.html#projects"> <i class="i i-circle-sm text-info-dk"></i> <span>Amistades</span> </a> </li>
+                  <li> <a href="mail.html#projects"> <i class="i i-circle-sm text-info-dk"></i> <span>Hoja de datos</span> </a> </li>
+                </ul>
+                <div class="text-muted text-xs hidden-nav-xs padder m-t-sm m-b-sm">Información</div>
+                <ul class="nav">
+                  <li> <a href="#"> <i class="i i-circle-sm-o text-success-lt"></i> <span>Contacto</span> </a> </li>
+                  <li> <a href="#"> <i class="i i-circle-sm-o text-success-lt"></i> <span>Desarrolladores</span> </a> </li>
+                  <li> <a href="#"> <i class="i i-circle-sm-o text-success-lt"></i> <span>Ayuda</span> </a> </li>
+                </ul>
+              </nav>
+              <!-- / nav -->
+            </div>
+          </section>
+          <footer class="footer hidden-xs no-padder text-center-nav-xs"> <a href="modal.lockme.html" data-toggle="ajaxModal" class="btn btn-icon icon-muted btn-inactive pull-right m-l-xs m-r-xs hidden-nav-xs"> <i class="i i-logout"></i> </a> <a href="#nav" data-toggle="class:nav-xs" class="btn btn-icon icon-muted btn-inactive m-l-xs m-r-xs"> <i class="i i-circleleft text"></i> <i class="i i-circleright text-active"></i> </a> </footer>
+        </section>
+      </aside>
+      <!-- /.aside -->
+      <section id="content">
+        <section class="vbox">
+          <section class="scrollable padder">
+
+
+
+<!--  ************************ BODY ******************************* -->
+
+        
+<div class="m-b-md">
+  <h3 class="m-b-none">Crear usuario</h3>
+</div>
+<section class="panel panel-default">
+  <header class="panel-heading font-bold"> Crear un nuevo usuario </header>
+  <div class="panel-body">
+    <form class="form-horizontal" id="create_user" method="get">
+      <div class="form-group">
+        <label class="col-sm-2 control-label">Usuario</label>
+        <div class="col-sm-10">
+          <input id="username" name="username" type="text" class="form-control rounded" placeholder="Escriba el Nick del usuario">
+        </div>
+      </div>
+      <div class="line line-dashed b-b line-lg pull-in"></div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label">Nombres</label>
+        <div class="col-sm-10">
+          <input id="first_name" name="first_name" type="text" class="form-control rounded">
+        </div>
+      </div>
+      <div class="line line-dashed b-b line-lg pull-in"></div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label" for="input-id-1">Apellidos</label>
+        <div class="col-sm-10">
+          <input id="last_name" name="last_name" type="text" class="form-control rounded">
+        </div>
+      </div>
+      <div class="line line-dashed b-b line-lg pull-in"></div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label">Correo</label>
+        <div class="col-sm-10">
+          <input id="email" name="email" type="email" class="form-control rounded" >
+        </div>
+      </div>
+      <div class="line line-dashed b-b line-lg pull-in"></div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label">Contraseña</label>
+        <div class="col-sm-10">
+          <input id="password" name="password" type="password" class="form-control rounded">
+        </div>
+      </div>
+      <div class="line line-dashed b-b line-lg pull-in"></div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label">Tipo</label>
+        <div class="col-sm-10">
+          <select id="type" name="type" class="form-control m-b rounded">
+            <option>Administrador</option>
+            <option>Usuario</option>
+          </select>
+        </div>
+      </div>
+      <div class="line line-dashed b-b line-lg pull-in"></div>
+      <div class="form-group">
+        <div class="col-sm-4 col-sm-offset-2">
+          <button class="btn btn-default">Cancelar</button>
+          <input type="submit" class="btn btn-primary" value="Guardar cambios" />
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript">
+
+  $(document).on('ready', function(){
+    $.jGrowl("This notification will live a little longer.", { life: 1000 });
+    $("#create_user").on('submit', function(){
+      return validator();
+    });
+  });
+
+  function validator(){
+    if($('#username').val() == ''){
+      $('#username').addClass('parsley-error');
+      return false;
+    }
+    else if($('#first_name').val() == ''){
+      $('#username').removeClass('parsley-error');
+      $('#first_name').addClass('parsley-error');
+      return false;
+    }
+    else if($('#last_name').val() == ''){
+      $('#first_name').removeClass('parsley-error');
+      $('#last_name').addClass('parsley-error');
+      return false;
+    }
+    else if($('#email').val() == ''){
+      $('#last_name').removeClass('parsley-error');
+      $('#email').addClass('parsley-error');
+      return false;
+    }
+    else if($('#password').val() == ''){
+      $('#email').removeClass('parsley-error');
+      $('#password').addClass('parsley-error');
+      return false;
+    }
+    else if($('#type').val() == null){
+      $('#password').removeClass('parsley-error');
+      $('#type').addClass('parsley-error');
+      return false;
+    }
+    else {
+      return true;
+    }
+  }
+
+</script>
+
+<!--  ************************ BODY ******************************* -->
+
+        </section>
+      </section>
+    </section>
+  </section>
+</section>
+
+<script src="./js/charts/easypiechart/jquery.easy-pie-chart.js"></script>
+<script src="./js/charts/sparkline/jquery.sparkline.min.js"></script>
+<script src="./js/charts/flot/jquery.flot.min.js"></script>
+<script src="./js/charts/flot/jquery.flot.tooltip.min.js"></script>
+<script src="./js/charts/flot/jquery.flot.spline.js"></script>
+<script src="./js/charts/flot/jquery.flot.pie.min.js"></script>
+<script src="./js/charts/flot/jquery.flot.resize.js"></script>
+<script src="./js/charts/flot/jquery.flot.grow.js"></script>
+<script src="./js/charts/flot/demo.js"></script>
+<script src="./js/calendar/bootstrap_calendar.js"></script>
+<script src="./js/calendar/demo.js"></script>
+<script src="./js/sortable/jquery.sortable.js"></script>
+<script src="./js/app.plugin.js"></script>
+</body>
+</html>
+

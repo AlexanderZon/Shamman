@@ -106,9 +106,16 @@
 	"Page Not Found": "Página no encontrada",
 	"Something's fishy here.": "Algo apesta aquí",
 	"The page you were trying to reach doesn't exist.": "La página a la que intentas acceder no existe",
-	"Why": "¿Porqué",
-	"might this be happening?": "podría estar pasando esto?"
-
-
+	"Why": "Porqué",
+	"might this be happening?": "podría estar pasando esto?",
+	"Create a new user": "Crear un nuevo usuario",
+	"Type": "Tipo",
+	"Cancel": "Cancelar",
+	"Save changes": "Guardar cambios",
+	"Write the usernick": "Escriba el Nick del usuario",
+	"Administrator": "Administrador",
+	"User": "Usuario",
+	"Create users": "Crear usuario",
+	"Select an user level": "Seleccione un nivel de usuario"
 
 }

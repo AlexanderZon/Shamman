@@ -7,14 +7,14 @@
 <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <link rel="shortcut icon" href="/images/logo.png">
-<link rel="stylesheet" href="css/app.v1.css" type="text/css" />
-<link rel="stylesheet" href="js/calendar/bootstrap_calendar.css" type="text/css" />
-<!--[if lt IE 9]> <script src="js/ie/html5shiv.js"></script> <script src="js/ie/respond.min.js"></script> <script src="js/ie/excanvas.js"></script> <![endif]-->
+<link rel="stylesheet" href="/css/app.v1.css" type="text/css" />
+<link rel="stylesheet" href="/js/calendar/bootstrap_calendar.css" type="text/css" />
+
 </head>
 <body class="">
 <section class="vbox">
   <header class="bg-white header header-md navbar navbar-fixed-top-xs box-shadow">
-    <div class="navbar-header aside-md dk"> <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav"> <i class="fa fa-bars"></i> </a> <a href="index.html" class="navbar-brand"><img src="images/logo.png" class="m-r-sm">Shamman</a> <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user"> <i class="fa fa-cog"></i> </a> </div>
+    <div class="navbar-header aside-md dk"> <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav"> <i class="fa fa-bars"></i> </a> <a href="index.html" class="navbar-brand"><img src="/images/logo.png" class="m-r-sm">Shamman</a> <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user"> <i class="fa fa-cog"></i> </a> </div>
     <ul class="nav navbar-nav hidden-xs">
       <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="i i-grid"></i> </a>
         <section class="dropdown-menu aside-lg bg-white on animated fadeInLeft">
@@ -50,21 +50,22 @@
         </div>
       </div>
     </form>
-    <% if(user != null) { %>
+    
+    <% if(username != null) { %>
 
     <ul class="nav navbar-nav navbar-right m-n hidden-xs nav-user user">
       <li class="hidden-xs"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="i i-chat3"></i> <span class="badge badge-sm up bg-danger count"><%= 2 %></span> </a>
         <section class="dropdown-menu aside-xl animated flipInY">
           <section class="panel bg-white">
             <header class="panel-heading b-light bg-light"> <strong><%= __('You have') %> <span class="count">2</span> <%= __('notifications') %></strong> </header>
-            <div class="list-group list-group-alt"> <a href="#" class="media list-group-item"> <span class="pull-left thumb-sm"> <img src="images/a10.jpg" alt="Alexis <%= __('said') %>" class="img-circle"> </span> <span class="media-body block m-b-none"> Alexis Montenegro, <%= __('you have news for your diagnostics') %> <br>
+            <div class="list-group list-group-alt"> <a href="#" class="media list-group-item"> <span class="pull-left thumb-sm"> <img src="/images/a10.jpg" alt="Alexis <%= __('said') %>" class="img-circle"> </span> <span class="media-body block m-b-none"> Alexis Montenegro, <%= __('you have news for your diagnostics') %> <br>
               <small class="text-muted">10 minutes ago</small> </span> </a> <a href="#" class="media list-group-item"> <span class="media-body block m-b-none"> Shamman 1.0 ha salido de la guarida<br>
               <small class="text-muted">1 hour ago</small> </span> </a> </div>
             <footer class="panel-footer text-sm"> <a href="#" class="pull-right"><i class="fa fa-cog"></i></a> <a href="#notes" data-toggle="class:show animated fadeInRight"><%= __('See all the notifications') %></a> </footer>
           </section>
         </section>
       </li>
-      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/a10.jpg"> </span> Alexis.Montenegro <b class="caret"></b> </a>
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="/images/a10.jpg"> </span> Alexis.Montenegro <b class="caret"></b> </a>
         <ul class="dropdown-menu animated fadeInRight">
           <span class="arrow top"></span>
           <li> <a href="#"><%= __('Settings') %></a> </li>
@@ -78,20 +79,25 @@
     </ul>
 
     <% } else { %>
-      <a href="#" class="btn btn-s-md btn-primary btn-rounded"><%= __('Login') %></a>
-      <a href="#" class="btn btn-s-md btn-default btn-rounded"><%= __('Sign up') %></a>
+      <a href="/login" class="btn btn-s-md btn-primary btn-rounded"><%= __('Login') %></a>
+      <a href="/signup" class="btn btn-s-md btn-default btn-rounded"><%= __('Sign up') %></a>
     <% } %>
   </header>
   <section>
     <section class="hbox stretch">
       <!-- .aside -->
+
       <aside class="bg-black aside-md hidden-print" id="nav">
         <section class="vbox">
           <section class="w-f scrollable">
             <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="10px" data-color="#333333">
-              <% if(user != null) { %>
+              <% if(username != null) { %>
+              <div class="progress progress-sm progress-striped active m-t-xs m-b-none">
+                  <div class="progress-bar bg-success" data-toggle="tooltip" data-original-title="30%" style="width: 30%"></div>
+                </div>
               <div class="clearfix wrapper dk nav-user hidden-xs">
-                <div class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb avatar pull-left m-r"> <img src="images/a10.jpg"> <i class="on md b-black"></i> </span> <span class="hidden-nav-xs clear"> <span class="block m-t-xs"> <strong class="font-bold text-lt">Alexis.Montenegro</strong> <b class="caret"></b> </span> <span class="text-muted text-xs block">Administrador</span> </span> </a>
+
+                <div class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb avatar pull-left m-r"> <img src="/images/a10.jpg"> <i class="on md b-black"></i> </span> <span class="hidden-nav-xs clear"> <span class="block m-t-xs"> <strong class="font-bold text-lt">Alexis.Montenegro</strong> <b class="caret"></b> </span> <span class="text-muted text-xs block">Administrador</span> </span> </a>
                   <ul class="dropdown-menu animated fadeInRight m-t-xs">
                     <span class="arrow top hidden-nav-xs"></span>
                     <li> <a href="#"><%= __('Settings') %></a> </li>
@@ -106,54 +112,54 @@
               <% } %> 
               <!-- nav -->
               <nav class="nav-primary hidden-xs">
-                <% if(user == 'administrator') { %>
+                <% if(usertype == 'administrator') { %>
                 <div class="text-muted text-sm hidden-nav-xs padder m-t-sm m-b-sm"><%= __('Administration') %></div>
                 <ul class="nav nav-main" data-ride="collapse">
-                  <li class="active"> <a href="index.html" class="auto"> <i class="i i-statistics icon"> </i> <span class="font-bold"><%= __('Overview') %></span> </a> </li>
+                  <li class="active"> <a href="/" class="auto"> <i class="i i-statistics icon"> </i> <span class="font-bold"><%= __('Overview') %></span> </a> </li>
                   <li > <a href="#" class="auto"> <span class="pull-right text-muted"> <i class="i i-circle-sm-o text"></i> <i class="i i-circle-sm text-active"></i> </span>  <i class="fa fa-medkit icon"> </i> <span class="font-bold"><%= __('Diseases') %></span> </a>
                     <ul class="nav dk">
-                      <li > <a href="layout-color.html" class="auto"> <i class="i i-dot"></i> <span><%= __('View') %></span> </a> </li>
-                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span><%= __('Add new item') %></span> </a> </li>
-                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span><%= __('Update') %></span> </a> </li>
-                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span><%= __('Delete') %></span> </a> </li>
+                      <li > <a href="/diseases/" class="auto"> <i class="i i-dot"></i> <span><%= __('View') %></span> </a> </li>
+                      <li > <a href="/diseases/create" class="auto"> <i class="i i-dot"></i> <span><%= __('Add new item') %></span> </a> </li>
+                      <li > <a href="/diseases/update" class="auto"> <i class="i i-dot"></i> <span><%= __('Update') %></span> </a> </li>
+                      <li > <a href="/diseases/delete" class="auto"> <i class="i i-dot"></i> <span><%= __('Delete') %></span> </a> </li>
                     </ul>
                   </li>
                   <li > <a href="#" class="auto"> <span class="pull-right text-muted"> <i class="i i-circle-sm-o text"></i> <i class="i i-circle-sm text-active"></i> </span> <i class="fa fa-stethoscope icon"> </i> <span class="font-bold"><%= __('Symptoms') %></span> </a>
                     <ul class="nav dk">
-                      <li > <a href="layout-color.html" class="auto"> <i class="i i-dot"></i> <span><%= __('View') %></span> </a> </li>
-                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span><%= __('Add new item') %></span> </a> </li>
-                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span><%= __('Update') %></span> </a> </li>
-                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span><%= __('Delete') %></span> </a> </li>
+                      <li > <a href="/symptoms/" class="auto"> <i class="i i-dot"></i> <span><%= __('View') %></span> </a> </li>
+                      <li > <a href="/symptoms/create" class="auto"> <i class="i i-dot"></i> <span><%= __('Add new item') %></span> </a> </li>
+                      <li > <a href="/symptoms/update" class="auto"> <i class="i i-dot"></i> <span><%= __('Update') %></span> </a> </li>
+                      <li > <a href="/symptoms/delete" class="auto"> <i class="i i-dot"></i> <span><%= __('Delete') %></span> </a> </li>
                     </ul>
                   </li>
                   <li > <a href="#" class="auto"> <span class="pull-right text-muted"> <i class="i i-circle-sm-o text"></i> <i class="i i-circle-sm text-active"></i> </span> <i class="i i-docs icon"> </i> <span class="font-bold"><%= __('Properties') %></span> </a>
                     <ul class="nav dk">
-                      <li > <a href="layout-color.html" class="auto"> <i class="i i-dot"></i> <span><%= __('View') %></span> </a> </li>
-                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span><%= __('Add new item') %></span> </a> </li>
-                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span><%= __('Update') %></span> </a> </li>
-                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span><%= __('Delete') %></span> </a> </li>
+                      <li > <a href="/properties/" class="auto"> <i class="i i-dot"></i> <span><%= __('View') %></span> </a> </li>
+                      <li > <a href="/properties/create" class="auto"> <i class="i i-dot"></i> <span><%= __('Add new item') %></span> </a> </li>
+                      <li > <a href="/properties/update" class="auto"> <i class="i i-dot"></i> <span><%= __('Update') %></span> </a> </li>
+                      <li > <a href="/properties/delete" class="auto"> <i class="i i-dot"></i> <span><%= __('Delete') %></span> </a> </li>
                     </ul>
                   </li>
                   <li > <a href="#" class="auto"> <span class="pull-right text-muted"> <i class="i i-circle-sm-o text"></i> <i class="i i-circle-sm text-active"></i> </span><i class="fa fa-user icon"> </i> <span class="font-bold"><%= __('Users') %></span> </a>
                     <ul class="nav dk">
-                      <li > <a href="layout-color.html" class="auto"> <i class="i i-dot"></i> <span><%= __('View') %></span> </a> </li>
-                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span><%= __('Add new item') %></span> </a> </li>
-                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span><%= __('Update') %></span> </a> </li>
-                      <li > <a href="layout-hbox.html" class="auto"> <i class="i i-dot"></i> <span><%= __('Delete') %></span> </a> </li>
+                      <li > <a href="/users/" class="auto"> <i class="i i-dot"></i> <span><%= __('View') %></span> </a> </li>
+                      <li > <a href="/users/create" class="auto"> <i class="i i-dot"></i> <span><%= __('Add new item') %></span> </a> </li>
+                      <li > <a href="/users/update" class="auto"> <i class="i i-dot"></i> <span><%= __('Update') %></span> </a> </li>
+                      <li > <a href="/users/delete" class="auto"> <i class="i i-dot"></i> <span><%= __('Delete') %></span> </a> </li>
                     </ul>
                   </li>
                   <li > <a href="#" class="auto"> <i class="fa fa-th-list icon"> </i> <span class="font-bold"><%= __('Datasheet') %></span> </a>
                   </li>
-                  <li > <a href="#" class="auto">  <b class="badge bg-info pull-right">4</b><b class="badge bg-danger pull-right">4</b><i class="fa fa-trophy icon"> </i> <span class="font-bold"><%= __('Auditory') %></span> </a>
+                  <li > <a href="/auditory" class="auto">  <b class="badge bg-info pull-right">4</b><b class="badge bg-danger pull-right">4</b><i class="fa fa-trophy icon"> </i> <span class="font-bold"><%= __('Auditory') %></span> </a>
                   </li>
-                  <li > <a href="#" class="auto"> <i class="fa fa-wrench icon"> </i> <span class="font-bold"><%= __('Options') %></span> </a>
+                  <li > <a href="/options" class="auto"> <i class="fa fa-wrench icon"> </i> <span class="font-bold"><%= __('Options') %></span> </a>
                   </li>
                 </ul>
                 <div class="line dk hidden-nav-xs"></div>
                 <% } %>
                 <div class="text-muted text-xs hidden-nav-xs padder m-t-sm m-b-sm"><%= __('Aplication') %></div>
                 <ul class="nav">
-                  <li> <a href="mail.html#work"> <i class="i i-circle-sm text-info-dk"></i> <span><%= __('Home') %></span> </a> </li>
+                  <li> <a href="/app"> <i class="i i-circle-sm text-info-dk"></i> <span><%= __('Home') %></span> </a> </li>
                   <li > <a href="#" class="auto"> <i class="i i-circle-sm text-info-dk"></i> <span><%= __('Profile') %></span> </a>
                     <ul class="nav dk">
                       <li > <a href="layout-color.html" class="auto"> <i class="i i-dot"></i> <span><%= __('View') %></span> </a> </li>
@@ -178,6 +184,8 @@
       </aside>
       <!-- /.aside -->
       <section id="content">
+        <section class="vbox">
+          <section class="scrollable padder">
 
 <% } %>
 
@@ -187,24 +195,14 @@
 
 <!--  ************************ BODY ******************************* -->
 
+        </section>
+      </section>
     </section>
   </section>
 </section>
-<!-- Bootstrap -->
-<!-- App -->
-<script src="js/app.v1.js"></script>
-<script src="js/charts/easypiechart/jquery.easy-pie-chart.js"></script>
-<script src="js/charts/sparkline/jquery.sparkline.min.js"></script>
-<script src="js/charts/flot/jquery.flot.min.js"></script>
-<script src="js/charts/flot/jquery.flot.tooltip.min.js"></script>
-<script src="js/charts/flot/jquery.flot.spline.js"></script>
-<script src="js/charts/flot/jquery.flot.pie.min.js"></script>
-<script src="js/charts/flot/jquery.flot.resize.js"></script>
-<script src="js/charts/flot/jquery.flot.grow.js"></script>
-<script src="js/charts/flot/demo.js"></script>
-<script src="js/calendar/bootstrap_calendar.js"></script>
-<script src="js/calendar/demo.js"></script>
-<script src="js/sortable/jquery.sortable.js"></script>
-<script src="js/app.plugin.js"></script>
 </body>
+
+
+
 </html>
+

@@ -13,6 +13,7 @@ module.exports = {
 		login: {
 			type: 'STRING',
 			required: true,
+			unique: true
 		},
 		pass: {
 			type: 'STRING',
@@ -21,6 +22,15 @@ module.exports = {
 		email: {
 			type: 'email',
 			required: true,
+			unique: true
+		},
+		first_name: {
+			type: 'STRING',
+			required: true
+		},
+		last_name: {
+			type: 'STRING',
+			required: true
 		},
 		display_name: {
 			type: 'STRING',
@@ -33,16 +43,17 @@ module.exports = {
 		type: {
 			type: 'STRING',
 			defaultsTo: 'client',
-		},
+		}
 	},
-	/*beforeCreate: function(values, next) {
+	/*
+	beforeCreate: function(values, next) {
 		var bcrypt = require('bcrypt');
 		bcrypt.hash(values.password, 10, function(err, hash) {
 			if(err) return next(err);
 			values.password = hash;
 			next();
 		});
-	},*/
+	},
 	beforeCreate: function(user, cb) {
 	    bcrypt.genSalt(10, function(err, salt) {
 	        bcrypt.hash(user.pass, salt, function(err, hash) {
@@ -56,5 +67,5 @@ module.exports = {
 	        	}
 	      	});
 	    });
-	},
+	},*/
 };

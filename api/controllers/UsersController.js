@@ -15,9 +15,15 @@
  * @docs        :: http://sailsjs.org/#!documentation/controllers
  */
 
+__PANEL = {
+  login: false, 
+  usertype: null,
+  username: null,
+  useremail: null,
+};
+
 module.exports = {
-    
-  
+
   /**
    * Action blueprints:
    *    `/users/create`
@@ -25,7 +31,35 @@ module.exports = {
    create: function (req, res) {
    
     // Send a JSON response
-    return res.json({hello:'world'});
+
+    Users.create({
+      login: req.body.username,
+      pass: req.body.password,
+      email: req.body.email,
+      first_name: req.body.first_name,
+      last_name: req.body.last_name,
+      display_name: req.body.first_name + " " + req.body.last_name,
+      status: "publish",
+      type: req.body.type
+    }).done(function (err, user){
+      if(err){
+        console.log(err);
+        res.json({
+          message: "Error al crear usurio!",
+          type: "error",
+          error: true
+        });
+      }
+      else{
+        console.log("User Created! " + user);
+        res.json({
+          message: "Usuario creado con éxito!",
+          type: "sucessful",
+          error: false
+        });
+      }
+    });
+    
   },
 
 
@@ -36,10 +70,21 @@ module.exports = {
    get: function (req, res) {
     
     // Send a JSON response
-    return res.json({
-      hello: 'world'
-    });
+    return res.view('admin/users/index', __PANEL);
   },
+
+
+  /**
+   * Action blueprints:
+   *    `/users/get`
+   */
+   getOne: function (req, res) {
+    
+    // Send a JSON response
+    return res.view('admin/users/update', __PANEL);
+  },
+
+
 
 
   /**
@@ -49,9 +94,7 @@ module.exports = {
    update: function (req, res) {
     
     // Send a JSON response
-    return res.json({
-      hello: 'world'
-    });
+    // Building
   },
 
 
