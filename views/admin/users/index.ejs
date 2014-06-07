@@ -46,7 +46,7 @@
             <a href="#" class="active"><i class="fa fa-times text-warning text-active"></i></a>
           <% } %>
             &nbsp;
-            <a href="/admin/users/edit/<%= dataUsers[i].id %>" class="active"><i class="fa fa-pencil text-warning text-active"></i></a>
+            <a href="/admin/users/update/<%= dataUsers[i].id %>" class="active"><i class="fa fa-pencil text-warning text-active"></i></a>
             &nbsp;
           <% if(dataUsers[i].status == 'publish') { %>
             <a href="/admin/users/desactivate/<%= dataUsers[i].id %>" class="active"><i class="fa fa-trash-o text-danger text-active"></i></a>

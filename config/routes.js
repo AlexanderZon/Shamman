@@ -78,21 +78,41 @@ module.exports.routes = {
     controller: 'adminUsers',
     action: 'create'
   },
-  'get /admin/users/edit/:id?': {
+  'get /admin/users/update': function(req, res){
+    res.redirect('/admin/users');
+  },
+  'get /admin/users/update/:id?': {
     controller: 'adminUsers',
     action: 'getOne'
   },
-  'post /admin/users/edit/:id?': {
+  'post /admin/users/update/:id?': {
     controller: 'adminUsers',
     action: 'update'
   },
-  'get /admin/users/delete': {
+  'get /admin/users/delete': function(req, res){
+    res.redirect('/admin/users');
+  },
+  'get /admin/users/delete/:id?': {
     controller: 'adminUsers',
     action: 'getDelete'
   },
-  'post /admin/users/delete/:id': {
+  'post /admin/users/delete/:id?': {
     controller: 'adminUsers',
     action: 'delete'
+  },
+  'get /admin/users/activate': function(req, res){
+    res.redirect('/admin/users');
+  },
+  'get /admin/users/activate/:id?': {
+    controller: 'adminUsers',
+    action: 'activate'
+  },
+  'get /admin/users/desactivate': function(req, res){
+    res.redirect('/admin/users');
+  },
+  'get /admin/users/desactivate/:id?': {
+    controller: 'adminUsers',
+    action: 'desactivate'
   },
   'get /admin/users/:id?':{
     controller: 'adminUsers',

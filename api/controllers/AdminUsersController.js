@@ -17,13 +17,8 @@
 
 module.exports = {
 
-  /**
-   * Action blueprints:
-   *    `/users/create`
-   */
    create: function (req, res) {
    
-    // Send a JSON response
     try{
       Users.create({
         login: req.body.username,
@@ -58,15 +53,9 @@ module.exports = {
     }
     
   },
-
-
-  /**
-   * Action blueprints:
-   *    `/users/get`
-   */
+  
    get: function (req, res) {
     
-    // Send a JSON response
     try{
       if(req.session.usertype == 'administrator'){
         Users.find().done(function (err, users){
@@ -97,7 +86,6 @@ module.exports = {
 
    getCreate: function (req, res) {
     
-    // Send a JSON response
     try{
       if(req.session.usertype == 'administrator'){
 	    req.session.login = false;
@@ -118,7 +106,6 @@ module.exports = {
 
    getDelete: function (req, res) {
     
-    // Send a JSON response
     try{
       if(req.session.usertype == 'administrator'){
 	    req.session.login = false;
@@ -137,18 +124,27 @@ module.exports = {
     }
   },
 
-
-  /**
-   * Action blueprints:
-   *    `/users/get`
-   */
    getOne: function (req, res) {
     
-    // Send a JSON response
     try{
       if(req.session.usertype == 'administrator'){
-        req.session.login = false;
-        return res.view('admin/users/update', req.session);
+        var id = req.param('id');
+        console.log(id);
+        Users.findOne(id).done(function (err, user){
+          if(err){
+            console.log("AdminUsersController:getOne ERROR");
+          }
+          if(!user){
+            console.log("AdminUsersController:getOne NOTUSER");
+            res.redirect('/404');
+          }
+          else{
+            req.session.login = false;
+            __data = req.session;
+            __data.dataUser = user;
+            return res.view('admin/users/update', __data);
+          }
+        });
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;
@@ -163,56 +159,145 @@ module.exports = {
     }
   },
 
-
-
-
-  /**
-   * Action blueprints:
-   *    `/users/update`
-   */
-   update: function (req, res) {
-    
-    // Send a JSON response
-    // Building
-  },
-
-
-  /**
-   * Action blueprints:
-   *    `/users/delete`
-   */
-   delete: function (req, res) {
-    
-    // Send a JSON response
-    return res.json({
-      hello: 'world'
-    });
-  },
-
-
-  /**
-   * Action blueprints:
-   *    `/users/activate`
-   */
    activate: function (req, res) {
     
-    // Send a JSON response
-    return res.json({
-      hello: 'world'
-    });
+    try{
+      if(req.session.usertype == 'administrator'){
+        var id = req.param('id');
+        console.log(id);
+        Users.findOne(id).done(function (err, user){
+          if(err){
+            console.log("AdminUsersController:activate ERROR");
+          }
+          if(!user){
+            console.log("AdminUsersController:activate NOTUSER");
+            res.redirect('/404');
+          }
+          else{
+            var activateUser = {status: 'publish'};
+            Users.update(user, activateUser, function (err, user){
+              if(err){
+                console.log("AdminUsersController:activate " + err );
+              }
+              if(!user){
+                console.log("AdminUsersController:activate NOTUSER activate");
+              }
+              else{
+                res.redirect('/admin/users');
+              }
+            });
+          }
+        });
+      }
+      else if(req.session.usertype == 'user'){
+        req.session.login = false;
+        res.redirect('/');
+      }
+      else{
+        res.redirect('/login');
+      }
+    }
+    catch(e){
+      res.redirect('/login');
+    }
+  },
+
+   desactivate: function (req, res) {
+    
+    try{
+      if(req.session.usertype == 'administrator'){
+        var id = req.param('id');
+        console.log(id);
+        Users.findOne(id).done(function (err, user){
+          if(err){
+            console.log("AdminUsersController:desactivate ERROR");
+          }
+          if(!user){
+            console.log("AdminUsersController:desactivate NOTUSER");
+            res.redirect('/404');
+          }
+          else{
+            var desactivateUser = {status: 'trash'};
+            Users.update(user, desactivateUser, function (err, user){
+              if(err){
+                console.log("AdminUsersController:desactivate " + err );
+              }
+              if(!user){
+                console.log("AdminUsersController:desactivate NOTUSER activate");
+              }
+              else{
+                res.redirect('/admin/users');
+              }
+            });
+          }
+        });
+      }
+      else if(req.session.usertype == 'user'){
+        req.session.login = false;
+        res.redirect('/');
+      }
+      else{
+        res.redirect('/login');
+      }
+    }
+    catch(e){
+      res.redirect('/login');
+    }
+  },
+
+  
+   update: function (req, res) {
+    
+    try{
+      if(req.session.type == 'administrator'){
+        console.log(req.body);
+        Users.findOne({id: req.body.id, login: req.body.login}).done(function (err, user){
+          if(err){
+            console.log("AdminUsersController:update " + err );
+          }
+          if(!user){
+            console.log("AdminUsersController:update NOTUSER findOne");
+          }
+          else{
+            var updateUser = {
+              first_name: req.body.first_name,
+              last_name: req.body.last_name,
+              display_name: req.body.first_name + " " + req.body.last_name,
+              email: req.body.email
+            };
+            if(req.body.password != '') updateUser.password = req.body.password;
+            Users.update(user, updateUser, function (err, user){
+              if(err){
+                console.log("AdminUsersController:update " + err );
+              }
+              if(!user){
+                console.log("AdminUsersController:update NOTUSER update");
+              }
+              else{
+                res.redirect('/admin/users');
+              }
+            });
+          }
+        });
+      }
+      else if(req.session.type != null){
+        console.log('AdminUsersController:update NOTLOGGEDUSER');
+      }
+      else{
+        console.log('AdminUsersController:update NOTUSERPERMISSION ' + req.session.id);
+      }
+    }
+    catch(e){
+      console.log('AdminUsersController:update ' + e);
+    }
+
   },
 
 
-  /**
-   * Action blueprints:
-   *    `/users/desactivate`
-   */
-   desactivate: function (req, res) {
+  
+   delete: function (req, res) {
     
-    // Send a JSON response
-    return res.json({
-      hello: 'world'
-    });
+    console.log("AdminUsersController:delete NOT IMPLEMENTED");
   },
 
   /**
