@@ -39,7 +39,7 @@ module.exports.routes = {
 
 /* -------------- Authentication Routes --------------- */
 
-  'get /login': {
+  'get /login': {   
     controller: 'login',
     action: 'get'
   },
@@ -96,6 +96,108 @@ module.exports.routes = {
   },
   'get /admin/users/:id?':{
     controller: 'adminUsers',
+    action: 'getOne'
+  },
+  /* -------------- User Routes ----------------------*/
+
+  'get /admin/diseases': {
+    controller: 'adminDiseases',
+    action: 'get'
+  },
+  'get /admin/diseases/create': {
+    controller: 'adminDiseases',
+    action: 'getCreate'
+  },
+  'post /admin/diseases/create': {
+    controller: 'adminDiseases',
+    action: 'create'
+  },
+  'get /admin/diseases/edit/:id?': {
+    controller: 'adminDiseases',
+    action: 'getOne'
+  },
+  'post /admin/diseases/edit/:id?': {
+    controller: 'adminDiseases',
+    action: 'update'
+  },
+  'get /admin/diseases/delete': {
+    controller: 'adminDiseases',
+    action: 'getDelete'
+  },
+  'post /admin/diseases/delete/:id': {
+    controller: 'adminDiseases',
+    action: 'delete'
+  },
+  'get /admin/diseases/:id?':{
+    controller: 'adminDiseases',
+    action: 'getOne'
+  },
+  /* -------------- User Routes ----------------------*/
+
+  'get /admin/symptoms': {
+    controller: 'adminSymptoms',
+    action: 'get'
+  },
+  'get /admin/symptoms/create': {
+    controller: 'adminSymptoms',
+    action: 'getCreate'
+  },
+  'post /admin/symptoms/create': {
+    controller: 'adminSymptoms',
+    action: 'create'
+  },
+  'get /admin/symptoms/edit/:id?': {
+    controller: 'adminSymptoms',
+    action: 'getOne'
+  },
+  'post /admin/symptoms/edit/:id?': {
+    controller: 'adminSymptoms',
+    action: 'update'
+  },
+  'get /admin/symptoms/delete': {
+    controller: 'adminSymptoms',
+    action: 'getDelete'
+  },
+  'post /admin/symptoms/delete/:id': {
+    controller: 'adminSymptoms',
+    action: 'delete'
+  },
+  'get /admin/symptoms/:id?':{
+    controller: 'adminSymptoms',
+    action: 'getOne'
+  },
+  /* -------------- User Routes ----------------------*/
+
+  'get /admin/properties': {
+    controller: 'adminProperties',
+    action: 'get'
+  },
+  'get /admin/properties/create': {
+    controller: 'adminProperties',
+    action: 'getCreate'
+  },
+  'post /admin/properties/create': {
+    controller: 'adminProperties',
+    action: 'create'
+  },
+  'get /admin/properties/edit/:id?': {
+    controller: 'adminProperties',
+    action: 'getOne'
+  },
+  'post /admin/properties/edit/:id?': {
+    controller: 'adminProperties',
+    action: 'update'
+  },
+  'get /admin/properties/delete': {
+    controller: 'adminProperties',
+    action: 'getDelete'
+  },
+  'post /admin/properties/delete/:id': {
+    controller: 'adminProperties',
+    action: 'delete'
+  },
+  'get /admin/properties/:id?':{
+    controller: 'adminProperties',
     action: 'getOne'
   },
 

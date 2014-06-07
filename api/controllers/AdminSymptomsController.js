@@ -1,5 +1,5 @@
 /**
- * AdminUsersController
+ * AdminSymptomsController
  *
  * @module      :: Controller
  * @description	:: A set of functions called `actions`.
@@ -22,40 +22,42 @@ module.exports = {
    *    `/users/create`
    */
    create: function (req, res) {
-   
-    // Send a JSON response
-    try{
-      Users.create({
-        login: req.body.username,
-        pass: req.body.password,
-        email: req.body.email,
-        first_name: req.body.first_name,
-        last_name: req.body.last_name,
-        display_name: req.body.first_name + " " + req.body.last_name,
-        status: "publish",
-        type: req.body.type
-      }).done(function (err, user){
-        if(err){
-          console.log(err);
-          res.json({
-            message: "Error al crear usurio!",
-            type: "error",
-            error: true
-          });
-        }
-        else{
-          console.log("User Created! " + user);
-          res.json({
-            message: "Usuario creado con éxito!",
-            type: "sucessful",
-            error: false
-          });
-        }
-      });
-    }
-    catch(e){
-      console.log('AdminUsersController ERROR!');
-    }
+
+   	try{
+
+	    Symptoms.create({
+	      content: req.body.content,
+	      description: req.body.description,
+	      user_id: req.session.user,
+	    }).done(function (err, user){
+	      if(err){
+	        console.log(err);
+	        res.json({
+	          message: "Error al crear sintoma!",
+	          type: "error",
+	          error: true
+	        });
+	      }
+	      else{
+	        console.log("User Created! " + user);
+	        res.json({
+	          message: "Síntoma creado con éxito!",
+	          type: "sucessful",
+	          error: false
+	        });
+	      }
+	    });
+
+   	}
+   	catch(e){
+	        res.json({
+	          message: "AdminSymptomsController ERROR.",
+	          type: "error",
+	          error: true
+	        });
+   		console.log('AdminSymptomsController ERROR.');
+   	}
+
     
   },
 
@@ -65,22 +67,10 @@ module.exports = {
    *    `/users/get`
    */
    get: function (req, res) {
-    
-    // Send a JSON response
     try{
       if(req.session.usertype == 'administrator'){
-        Users.find().done(function (err, users){
-          if(err){
-            console.log('AdminUsersController:get ERROR');
-            return res.json(err);
-          }
-          else{
-            __data = req.session;
-            __data.dataUsers = users;
-            req.session.login = false;
-            return res.view('admin/users/index', __data);
-          }
-        });
+        req.session.login = false;
+        return res.view('admin/symptoms/index', req.session);
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;
@@ -101,7 +91,7 @@ module.exports = {
     try{
       if(req.session.usertype == 'administrator'){
 	    req.session.login = false;
-	    res.view('admin/users/create', req.session);
+	    res.view('admin/symptoms/create', req.session);
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;
@@ -122,7 +112,7 @@ module.exports = {
     try{
       if(req.session.usertype == 'administrator'){
 	    req.session.login = false;
-	    res.view('admin/users/delete', req.session);
+	    res.view('admin/symptoms/delete', req.session);
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;
@@ -148,7 +138,7 @@ module.exports = {
     try{
       if(req.session.usertype == 'administrator'){
         req.session.login = false;
-        return res.view('admin/users/update', req.session);
+        return res.view('admin/symptoms/update', req.session);
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;

@@ -1,5 +1,5 @@
 /**
- * AdminUsersController
+ * AdminDiseasesController
  *
  * @module      :: Controller
  * @description	:: A set of functions called `actions`.
@@ -17,70 +17,44 @@
 
 module.exports = {
 
-  /**
-   * Action blueprints:
-   *    `/users/create`
-   */
    create: function (req, res) {
-   
-    // Send a JSON response
+
     try{
-      Users.create({
-        login: req.body.username,
-        pass: req.body.password,
-        email: req.body.email,
-        first_name: req.body.first_name,
-        last_name: req.body.last_name,
-        display_name: req.body.first_name + " " + req.body.last_name,
-        status: "publish",
-        type: req.body.type
-      }).done(function (err, user){
-        if(err){
-          console.log(err);
-          res.json({
-            message: "Error al crear usurio!",
-            type: "error",
-            error: true
-          });
-        }
-        else{
-          console.log("User Created! " + user);
-          res.json({
-            message: "Usuario creado con éxito!",
-            type: "sucessful",
-            error: false
-          });
-        }
-      });
-    }
+      Diseases.create({
+        content: req.body.content,
+        description: req.body.description,
+        user_id: req.session.user,
+      	}).done(function (err, disease){
+	        if(err){
+	          console.log(err);
+	          res.json({
+	            message: "Error al crear Enfermedad!",
+	            type: "error",
+	            error: true
+	          });
+	        }
+	        else{
+	          console.log("Disease Created! " + disease);
+	          res.json({
+	            message: "Usuario creado con éxito!",
+	            type: "sucessful",
+	            error: false
+	          });
+	        }
+	    });
+	}
     catch(e){
-      console.log('AdminUsersController ERROR!');
+      console.log('AdminDiseasesController ERROR!');
     }
     
   },
 
-
-  /**
-   * Action blueprints:
-   *    `/users/get`
-   */
    get: function (req, res) {
     
-    // Send a JSON response
     try{
       if(req.session.usertype == 'administrator'){
-        Users.find().done(function (err, users){
-          if(err){
-            console.log('AdminUsersController:get ERROR');
-            return res.json(err);
-          }
-          else{
-            __data = req.session;
-            __data.dataUsers = users;
-            req.session.login = false;
-            return res.view('admin/users/index', __data);
-          }
-        });
+        req.session.login = false;
+        return res.view('admin/diseases/index', req.session);
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;
@@ -97,11 +71,10 @@ module.exports = {
 
    getCreate: function (req, res) {
     
-    // Send a JSON response
     try{
       if(req.session.usertype == 'administrator'){
 	    req.session.login = false;
-	    res.view('admin/users/create', req.session);
+	    res.view('admin/diseases/create', req.session);
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;
@@ -118,11 +91,10 @@ module.exports = {
 
    getDelete: function (req, res) {
     
-    // Send a JSON response
     try{
       if(req.session.usertype == 'administrator'){
 	    req.session.login = false;
-	    res.view('admin/users/delete', req.session);
+	    res.view('admin/diseases/delete', req.session);
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;
@@ -137,18 +109,12 @@ module.exports = {
     }
   },
 
-
-  /**
-   * Action blueprints:
-   *    `/users/get`
-   */
    getOne: function (req, res) {
     
-    // Send a JSON response
     try{
       if(req.session.usertype == 'administrator'){
         req.session.login = false;
-        return res.view('admin/users/update', req.session);
+        return res.view('admin/diseases/update', req.session);
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;
@@ -163,24 +129,12 @@ module.exports = {
     }
   },
 
-
-
-
-  /**
-   * Action blueprints:
-   *    `/users/update`
-   */
    update: function (req, res) {
     
     // Send a JSON response
     // Building
   },
 
-
-  /**
-   * Action blueprints:
-   *    `/users/delete`
-   */
    delete: function (req, res) {
     
     // Send a JSON response
@@ -192,7 +146,7 @@ module.exports = {
 
   /**
    * Action blueprints:
-   *    `/users/activate`
+   *    `/diseases/activate`
    */
    activate: function (req, res) {
     
@@ -205,7 +159,7 @@ module.exports = {
 
   /**
    * Action blueprints:
-   *    `/users/desactivate`
+   *    `/diseases/desactivate`
    */
    desactivate: function (req, res) {
     

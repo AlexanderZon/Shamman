@@ -19,7 +19,7 @@
   <h3 class="m-b-none"><%= __('Create users') %></h3>
 </div>
 <section class="panel panel-default">
-  <header class="panel-heading font-bold"> <%= __('Create a new user') %> </header>
+  <header class="panel-heading font-bold"> Formulario de registro de usuarios </header>
   <div class="panel-body">
     <form class="form-horizontal" id="create_user" method="get">
       <input type='hidden' name='_csrf' value='<%= _csrf %>'>
@@ -99,7 +99,7 @@
       else{
         data = $("#create_user").serialize();
         $.ajax({
-          url: '/users/create',
+          url: '/admin/users/create',
           type: 'POST',
           data: data
         }).done(function(data){
@@ -121,7 +121,7 @@
   });
 
   var usernameREG = /^([a-zA-Z0-9]){4,}$/;
-  var alphaNameREG = /^([a-zA-Z]){3,}$/;
+  var alphaNameREG = /^([a-zA-ZñÑáéíóúÁÉÍÓÚ ]){3,}$/;
   var alphaREG = /^([a-zA-Z])$/;
   var alphaNumREG = /^([0-9])$/;
   var emailREG = /[\w-\.]{3,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
@@ -135,6 +135,7 @@
   function cleanFrom(){
     $('input[type=text],input[type=email],input[type=password],input[type=date],input[type=time],textarea').val('');
     $('select').val(null);
+    $('.chosen-choice .search-choice').css({'display':'none'});
   }
 
   function validator(){
@@ -154,7 +155,7 @@
       return false;
     }
     else if(!$('#first_name').val().match(alphaNameREG)){
-      $.jGrowl("Esciba un nombre con más de 3 caracteres y sin signos especiales");
+      $.jGrowl("Esciba un nombre con más de 3 caracteres y sin números");
       eraseParsleyErrorClass('#first_name');
       return false;
     }
@@ -164,7 +165,7 @@
       return false;
     }
     else if(!$('#last_name').val().match(alphaNameREG)){
-      $.jGrowl("Esciba un apellido con más de 3 caracteres y sin signos especiales");
+      $.jGrowl("Esciba un apellido con más de 3 caracteres y sin números");
       eraseParsleyErrorClass('#last_name');
       return false;
     }

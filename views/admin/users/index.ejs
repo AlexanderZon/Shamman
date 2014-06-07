@@ -9,6 +9,7 @@
     </div>
     <div class="col-sm-4 m-b-xs">
     </div>
+    <!--
     <div class="col-sm-3">
       <div class="input-group">
         <input type="text" class="input-sm form-control" placeholder="Search">
@@ -16,24 +17,45 @@
         <button class="btn btn-sm btn-default" type="button">Go!</button>
         </span> </div>
     </div>
+    -->
   </div>
   <div class="table-responsive">
     <table class="table table-striped b-t b-light">
       <thead>
         <tr>
-          <th class="th-sortable" data-toggle="class">Project <span class="th-sort"> <i class="fa fa-sort-down text"></i> <i class="fa fa-sort-up text-active"></i> <i class="fa fa-sort"></i> </span> </th>
-          <th>Task</th>
-          <th>Date</th>
-          <th width="30"></th>
+          <th class="th-sortable" data-toggle="class">Usuario <!-- <span class="th-sort"> <i class="fa fa-sort-down text"></i> <i class="fa fa-sort-up text-active"></i> <i class="fa fa-sort"></i> </span> --> </th>
+          <th>Nombre para mostrar</th>
+          <th>Correo</th>
+          <th>Tipo de Usuario</th>
+          <th width="30">Acciones</th>
         </tr>
       </thead>
       <tbody>
+      <% for (var i = 0 ; i < dataUsers.length ; i++) { %>
         <tr>
-          <td>Idrawfast</td>
-          <td>4c</td>
-          <td>Jul 25, 2013</td>
-          <td><a href="#" class="active" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a></td>
+          <td><%= dataUsers[i].login %></td>
+          <td><%= dataUsers[i].display_name %></td>
+          <td><%= dataUsers[i].email %></td>
+          <td><%= __(dataUsers[i].type) %></td>          
+          <td>
+          <% if(dataUsers[i].status == 'publish') { %>
+            <a href="#" class="active"><i class="fa fa-check text-success text-active"></i></a>
+          <% }else if(dataUsers[i].status == 'trash'){ %>
+            <a href="#" class="active"><i class="fa fa-times text-danger text-active"></i></a>
+          <% }else{ %>
+            <a href="#" class="active"><i class="fa fa-times text-warning text-active"></i></a>
+          <% } %>
+            &nbsp;
+            <a href="/admin/users/edit/<%= dataUsers[i].id %>" class="active"><i class="fa fa-pencil text-warning text-active"></i></a>
+            &nbsp;
+          <% if(dataUsers[i].status == 'publish') { %>
+            <a href="/admin/users/desactivate/<%= dataUsers[i].id %>" class="active"><i class="fa fa-trash-o text-danger text-active"></i></a>
+          <% }else { %>
+            <a href="/admin/users/activate/<%= dataUsers[i].id %>" class="active"><i class="fa fa-smile-o text-warning text-active"></i></a>
+          <% } %>
+          </td>
         </tr>
+      <% } %>
       </tbody>
     </table>
   </div>
@@ -41,7 +63,8 @@
     <div class="row">
       <div class="col-sm-4 hidden-xs">
       </div>
-      <div class="col-sm-4 text-center"> <small class="text-muted inline m-t-sm m-b-sm">showing 20-30 of 50 items</small> </div>
+      <div class="col-sm-4 text-center"> <small class="text-muted inline m-t-sm m-b-sm"><%= dataUsers.length %> Resultados </small> </div>
+      <!--
       <div class="col-sm-4 text-right text-center-xs">
         <ul class="pagination pagination-sm m-t-none m-b-none">
           <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
@@ -53,6 +76,7 @@
           <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
         </ul>
       </div>
+      -->
     </div>
   </footer>
 </section>

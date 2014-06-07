@@ -1,5 +1,5 @@
 /**
- * AdminUsersController
+ * AdminPropertiesController
  *
  * @module      :: Controller
  * @description	:: A set of functions called `actions`.
@@ -17,19 +17,15 @@
 
 module.exports = {
 
-  /**
-   * Action blueprints:
-   *    `/users/create`
-   */
    create: function (req, res) {
    
     // Send a JSON response
     try{
-      Users.create({
-        login: req.body.username,
-        pass: req.body.password,
-        email: req.body.email,
-        first_name: req.body.first_name,
+      Properties.create({
+        symptom_id: req.body.symptom_id,
+        content: req.body.content,
+        description: req.body.description,
+        user_id: req.session.user,
         last_name: req.body.last_name,
         display_name: req.body.first_name + " " + req.body.last_name,
         status: "publish",
@@ -69,18 +65,8 @@ module.exports = {
     // Send a JSON response
     try{
       if(req.session.usertype == 'administrator'){
-        Users.find().done(function (err, users){
-          if(err){
-            console.log('AdminUsersController:get ERROR');
-            return res.json(err);
-          }
-          else{
-            __data = req.session;
-            __data.dataUsers = users;
-            req.session.login = false;
-            return res.view('admin/users/index', __data);
-          }
-        });
+        req.session.login = false;
+        return res.view('admin/users/index', req.session);
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;

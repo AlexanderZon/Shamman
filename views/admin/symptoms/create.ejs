@@ -1,1 +1,197 @@
-CREAR SINTOMA
+<% title = 'Shamman | ' + __('Crear Síntoma') %>
+
+<script src="/js/app.v1.js"></script>
+<style type="text/css">
+  .jGrowl .jGrowl-notification, .jGrowl .jGrowl-closer, .jGrowl-notification .jGrowl-closer{
+      backgroud-color: #dd2222,
+      opacity: 0.8
+  }
+</style>
+
+<link rel="stylesheet" href="/js/jgrowl/jquery.jgrowl.min.css" type="text/css" />
+<link rel="stylesheet" href="/js/chosen/chosen.min.css" type="text/css" />
+<!--[if lt IE 9]> <script src="js/ie/html5shiv.js"></script> <script src="js/ie/respond.min.js"></script> <script src="js/ie/excanvas.js"></script> <![endif]-->
+
+<script src="/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/js/jgrowl/jquery.jgrowl.min.js"></script>
+<script type="text/javascript" src="/js/chosen/chosen.jquery.min.js"></script>
+<div class="m-b-md">
+  <h3 class="m-b-none"><%= __('Síntomas') %></h3>
+</div>
+<section class="panel panel-default">
+  <header class="panel-heading font-bold"> Formulario de registro de síntomas </header>
+  <div class="panel-body">
+    <form class="form-horizontal" id="create_user" method="get">
+      <input type='hidden' name='_csrf' value='<%= _csrf %>'>
+      <div class="form-group">
+        <label class="col-sm-2 control-label"><%= __('Username') %></label>
+        <div class="col-sm-10">
+          <input id="username" name="username" type="text" class="form-control" placeholder="<%= __('Write the usernick') %>">
+        </div>
+      </div>
+      <div class="line line-dashed b-b line-lg pull-in"></div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label"><%= __('First Name') %></label>
+        <div class="col-sm-10">
+          <input id="first_name" name="first_name" type="text" class="form-control">
+        </div>
+      </div>
+      <div class="line line-dashed b-b line-lg pull-in"></div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label" for="input-id-1"><%= __('Last Name') %></label>
+        <div class="col-sm-10">
+          <input id="last_name" name="last_name" type="text" class="form-control">
+        </div>
+      </div>
+      <div class="line line-dashed b-b line-lg pull-in"></div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label"><%= __('Email') %></label>
+        <div class="col-sm-10">
+          <input id="email" name="email" type="text" class="form-control" >
+        </div>
+      </div>
+      <div class="line line-dashed b-b line-lg pull-in"></div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label"><%= __('Password') %></label>
+        <div class="col-sm-10">
+          <input id="password" name="password" type="password" class="form-control">
+        </div>
+      </div>
+      <div class="line line-dashed b-b line-lg pull-in"></div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label"><%= __('Type') %></label>
+        <div class="col-sm-10">
+          <select id="type" name="type" data-placeholder="<%= __('Select an user level') %>" multiple class="chosen-select">
+            <option value="administrator"><%= __('Administrator') %></option>
+            <option value="user"><%= __('User') %></option>
+          </select>
+        </div>
+      </div>
+      <div class="line line-dashed b-b line-lg pull-in"></div>
+      <div class="form-group">
+        <div class="col-sm-4 col-sm-offset-2">
+          <button class="btn btn-default"><%= __('Cancel') %></button>
+          <input type="submit" class="btn btn-primary" value="<%= __('Save changes') %>" />
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+<script type="text/javascript">
+
+  $(document).on('ready', function(){
+    $.jGrowl.defaults.closerTemplate = "<div>Ocultar todas las notificaciones</div>";
+    $("#type").chosen({width: "100%", height: "30px",placeholder_text_single: "Select an option", chosen_search: true, max_selected_options: 1});
+    $(".chosen-container-multi, .chosen-choices").css({
+      "border-radius": "2px",
+      "border-color": "#cbd5dd",
+      "height": "34px"
+    });
+    $(".jGrowl .jGrowl-notification, .jGrowl .jGrowl-closer").css({
+      "backgroud-color": "#dd2222",
+      "opacity": "0.8"
+    });
+    $(".search-field").children().css({height: "34px"});
+    $("#create_user").on('submit', function(){
+      if(!validator()) return false;
+      else{
+        data = $("#create_user").serialize();
+        $.ajax({
+          url: '/admin/users/create',
+          type: 'POST',
+          data: data
+        }).done(function(data){
+          if(data.error){
+            $.jGrowl(data.message);
+          }
+          else{
+            $.jGrowl("Usuario Agregado con éxito!");
+            cleanFrom();
+          }
+        }).error(function(){
+          $.jGrowl("Hubo un error al enviar los datos");
+        }).always(function(){
+
+        });
+        return false;
+      } 
+    });
+  });
+
+  var usernameREG = /^([a-zA-Z0-9]){4,}$/;
+  var alphaNameREG = /^([a-zA-ZñÑáéíóúÁÉÍÓÚ ]){3,}$/;
+  var alphaREG = /^([a-zA-Z])$/;
+  var alphaNumREG = /^([0-9])$/;
+  var emailREG = /[\w-\.]{3,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
+
+  function eraseParsleyErrorClass(selector){
+    $('input,select,textarea').removeClass('parsley-error');
+    $(selector).focus();
+    $(selector).addClass('parsley-error');
+  }
+
+  function cleanFrom(){
+    $('input[type=text],input[type=email],input[type=password],input[type=date],input[type=time],textarea').val('');
+    $('select').val(null);
+    $('.chosen-choice .search-choice').css({'display':'none'});
+  }
+
+  function validator(){
+    if($('#username').val() == ''){
+      $.jGrowl("Esciba un nombre de usuario");
+      eraseParsleyErrorClass('#username');
+      return false;
+    }
+    else if(!$('#username').val().match(usernameREG)){
+      $.jGrowl("Esciba un nombre de usuario con más de 3 caracteres y sin signos especiales");
+      eraseParsleyErrorClass('#username');
+      return false;
+    }
+    else if($('#first_name').val() == ''){
+      $.jGrowl("Esciba su primer nombre");
+      eraseParsleyErrorClass('#first_name');
+      return false;
+    }
+    else if(!$('#first_name').val().match(alphaNameREG)){
+      $.jGrowl("Esciba un nombre con más de 3 caracteres y sin números");
+      eraseParsleyErrorClass('#first_name');
+      return false;
+    }
+    else if($('#last_name').val() == ''){
+      $.jGrowl("Esciba su apellido");
+      eraseParsleyErrorClass('#last_name');
+      return false;
+    }
+    else if(!$('#last_name').val().match(alphaNameREG)){
+      $.jGrowl("Esciba un apellido con más de 3 caracteres y sin números");
+      eraseParsleyErrorClass('#last_name');
+      return false;
+    }
+    else if($('#email').val() == ''){
+      $.jGrowl("Esciba un correo eletrónico");
+      eraseParsleyErrorClass('#email');
+      return false;
+    }
+    else if(!$('#email').val().match(emailREG)){
+      $.jGrowl("Esciba un correo eletrónico válido");
+      eraseParsleyErrorClass('#email');
+      return false;
+    }
+    else if($('#password').val() == ''){
+      $.jGrowl("Esciba una contraseña");
+      eraseParsleyErrorClass('#password');
+      return false;
+    }
+    else if($('#type').val() == null){
+      $.jGrowl("Seleccione un tipo de usuario");
+      eraseParsleyErrorClass('#type');
+      return false;
+    }
+    else {
+      return true;
+    }
+  }
+
+</script>

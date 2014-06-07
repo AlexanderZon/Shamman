@@ -9,11 +9,18 @@
 module.exports = {
 	tableName: 'sh_diseases',
 	attributes: {
-		id: 'INTEGER',
-		content: 'STRING',
-		description: 'TEXT',
-		date: 'DATE',
-		time: 'TIME',
-		user_id: 'INTEGER',
+		id: {
+			type: 'INTEGER',
+		},
+		content: {
+			type: 'STRING',
+			unique: true
+		},
+		description: {
+			type: 'TEXT',
+		},
+		user_id: {
+			type: 'INTEGER',
+		},
 	},
 };
