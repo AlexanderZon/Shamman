@@ -249,7 +249,8 @@ module.exports = {
    update: function (req, res) {
     
     try{
-      if(req.session.type == 'administrator'){
+      console.log(req.session.usertype);
+      if(req.session.usertype == 'administrator'){
         console.log(req.body);
         Users.findOne({id: req.body.id, login: req.body.login}).done(function (err, user){
           if(err){
@@ -280,7 +281,7 @@ module.exports = {
           }
         });
       }
-      else if(req.session.type != null){
+      else if(req.session.usertype != null){
         console.log('AdminUsersController:update NOTLOGGEDUSER');
       }
       else{

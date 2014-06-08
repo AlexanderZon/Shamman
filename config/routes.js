@@ -118,7 +118,7 @@ module.exports.routes = {
     controller: 'adminUsers',
     action: 'getOne'
   },
-  /* -------------- User Routes ----------------------*/
+  /* -------------- Diseases Routes ----------------------*/
 
   'get /admin/diseases': {
     controller: 'adminDiseases',
@@ -132,11 +132,11 @@ module.exports.routes = {
     controller: 'adminDiseases',
     action: 'create'
   },
-  'get /admin/diseases/edit/:id?': {
+  'get /admin/diseases/update/:id?': {
     controller: 'adminDiseases',
     action: 'getOne'
   },
-  'post /admin/diseases/edit/:id?': {
+  'post /admin/diseases/update/:id?': {
     controller: 'adminDiseases',
     action: 'update'
   },
@@ -152,7 +152,7 @@ module.exports.routes = {
     controller: 'adminDiseases',
     action: 'getOne'
   },
-  /* -------------- User Routes ----------------------*/
+  /* -------------- Symptoms Routes ----------------------*/
 
   'get /admin/symptoms': {
     controller: 'adminSymptoms',
@@ -166,19 +166,25 @@ module.exports.routes = {
     controller: 'adminSymptoms',
     action: 'create'
   },
-  'get /admin/symptoms/edit/:id?': {
+  'get /admin/symptoms/update': function(req, res){
+    res.redirect('/admin/symptoms');
+  },
+  'get /admin/symptoms/update/:id?': {
     controller: 'adminSymptoms',
     action: 'getOne'
   },
-  'post /admin/symptoms/edit/:id?': {
+  'post /admin/symptoms/update/:id?': {
     controller: 'adminSymptoms',
     action: 'update'
   },
-  'get /admin/symptoms/delete': {
+  'get /admin/symptoms/delete': function(req, res){
+    res.redirect('/admin/symptoms');
+  },
+  'get /admin/symptoms/delete/:id?': {
     controller: 'adminSymptoms',
     action: 'getDelete'
   },
-  'post /admin/symptoms/delete/:id': {
+  'post /admin/symptoms/delete/:id?': {
     controller: 'adminSymptoms',
     action: 'delete'
   },
@@ -186,7 +192,7 @@ module.exports.routes = {
     controller: 'adminSymptoms',
     action: 'getOne'
   },
-  /* -------------- User Routes ----------------------*/
+  /* -------------- Properties Routes ----------------------*/
 
   'get /admin/properties': {
     controller: 'adminProperties',
@@ -200,13 +206,19 @@ module.exports.routes = {
     controller: 'adminProperties',
     action: 'create'
   },
-  'get /admin/properties/edit/:id?': {
+  'get /admin/properties/update': function(req, res){
+    res.redirect('/admin/properties');
+  },
+  'get /admin/properties/update/:id?': {
     controller: 'adminProperties',
     action: 'getOne'
   },
-  'post /admin/properties/edit/:id?': {
+  'post /admin/properties/update/:id?': {
     controller: 'adminProperties',
     action: 'update'
+  },
+  'get /admin/properties/delete': function(req, res){
+    res.redirect('/admin/properties');
   },
   'get /admin/properties/delete': {
     controller: 'adminProperties',

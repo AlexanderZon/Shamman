@@ -21,50 +21,19 @@
 <section class="panel panel-default">
   <header class="panel-heading font-bold"> Formulario de registro de síntomas </header>
   <div class="panel-body">
-    <form class="form-horizontal" id="create_user" method="get">
+    <form class="form-horizontal" id="create_symptom" method="get">
       <input type='hidden' name='_csrf' value='<%= _csrf %>'>
       <div class="form-group">
-        <label class="col-sm-2 control-label"><%= __('Username') %></label>
+        <label class="col-sm-2 control-label"><%= __('Nombre del Síntoma') %></label>
         <div class="col-sm-10">
-          <input id="username" name="username" type="text" class="form-control" placeholder="<%= __('Write the usernick') %>">
+          <input id="title" name="title" type="text" class="form-control">
         </div>
       </div>
       <div class="line line-dashed b-b line-lg pull-in"></div>
       <div class="form-group">
-        <label class="col-sm-2 control-label"><%= __('First Name') %></label>
+        <label class="col-sm-2 control-label" for="input-id-1"><%= __('Descripción del Síntoma') %></label>
         <div class="col-sm-10">
-          <input id="first_name" name="first_name" type="text" class="form-control">
-        </div>
-      </div>
-      <div class="line line-dashed b-b line-lg pull-in"></div>
-      <div class="form-group">
-        <label class="col-sm-2 control-label" for="input-id-1"><%= __('Last Name') %></label>
-        <div class="col-sm-10">
-          <input id="last_name" name="last_name" type="text" class="form-control">
-        </div>
-      </div>
-      <div class="line line-dashed b-b line-lg pull-in"></div>
-      <div class="form-group">
-        <label class="col-sm-2 control-label"><%= __('Email') %></label>
-        <div class="col-sm-10">
-          <input id="email" name="email" type="text" class="form-control" >
-        </div>
-      </div>
-      <div class="line line-dashed b-b line-lg pull-in"></div>
-      <div class="form-group">
-        <label class="col-sm-2 control-label"><%= __('Password') %></label>
-        <div class="col-sm-10">
-          <input id="password" name="password" type="password" class="form-control">
-        </div>
-      </div>
-      <div class="line line-dashed b-b line-lg pull-in"></div>
-      <div class="form-group">
-        <label class="col-sm-2 control-label"><%= __('Type') %></label>
-        <div class="col-sm-10">
-          <select id="type" name="type" data-placeholder="<%= __('Select an user level') %>" multiple class="chosen-select">
-            <option value="administrator"><%= __('Administrator') %></option>
-            <option value="user"><%= __('User') %></option>
-          </select>
+          <input id="description" name="description" type="text" class="form-control">
         </div>
       </div>
       <div class="line line-dashed b-b line-lg pull-in"></div>
@@ -94,12 +63,12 @@
       "opacity": "0.8"
     });
     $(".search-field").children().css({height: "34px"});
-    $("#create_user").on('submit', function(){
+    $("#create_symptom").on('submit', function(){
       if(!validator()) return false;
       else{
-        data = $("#create_user").serialize();
+        data = $("#create_symptom").serialize();
         $.ajax({
-          url: '/admin/users/create',
+          url: '/admin/symptoms/create',
           type: 'POST',
           data: data
         }).done(function(data){
@@ -107,7 +76,7 @@
             $.jGrowl(data.message);
           }
           else{
-            $.jGrowl("Usuario Agregado con éxito!");
+            $.jGrowl("Síntoma Agregado con éxito!");
             cleanFrom();
           }
         }).error(function(){
@@ -139,54 +108,15 @@
   }
 
   function validator(){
-    if($('#username').val() == ''){
-      $.jGrowl("Esciba un nombre de usuario");
-      eraseParsleyErrorClass('#username');
+    console.log($('#create_symptom').serialize());
+    if($('#title').val() == ''){
+      $.jGrowl("Esciba un nombre para el síntoma");
+      eraseParsleyErrorClass('#title');
       return false;
     }
-    else if(!$('#username').val().match(usernameREG)){
-      $.jGrowl("Esciba un nombre de usuario con más de 3 caracteres y sin signos especiales");
-      eraseParsleyErrorClass('#username');
-      return false;
-    }
-    else if($('#first_name').val() == ''){
-      $.jGrowl("Esciba su primer nombre");
-      eraseParsleyErrorClass('#first_name');
-      return false;
-    }
-    else if(!$('#first_name').val().match(alphaNameREG)){
-      $.jGrowl("Esciba un nombre con más de 3 caracteres y sin números");
-      eraseParsleyErrorClass('#first_name');
-      return false;
-    }
-    else if($('#last_name').val() == ''){
-      $.jGrowl("Esciba su apellido");
-      eraseParsleyErrorClass('#last_name');
-      return false;
-    }
-    else if(!$('#last_name').val().match(alphaNameREG)){
-      $.jGrowl("Esciba un apellido con más de 3 caracteres y sin números");
-      eraseParsleyErrorClass('#last_name');
-      return false;
-    }
-    else if($('#email').val() == ''){
-      $.jGrowl("Esciba un correo eletrónico");
-      eraseParsleyErrorClass('#email');
-      return false;
-    }
-    else if(!$('#email').val().match(emailREG)){
-      $.jGrowl("Esciba un correo eletrónico válido");
-      eraseParsleyErrorClass('#email');
-      return false;
-    }
-    else if($('#password').val() == ''){
-      $.jGrowl("Esciba una contraseña");
-      eraseParsleyErrorClass('#password');
-      return false;
-    }
-    else if($('#type').val() == null){
-      $.jGrowl("Seleccione un tipo de usuario");
-      eraseParsleyErrorClass('#type');
+    else if($('#description').val() == ''){
+      $.jGrowl("Esciba una descripcion del sintoma");
+      eraseParsleyErrorClass('#description');
       return false;
     }
     else {

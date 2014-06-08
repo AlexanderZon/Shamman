@@ -12,7 +12,7 @@ module.exports = {
 		id: {
 			type: 'INTEGER',
 		},
-		content: {
+		title: {
 			type: 'STRING',
 			unique: true
 		},

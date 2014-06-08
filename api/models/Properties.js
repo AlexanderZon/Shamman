@@ -15,7 +15,7 @@ module.exports = {
 		symptom_id: {
 			type: 'INTEGER',
 		},
-		content: {
+		title: {
 			type: 'STRING',
 			unique: true
 		},

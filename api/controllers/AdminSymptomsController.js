@@ -26,10 +26,10 @@ module.exports = {
    	try{
 
 	    Symptoms.create({
-	      content: req.body.content,
+	      title: req.body.title,
 	      description: req.body.description,
 	      user_id: req.session.user,
-	    }).done(function (err, user){
+	    }).done(function (err, symptom){
 	      if(err){
 	        console.log(err);
 	        res.json({
@@ -39,7 +39,7 @@ module.exports = {
 	        });
 	      }
 	      else{
-	        console.log("User Created! " + user);
+	        console.log("Symptom Created! " + symptom);
 	        res.json({
 	          message: "Síntoma creado con éxito!",
 	          type: "sucessful",
@@ -60,17 +60,23 @@ module.exports = {
 
     
   },
-
-
-  /**
-   * Action blueprints:
-   *    `/users/get`
-   */
+  
    get: function (req, res) {
+    
     try{
       if(req.session.usertype == 'administrator'){
-        req.session.login = false;
-        return res.view('admin/symptoms/index', req.session);
+        Symptoms.find().done(function (err, symptoms){
+          if(err){
+            console.log('AdminSymptomsController:get ERROR');
+            return res.json(err);
+          }
+          else{
+            __data = req.session;
+            __data.dataSymptoms = symptoms;
+            req.session.login = false;
+            return res.view('admin/symptoms/index', __data);
+          }
+        });
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;
@@ -134,11 +140,25 @@ module.exports = {
    */
    getOne: function (req, res) {
     
-    // Send a JSON response
     try{
       if(req.session.usertype == 'administrator'){
-        req.session.login = false;
-        return res.view('admin/symptoms/update', req.session);
+        var id = req.param('id');
+        console.log(id);
+        Symptoms.findOne(id).done(function (err, symptom){
+          if(err){
+            console.log("AdminSymptomsController:getOne ERROR");
+          }
+          if(!symptom){
+            console.log("AdminSymptomsController:getOne NOTUSER");
+            res.redirect('/404');
+          }
+          else{
+            req.session.login = false;
+            __data = req.session;
+            __data.dataSymptom = symptom;
+            return res.view('admin/symptoms/update', __data);
+          }
+        });
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;
@@ -153,17 +173,49 @@ module.exports = {
     }
   },
 
-
-
-
-  /**
-   * Action blueprints:
-   *    `/users/update`
-   */
    update: function (req, res) {
     
-    // Send a JSON response
-    // Building
+    try{
+      console.log(req.session.usertype);
+      if(req.session.usertype == 'administrator'){
+        console.log(req.body);
+        Symptoms.findOne({id: req.body.id}).done(function (err, symptom){
+          if(err){
+            console.log("AdminSymptomsController:update " + err );
+          }
+          if(!symptom){
+            console.log("AdminSymptomsController:update NOTSYMPTOM findOne");
+          }
+          else{
+            var updateSymptom = {
+              title: req.body.title,
+              description: req.body.description
+            };
+            Symptoms.update(symptom, updateSymptom, function (err, symptom){
+              if(err){
+                console.log("AdminSymptomsController:update " + err );
+              }
+              if(!symptom){
+                console.log("AdminSymptomsController:update NOTSYMPTOM update");
+              }
+              else{
+                res.redirect('/admin/users');
+              }
+            });
+          }
+        });
+      }
+      else if(req.session.usertype != null){
+        console.log('AdminSymptomsController:update NOTLOGGEDUSER');
+      }
+      else{
+        console.log('AdminSymptomsController:update NOTUSERPERMISSION ' + req.session.id);
+      }
+    }
+    catch(e){
+      console.log('AdminSymptomsController:update ' + e);
+    }
+
   },
 
 
