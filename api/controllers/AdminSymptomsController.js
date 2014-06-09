@@ -114,11 +114,23 @@ module.exports = {
 
    getDelete: function (req, res) {
     
-    // Send a JSON response
     try{
       if(req.session.usertype == 'administrator'){
 	    req.session.login = false;
-	    res.view('admin/symptoms/delete', req.session);
+      var __data = req.session;
+      Symptoms.findOne({id: req.param.id}).done(function (err, symptom){
+        if(err){
+          console.log("AdminSymptomsController:getDelete ERROR");
+        }
+        if(!symptom){
+          console.log("AdminSymptomsController:getDelete NOT SYMPTOM");
+          res.redirect('/admin');
+        }
+        else{
+          __data.symptom = symptom;
+          res.view('admin/symptoms/delete', req.session);
+        }
+      });
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;
@@ -149,7 +161,7 @@ module.exports = {
             console.log("AdminSymptomsController:getOne ERROR");
           }
           if(!symptom){
-            console.log("AdminSymptomsController:getOne NOTUSER");
+            console.log("AdminSymptomsController:getOne NOTSYMPTOM");
             res.redirect('/404');
           }
           else{
@@ -226,9 +238,28 @@ module.exports = {
    delete: function (req, res) {
     
     // Send a JSON response
-    return res.json({
-      hello: 'world'
-    });
+    try{
+      if(req.session.usertype == 'administrator'){
+        console.log(req.params.id);
+        Symptoms.destroy({id:req.params.id}).done(function (err){
+          if(err){
+            console.log("AdminSymptomsController:delete ERROR");
+          }
+          else{
+            console.log("AdminSymptomsController:delete SYMPTOMDELETED");
+            res.redirect('/admin/symptoms');
+          }
+        });
+      }
+      else if(req.session.usertype != null){
+        console.log('AdminSymptomsController:delete NOTLOGGEDUSER');
+      }
+      else{
+        console.log('AdminSymptomsController:delete NOTUSERPERMISSION ' + req.session.id);
+      }
+    }catch(e){
+
+    }
   },
 
 
