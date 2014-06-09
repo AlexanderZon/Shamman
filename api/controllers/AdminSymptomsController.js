@@ -211,7 +211,7 @@ module.exports = {
                 console.log("AdminSymptomsController:update NOTSYMPTOM update");
               }
               else{
-                res.redirect('/admin/users');
+                res.redirect('/admin/symptoms');
               }
             });
           }
