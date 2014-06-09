@@ -35,7 +35,7 @@
         <tr>
           <td><%= dataSymptoms[i].title %></td>
           <td><%= dataSymptoms[i].description %></td>
-          <td class="propertiesLength" data-symptom="<%= dataSymptoms[i].id %>">[CARGANDO...]</td>
+          <td class="propertiesLength" data-symptom="<%= dataSymptoms[i].id %>"><i class="fa fa-time-o text-warning text-active"></i></td>
           <!--
           <td><%= __(dataSymptoms[i].type) %></td>          
           -->
@@ -104,7 +104,7 @@
         }
         else{
           console.log('got Properties');
-          elem.html(data.content);
+          elem.html('<a href="/admin/symptoms/' + elem.attr('data-symptom') + '/properties/">' + data.content + '</a>');
         }
       });
     });

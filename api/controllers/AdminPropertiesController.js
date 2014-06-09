@@ -92,7 +92,6 @@ module.exports = {
   },
   
    get: function (req, res) {
-    console.log('DEBUGGING');
     try{
       if(req.session.usertype == 'administrator'){
         var properties;
@@ -169,7 +168,20 @@ module.exports = {
     try{
       if(req.session.usertype == 'administrator'){
       req.session.login = false;
-      res.view('admin/symptoms/delete', req.session);
+      var __data = req.session;
+      Properties.findOne({id: req.params.id}).done(function (err, property){
+        if(err){
+          console.log("AdminPropertiesController:getDelete ERROR");
+        }
+        if(!property){
+          console.log("AdminPropertiesController:getDelete NOTPROPERTY");
+          res.redirect('/admin');
+        }
+        else{
+          __data.property = property;
+          res.view('admin/properties/delete', __data);
+        }
+      });
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;
@@ -193,9 +205,7 @@ module.exports = {
     
     try{
       if(req.session.usertype == 'administrator'){
-        var id = req.param('id');
-        console.log(id);
-        Properties.findOne(id).done(function (err, property){
+        Properties.findOne(req.params.id).done(function (err, property){
           if(err){
             console.log("AdminPropertiesController:getOne ERROR");
           }
@@ -204,13 +214,22 @@ module.exports = {
             res.redirect('/404');
           }
           else{
-            Symptoms.findOne({id: property.id}).done(function (err, symptom){
-              property.symptom
+            Symptoms.find().done(function (err, symptoms){
+              if(err){
+                console.log("AdminPropertiesController:getOne ERRORSYMPTOMS");
+              }
+              if(!symptoms){
+                console.log("AdminPropertiesController:getOne NOTSYMPTOMS");
+              }
+              else{
+                console.log("AdminPropertiesController:getOne SINTOMAS");
+                req.session.login = false;
+                __data = req.session;
+                __data.symptoms = symptoms;
+                __data.dataProperty = property;
+                return res.view('admin/properties/update', __data);
+              }
             });
-            req.session.login = false;
-            __data = req.session;
-            __data.dataProperty = property;
-            return res.view('admin/properties/update', __data);
           }
         });
       }
@@ -255,7 +274,7 @@ module.exports = {
                 console.log("AdminPropertiesController:update NOTSYMPTOM update");
               }
               else{
-                res.redirect('/admin/users');
+                res.redirect('/admin/properties');
               }
             });
           }
@@ -281,10 +300,29 @@ module.exports = {
    */
    delete: function (req, res) {
     
-    // Send a JSON response
-    return res.json({
-      hello: 'world'
-    });
+    try{
+      if(req.session.usertype == 'administrator'){
+        console.log(req.params.id);
+        Properties.destroy({id:req.params.id}).done(function (err){
+          if(err){
+            console.log("AdminPropertiesController:delete ERROR");
+          }
+          else{
+            console.log("AdminPropertiesController:delete PROPERTYDELETED");
+            res.redirect('/admin/properties');
+          }
+        });
+      }
+      else if(req.session.usertype != null){
+        console.log('AdminPropertiesController:delete NOTLOGGEDUSER');
+      }
+      else{
+        console.log('AdminPropertiesController:delete NOTUSERPERMISSION ' + req.session.id);
+      }
+    }catch(e){
+        console.log('AdminPropertiesController:delete CATCH ' + e);
+    }
+
   },
 
 

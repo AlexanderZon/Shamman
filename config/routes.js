@@ -192,6 +192,10 @@ module.exports.routes = {
     controller: 'adminSymptoms',
     action: 'delete'
   },
+  'get /admin/symptoms/:id?/properties':{
+    controller: 'adminSymptoms',
+    action: 'getOneProperties'
+  },
   'get /admin/symptoms/:id?':{
     controller: 'adminSymptoms',
     action: 'getOne'
@@ -228,7 +232,7 @@ module.exports.routes = {
   'get /admin/properties/delete': function(req, res){
     res.redirect('/admin/properties');
   },
-  'get /admin/properties/delete': {
+  'get /admin/properties/delete/:id?': {
     controller: 'adminProperties',
     action: 'getDelete'
   },

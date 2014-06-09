@@ -91,6 +91,54 @@ module.exports = {
     }
   },
 
+   getOneProperties: function (req, res) {
+    try{
+      if(req.session.usertype == 'administrator'){
+        var properties;
+        Properties.find({symptom_id: req.params.id}).done(function (err, __properties){
+          if(err){
+            console.log('AdminPropertiesController:getOneProperties ERROR');
+            return res.json(err);
+          }
+          if(!__properties){
+            console.log('AdminPropertiesController:getOneProperties NOTPROPERTIES');
+            __properties = {};
+          }
+          else{
+            Symptoms.findOne({id:req.params.id}).done(function (err, symptom){
+              if(err){
+                console.log("AdminSymptomsController: getOneProperties ERRORSYMPTOM");
+              }
+              if(!symptom){
+                console.log("AdminSymptomsController: getOneProperties NOTSYMPTOM");
+              }
+              else{
+                console.log('AdminPropertiesController:getOneProperties GETPROPERTIES');
+                properties = __properties;
+                __data = req.session;
+                __data.symptom = symptom;
+                __data.dataProperties = properties;
+                req.session.login = false;
+                return res.view('admin/symptoms/properties', __data);
+              }
+            });
+          }
+        });
+      }
+      else if(req.session.usertype == 'user'){
+        req.session.login = false;
+        res.redirect('/');
+      }
+      else{
+        res.redirect('/login');
+      }
+    }
+    catch(e){
+      console.log('CATCH ' + e );
+      res.redirect('/login');
+    }
+  },
+
   getProperties: function (req, res){
 
     console.log("AdminSymptomsController:getProperties");
@@ -144,7 +192,7 @@ module.exports = {
       if(req.session.usertype == 'administrator'){
 	    req.session.login = false;
       var __data = req.session;
-      Symptoms.findOne({id: req.param.id}).done(function (err, symptom){
+      Symptoms.findOne({id: req.params.id}).done(function (err, symptom){
         if(err){
           console.log("AdminSymptomsController:getDelete ERROR");
         }
@@ -154,7 +202,8 @@ module.exports = {
         }
         else{
           __data.symptom = symptom;
-          res.view('admin/symptoms/delete', req.session);
+          res.json(symptom);
+          //res.view('admin/symptoms/delete', __data);
         }
       });
       }
@@ -284,8 +333,9 @@ module.exports = {
         console.log('AdminSymptomsController:delete NOTUSERPERMISSION ' + req.session.id);
       }
     }catch(e){
-
+        console.log('AdminSymptomsController:delete CATCH ' + e);
     }
+
   },
 
 
