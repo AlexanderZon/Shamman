@@ -71,9 +71,9 @@ module.exports = {
             return res.json(err);
           }
           else{
+            req.session.login = false;
             __data = req.session;
             __data.dataSymptoms = symptoms;
-            req.session.login = false;
             return res.view('admin/symptoms/index', __data);
           }
         });
@@ -89,6 +89,32 @@ module.exports = {
     catch(e){
       res.redirect('/login');
     }
+  },
+
+  getProperties: function (req, res){
+
+    console.log("AdminSymptomsController:getProperties");
+    Properties.find({symptom_id: req.params.id}).done(function (err, properties){
+        console.log(properties.length);
+      if(err){
+        return res.json({
+          error: true
+        });
+      }
+      if(!properties){
+        return res.json({
+          error: false,
+          content: "0"
+        });
+      }
+      else{
+        return res.json({
+          error: false,
+          content: properties.length
+        });
+      }
+    });
+
   },
 
    getCreate: function (req, res) {

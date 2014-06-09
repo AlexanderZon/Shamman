@@ -10,10 +10,10 @@ module.exports = {
 	tableName: 'sh_properties',
 	attributes: {
 		id: {
-			type: 'INTEGER',
+			type: 'STRING',
 		},
 		symptom_id: {
-			type: 'INTEGER',
+			type: 'STRING',
 		},
 		title: {
 			type: 'STRING',

@@ -1,4 +1,5 @@
 <% title = 'Shamman | ' + __('Síntomas') %>
+<script src="/js/jquery-1.11.1.min.js"></script>
 <div class="m-b-md">
   <h3 class="m-b-none">Síntomas</h3>
 </div>
@@ -34,7 +35,7 @@
         <tr>
           <td><%= dataSymptoms[i].title %></td>
           <td><%= dataSymptoms[i].description %></td>
-          <td>0</td>
+          <td class="propertiesLength" data-symptom="<%= dataSymptoms[i].id %>">[CARGANDO...]</td>
           <!--
           <td><%= __(dataSymptoms[i].type) %></td>          
           -->
@@ -88,6 +89,27 @@
   </footer>
 </section>
 
+<script type="text/javascript">
+  $(document).on('ready', function(){
+    $.each($('.propertiesLength'), function(){
+      var elem = $(this);
+      console.log(elem.attr('data-symptom'));
+      var data = elem.attr('data-symptom');
+      $.ajax({
+        url: '/admin/symptoms/properties/'+data,
+        type: 'get'
+      }).done(function (data){
+        if(data.error){
+          console.log('Symptom not valid!');
+        }
+        else{
+          console.log('got Properties');
+          elem.html(data.content);
+        }
+      });
+    });
+  });
+</script>
 
 <script src="/js/app.v1.js"></script>
 

@@ -61,6 +61,35 @@ module.exports = {
 
     
   },
+
+  getSymptom: function (req, res){
+
+    try{
+      Symptoms.findOne({id: req.params.id}).done(function (err, symptom){
+
+        if(err){
+          return res.json({
+            error: true
+          });
+        }
+        if(!symptom){
+          return res.json({
+            error: true
+          });
+        }
+        else{
+          return res.json({
+            error: false,
+            content: symptom.title
+          });
+        }
+
+      });
+    }catch(e){
+
+    }
+
+  },
   
    get: function (req, res) {
     console.log('DEBUGGING');
@@ -72,24 +101,19 @@ module.exports = {
             console.log('AdminPropertiesController:get ERROR');
             return res.json(err);
           }
-          if(!properties){
+          if(!__properties){
             console.log('AdminPropertiesController:get NOTPROPERTIES');
-            properties = {};
+            __properties = {};
           }
           else{
             console.log('AdminPropertiesController:get GETPROPERTIES');
-            for(var i = 0 ; i < __properties.length ; i++){
-              Symptoms.findOne({id: __properties[i].symptom_id}).done(function (err, __symptom){
-                __properties[i].symptom = __symptom;
-              });
-            }
             properties = __properties;
+            __data = req.session;
+            __data.dataProperties = properties;
+            req.session.login = false;
+            return res.view('admin/properties/index', __data);
           }
         });
-        __data = req.session;
-        __data.dataProperties = properties;
-        req.session.login = false;
-        return res.view('admin/properties/index', __data);
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;

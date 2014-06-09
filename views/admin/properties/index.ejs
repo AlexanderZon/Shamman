@@ -1,4 +1,5 @@
 <% title = 'Shamman | ' + __('Propiedades') %>
+<script src="/js/jquery-1.11.1.min.js"></script>
 <div class="m-b-md">
   <h3 class="m-b-none">Propiedades</h3>
 </div>
@@ -23,10 +24,10 @@
     <table class="table table-striped b-t b-light">
       <thead>
         <tr>
-          <th class="th-sortable" data-toggle="class">Propiedad <!-- <span class="th-sort"> <i class="fa fa-sort-down text"></i> <i class="fa fa-sort-up text-active"></i> <i class="fa fa-sort"></i> </span> --> </th>
+          <!--<th class="th-sortable" data-toggle="class">Propiedad  <span class="th-sort"> <i class="fa fa-sort-down text"></i> <i class="fa fa-sort-up text-active"></i> <i class="fa fa-sort"></i> </span>  </th>-->
+          <th>Propiedad</th>
           <th>Descripcion</th>
           <th>Síntoma</th>
-          <th width="30">Características</th>
           <th>Acciones</th>
         </tr>
       </thead>
@@ -35,8 +36,7 @@
         <tr>
           <td><%= dataProperties[i].title %></td>
           <td><%= dataProperties[i].description %></td>
-          <td><%= dataProperties[i].symptom %></td>
-          <td>0</td>
+          <td class="parentSymptom" data-property="<%= dataProperties[i].symptom_id %>">[CARGANDO...]</td>
           <!--
           <td><%= __(dataProperties[i].type) %></td>          
           -->
@@ -51,7 +51,10 @@
           <% } %>
           -->
             &nbsp;
-            <a href="/admin/symptoms/update/<%= dataProperties[i].id %>" class="active"><i class="fa fa-pencil text-warning text-active"></i></a>
+            <a href="/admin/property/update/<%= dataProperties[i].id %>" class="active"><i class="fa fa-pencil text-warning text-active"></i></a>
+            &nbsp;
+            &nbsp;
+            <a href="/admin/property/delete/<%= dataProperties[i].id %>" class="active"><i class="fa fa-trash-o text-danger text-active"></i></a>
             &nbsp;
           <!--
           <% if(dataProperties[i].status == 'publish') { %>
@@ -88,6 +91,27 @@
   </footer>
 </section>
 
+<script type="text/javascript">
+  $(document).on('ready', function(){
+    $.each($('.parentSymptom'), function(){
+      var elem = $(this);
+      console.log(elem.attr('data-property'));
+      var data = elem.attr('data-property');
+      $.ajax({
+        url: '/admin/properties/symptom/'+data,
+        type: 'get'
+      }).done(function (data){
+        if(data.error){
+          console.log('Symptom not valid!');
+        }
+        else{
+          console.log('got Properties');
+          elem.html(data.content);
+        }
+      });
+    });
+  });
+</script>
 
 <script src="/js/app.v1.js"></script>
 

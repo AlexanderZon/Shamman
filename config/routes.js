@@ -158,6 +158,10 @@ module.exports.routes = {
     controller: 'adminSymptoms',
     action: 'get'
   },
+  'get /admin/Symptoms/properties/:id?': {
+    controller: 'adminSymptoms',
+    action: 'getProperties'
+  },
   'get /admin/symptoms/create': {
     controller: 'adminSymptoms',
     action: 'getCreate'
@@ -197,6 +201,10 @@ module.exports.routes = {
   'get /admin/properties': {
     controller: 'adminProperties',
     action: 'get'
+  },
+  'get /admin/properties/symptom/:id?': {
+    controller: 'adminProperties',
+    action: 'getSymptom'
   },
   'get /admin/properties/create': {
     controller: 'adminProperties',
