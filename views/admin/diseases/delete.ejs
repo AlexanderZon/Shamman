@@ -1,1 +1,36 @@
-ELIMINAR ENFERMEDAD
+<!DOCTYPE html>
+<html lang="en" class="app">
+<head>
+<meta charset="utf-8" />
+<title>Shamman | <%= __('Eliminar Enfermedad') %></title>
+<meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="/images/logo.png">
+<link rel="stylesheet" href="css/app.v1.css" type="text/css" />
+<!--[if lt IE 9]> <script src="js/ie/html5shiv.js"></script> <script src="js/ie/respond.min.js"></script> <script src="js/ie/excanvas.js"></script> <![endif]-->
+</head>
+<body class="">
+<section id="content" class="m-t-lg wrapper-md animated fadeInDown">
+  <div class="container aside-xl">
+    <section class="m-b-lg white">
+      <header class="wrapper text-center"> <strong><%= __('Estás seguro que deseas eliminar la Enfermedad?:') %></strong> </header>
+      <header class="wrapper text-center"> <strong><%= disease.title %></strong> </header>
+      <form action="/admin/diseases/delete/<%= disease.id %>" method="post">
+        <input type='hidden' name='_csrf' value='<%= _csrf %>'>
+        <div class="list-group">
+        <button type="submit" class="btn btn-lg btn-primary btn-block"><%= __('Yes, I want') %></button>
+        <div class="line line-dashed"></div>
+        <p class="text-muted text-center"><small><%= __('No, I don´t') %></small></p>
+        <a href="/admin/diseases" class="btn btn-lg btn-default btn-block"><%= __('Go back') %></a>
+      </form>
+    </section>
+  </div>
+</section>
+<!-- footer -->
+<!-- / footer -->
+<!-- Bootstrap -->
+<!-- App -->
+<script src="js/app.v1.js"></script>
+<script src="js/app.plugin.js"></script>
+</body>
+</html>

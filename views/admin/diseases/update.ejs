@@ -21,7 +21,7 @@
 <section class="panel panel-default">
   <header class="panel-heading font-bold"> Formulario de registro de enfermedades </header>
   <div class="panel-body">
-    <form class="form-horizontal" id="create_disease" method="post" action="/admin/diseases/create">
+    <form class="form-horizontal" id="create_disease" method="post" action="/admin/diseases/update/<%= dataDisease.id %>">
       <input type='hidden' name='_csrf' value='<%= _csrf %>'>
       <div class="form-group">
         <label class="col-sm-2 control-label"><%= __('Nombre de la Enfermedad') %></label>
@@ -42,7 +42,15 @@
         <div class="col-sm-10">
           <select id="properties" name="properties" data-placeholder="<%= __('Seleccione las propiedades médicas de la enfermedad') %>" multiple class="chosen-select">
             <% for(var i = 0; i < properties.length ; i++){ %>
-            <option value="<%= properties[i].id %>"><%= properties[i].title %></option>
+	            <% var bool = false; %>
+	            <% for(var j = 0; j < dataProperties.length; j++){ %>
+	            	<% if(properties[i].id == dataProperties[j].property_id) bool = true; %>
+	            <% } %>
+	            <% if(bool){ %>
+	            	<option value="<%= properties[i].id %>" selected><%= properties[i].title %></option>
+	            <% }else{ %>
+	            	<option value="<%= properties[i].id %>"><%= properties[i].title %></option>
+	            <% } %>
             <% } %>
           </select>
         </div>

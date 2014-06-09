@@ -147,12 +147,12 @@ module.exports.routes = {
     controller: 'adminDiseases',
     action: 'update'
   },
-  'get /admin/diseases/delete': {
-    controller: 'adminDiseases',
-    action: 'getDelete'
-  },
   'get /admin/disease/delete': function(req, res){
     res.redirect('/admin/disease');
+  },
+  'get /admin/diseases/delete/:id?': {
+    controller: 'adminDiseases',
+    action: 'getDelete'
   },
   'post /admin/diseases/delete/:id': {
     controller: 'adminDiseases',

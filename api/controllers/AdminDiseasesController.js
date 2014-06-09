@@ -260,8 +260,21 @@ module.exports = {
     
     try{
       if(req.session.usertype == 'administrator'){
-	    req.session.login = false;
-	    res.view('admin/diseases/delete', req.session);
+        Diseases.findOne({id: req.params.id}).done(function (err, disease){
+          if(err){
+            console.log("AdminDiseasesController: getDelete ERROR");
+          }
+          if(!disease){
+            console.log("AdminDiseasesController: getDelete NOTDISEASE");
+            res.redirect('404');
+          }
+          else{
+            req.session.login = false;
+            __data = req.session;
+            __data.disease = disease;
+            res.view('admin/diseases/delete', __data);
+          }
+        });
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;
@@ -280,8 +293,36 @@ module.exports = {
     
     try{
       if(req.session.usertype == 'administrator'){
-        req.session.login = false;
-        return res.view('admin/diseases/update', req.session);
+        Properties.find().done(function (err, properties){
+          if(err){
+            console.log("AdminPropertiesController:getOne ERROR");
+          }
+          if(!properties){
+            console.log("AdminPropertiesController:getOne NOTPROPERTY");
+            res.redirect('/404');
+          }
+          else{
+            PropertyDisease.find({disease_id: req.params.id}).done(function (err, propertyDisease){
+              if(err){
+                console.log("AdminPropertiesController:getOne ERRORSYMPTOMS");
+              }
+              if(!propertyDisease){
+                console.log("AdminPropertiesController:getOne NOTSYMPTOMS");
+              }
+              else{
+                Diseases.findOne({id:req.params.id}).done(function (err, disease){
+                  console.log("AdminPropertiesController:getOne SINTOMAS");
+                  req.session.login = false;
+                  __data = req.session;
+                  __data.dataProperties = propertyDisease;
+                  __data.properties = properties;
+                  __data.dataDisease = disease;
+                  return res.view('admin/diseases/update', __data);
+                });
+              }
+            });
+          }
+        });
       }
       else if(req.session.usertype == 'user'){
         req.session.login = false;
@@ -298,16 +339,109 @@ module.exports = {
 
    update: function (req, res) {
     
-    // Send a JSON response
-    // Building
+    try{
+      if(req.session.usertype == 'administrator'){
+        var properties = req.body.properties;
+        PropertyDisease.destroy({disease_id: req.params.id}).done(function (err){
+          if(err){
+            console.log("AdminDiseasesController:update ERROR");
+          }
+          else{
+            Diseases.update({id:req.params.id},{
+              title: req.body.title,
+              description: req.body.description,
+              }).done(function (err, disease){
+                console.log(disease);
+                if(err){
+                  console.log("AdminDiseasesController:update ERROR " + err);
+                  return res.json({
+                    message: "Error al modificar Enfermedad!",
+                    type: "error",
+                    error: true
+                  });
+                }
+                if(!disease){
+                  console.log("AdminDiseasesController:update NOTDISEASE ");
+                }
+                else{
+                  for(var i = 0; i < properties.length; i++){
+                    PropertyDisease.create({
+                      disease_id: req.params.id,
+                      property_id: properties[i],
+                      user_id: req.session.user
+                    }).done(function (err, propertyDisease){
+                      if(err){
+                        console.log("PropertyDisease ERROR");
+                      }
+                      if(!propertyDisease){
+                        console.log("PropertyDisease NOT");
+                      }
+                      else{
+                        console.log("PropertyDisease CREATED");
+                      }
+                    });
+                  }
+                  console.log("Disease Updated! " + disease);
+                  return res.redirect('/admin/diseases');
+                }
+            });
+          }
+        })
+
+      }
+      else if(req.session.usertype == 'user'){
+        req.session.login = false;
+        res.redirect('/');
+      }
+      else{
+        res.redirect('/login');
+      }
+    }
+    catch(e){
+      res.redirect('/login');
+    }
   },
 
    delete: function (req, res) {
+
+    try{
+      if(req.session.usertype == 'administrator'){
+        var properties = req.body.properties;
+        PropertyDisease.destroy({disease_id: req.params.id}).done(function (err){
+          if(err){
+            console.log("AdminDiseasesController:delete ERRORPROPERTYDISEASE");
+          }
+          else{
+            Diseases.destroy({id:req.params.id}).done(function (err){
+                if(err){
+                  console.log("AdminDiseasesController:delete ERRORDISEASE " + err);
+                  return res.json({
+                    message: "Error al eliminar la Enfermedad!",
+                    type: "error",
+                    error: true
+                  });
+                }
+                else{
+                  console.log("Disease Deleted!");
+                  return res.redirect('/admin/diseases');
+                }
+            });
+          }
+        })
+
+      }
+      else if(req.session.usertype == 'user'){
+        req.session.login = false;
+        res.redirect('/');
+      }
+      else{
+        res.redirect('/login');
+      }
+    }
+    catch(e){
+      res.redirect('/login');
+    }
     
-    // Send a JSON response
-    return res.json({
-      hello: 'world'
-    });
   },
 
 
