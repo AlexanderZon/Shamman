@@ -1,0 +1,27 @@
+{ "_id" : { "$oid" : "53875d1920faf70c6044d523" }, "content" : "Congestión Nasal Y Abundancia De Mucosidad" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d524" }, "content" : "Diarrea" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d525" }, "content" : "Dificultad Para Respirar" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d526" }, "content" : "Dificultad Para Tragar" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d527" }, "content" : "Dolor Abdominal" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d528" }, "content" : "Dolor De Cabeza" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d529" }, "content" : "Dolor De Cadera" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d52a" }, "content" : "Dolor De Cuello" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d52b" }, "content" : "Dolor De Espalda " }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d52c" }, "content" : "Dolor De Garganta" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d52d" }, "content" : "Dolor De Hombro" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d52e" }, "content" : "Dolor De Ojos U Ojos Rojos" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d52f" }, "content" : "Dolor De Pecho" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d530" }, "content" : "Dolor De Rodilla" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d531" }, "content" : "Dolor En El Pié O En El Tobillo" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d532" }, "content" : "Dolor Pélvico Y Genital " }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d533" }, "content" : "Entumecimiento U Hormigueo En Las Manos" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d534" }, "content" : "Estreñimiento" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d535" }, "content" : "Inflamación En Pies O Piernas" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d536" }, "content" : "Mareos O Desvanecimientos" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d537" }, "content" : "Náuseas O Vómitos" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d538" }, "content" : "Palpitaciones" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d539" }, "content" : "Problemas En La Visión" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d53a" }, "content" : "Problemas Urinarios" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d53b" }, "content" : "Sangre En Las Heces" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d53c" }, "content" : "Sibilancias  O Jadeos Al Respirar" }
+{ "_id" : { "$oid" : "53875d1920faf70c6044d53d" }, "content" : "Tos" }

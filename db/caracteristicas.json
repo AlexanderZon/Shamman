@@ -1,0 +1,728 @@
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d53e" }, "content" : "La Mucosidad Es De Color Amarillo O Verde", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d53f" }, "content" : "La Mucosidad Es Transparente O Acuosa", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d540" }, "content" : "acompañado De ...  Dolor De Dientes O En La Mandíbula Superior", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d541" }, "content" : "acompañado De ... Disminución Del Sentido Del Olfato O Del Gusto", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d542" }, "content" : "acompañado De ... Dolor De Cabeza O Dolor Facial", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d543" }, "content" : "acompañado De ... Dolor De Garganta", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d544" }, "content" : "acompañado De ... Dolor De Oído", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d545" }, "content" : "acompañado De ... Dolores Leves En El Cuerpo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d546" }, "content" : "acompañado De ... Estornudos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d547" }, "content" : "acompañado De ... Fatiga O Debilidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d548" }, "content" : "acompañado De ... Fiebre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d549" }, "content" : "acompañado De ... Hemorragia Nasal", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d54a" }, "content" : "acompañado De ... Mal Aliento", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d54b" }, "content" : "acompañado De ... Moqueo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d54c" }, "content" : "acompañado De ... Ojos Llorosos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d54d" }, "content" : "acompañado De ... Picazón En Los Ojos, La Nariz, La Boca O La Garganta", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d54e" }, "content" : "acompañado De ... Ronquidos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d54f" }, "content" : "acompañado De ... Tos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d550" }, "content" : "es Contínua O Permanente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1b20faf70c6044d551" }, "content" : "es Nueva O Reciente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d523" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d552" }, "content" : "Provocada Por ...  Consumo De Ciertos Alimentos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d553" }, "content" : "Se Alivia Al Evitar Ciertos Alimentos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d554" }, "content" : "acompañado De ... Distensión O Hinchazón Abdominal", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d555" }, "content" : "acompañado De ... Dolor Abdominal O Retorcijones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d556" }, "content" : "acompañado De ... Dolores Musculares O Dolor De Las Articulaciones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d557" }, "content" : "acompañado De ... Estreñimiento", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d558" }, "content" : "acompañado De ... Fiebre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d559" }, "content" : "acompañado De ... Gases", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d55a" }, "content" : "acompañado De ... Mucosidad En Las Heces", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d55b" }, "content" : "acompañado De ... Náuseas O Vómitos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d55c" }, "content" : "acompañado De ... Pérdida De Peso No Voluntaria", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d55d" }, "content" : "acompañado De ... Sangre En Las Heces", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d55e" }, "content" : "acompañado De ... Urgencia De Tener Una Evacuación Intestinal", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d55f" }, "content" : "es Constante O Recurrente ", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d560" }, "content" : "es Precedida Por El Consumo De Alimentos Sospechosos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d561" }, "content" : "es Precedida Por El Uso Reciente De Antibióticos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d562" }, "content" : "es Reciente ", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1c20faf70c6044d563" }, "content" : "es Súbita ", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d524" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d564" }, "content" : "Precedido Por Una Enfermedad Del Aparato Respiratorio Superior", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d565" }, "content" : "Provocado O Empeorado Por ...  Alergenos O Irritantes", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d566" }, "content" : "Provocado O Empeorado Por ...  Ansiedad O El Estrés", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d567" }, "content" : "Provocado O Empeorado Por ...  Fumar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d568" }, "content" : "Provocado O Empeorado Por ...  Hacer Esfuerzos Leve O Moderado", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d569" }, "content" : "Provocado O Empeorado Por ...  La Exposición Al Aire Frío", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d56a" }, "content" : "acompañado De ... Aumento Rápido De Peso ", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d56b" }, "content" : "acompañado De ... Dolor Abdominal O Retorcijones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d56c" }, "content" : "acompañado De ... Dolor De Cabeza", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d56d" }, "content" : "acompañado De ... Dolor En El Pecho, Opresión O Malestar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d56e" }, "content" : "acompañado De ... Fatiga O Debilidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d56f" }, "content" : "acompañado De ... Fiebre O Escalofríos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d570" }, "content" : "acompañado De ... Hinchazón En Las Piernas, Tobillos Y Pies", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d571" }, "content" : "acompañado De ... Latidos Irregulares O Acelerados", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d572" }, "content" : "acompañado De ... Mareos O Desmayos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d573" }, "content" : "acompañado De ... Náuseas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d574" }, "content" : "acompañado De ... Piel Pálida O Azulada", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d575" }, "content" : "acompañado De ... Sibilancias  O Jadeos Al Respirar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d576" }, "content" : "acompañado De ... Sudores", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d577" }, "content" : "acompañado De ... Temblores", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d578" }, "content" : "acompañado De ... Tos Que Produce Esputo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d579" }, "content" : "acompañado De ... Tos Que Produce Sangre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d57a" }, "content" : "acompañado De ... Tos Seca", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d57b" }, "content" : "es Constante O Recurrente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d57c" }, "content" : "es Nuevo Comenzó Recientemente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d1f20faf70c6044d57d" }, "content" : "rovocado O Empeorado Por ...  Toser, Estornudar O Hacer Movimientos Bruscos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d525" } }
+{ "_id" : { "$oid" : "53875d2020faf70c6044d57e" }, "content" : " Se Requiere Esfuerzo Para Tragar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2020faf70c6044d57f" }, "content" : "Dolor Al Tragar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2020faf70c6044d580" }, "content" : "Provocado O Empeorado Por ...  Comer Ciertos Alimentos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2020faf70c6044d581" }, "content" : "acompañado De ...  Entumecimiento, Dolor Y Cambios En El Color En Los Dedos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2020faf70c6044d582" }, "content" : "acompañado De ... Acidez Estomacal", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2020faf70c6044d583" }, "content" : "acompañado De ... Boca Seca", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2020faf70c6044d584" }, "content" : "acompañado De ... Bulto En La Parte Delantera Del Cuello", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2020faf70c6044d585" }, "content" : "acompañado De ... Calambres Musculares O Contracciones En Los Brazos, Hombros O Lengua", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2020faf70c6044d586" }, "content" : "acompañado De ... Debilidad Muscular En Las Manos, Los Pies O Las Piernas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2020faf70c6044d587" }, "content" : "acompañado De ... Dificultad Para Hablar O Dificultad Para Hablar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2020faf70c6044d588" }, "content" : "acompañado De ... Dificultad Para Respirar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2020faf70c6044d589" }, "content" : "acompañado De ... Dolor De Garganta", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2120faf70c6044d58a" }, "content" : "acompañado De ... Dolor De Oído", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2120faf70c6044d58b" }, "content" : "acompañado De ... Dolor En El Pecho O En La Espalda", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2120faf70c6044d58c" }, "content" : "acompañado De ... Dolor O Rigidez En La Mandíbula", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2120faf70c6044d58d" }, "content" : "acompañado De ... Llagas, Bultos O Dolor En La Boca", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2120faf70c6044d58e" }, "content" : "acompañado De ... Mal Aliento", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2120faf70c6044d58f" }, "content" : "acompañado De ... Piel Endurecida", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2120faf70c6044d590" }, "content" : "acompañado De ... Pérdida De Dientes O Prótesis Dentales Mal Ajustadas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2120faf70c6044d591" }, "content" : "acompañado De ... Pérdida De Peso No Voluntaria", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2120faf70c6044d592" }, "content" : "acompañado De ... Regurgitación De Alimentos Líquidos O Sensación De Amargura En La Boca", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2120faf70c6044d593" }, "content" : "acompañado De ... Ronquera O Dificultad Para Hablar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2120faf70c6044d594" }, "content" : "acompañado De ... Saliva Espesa", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2120faf70c6044d595" }, "content" : "acompañado De ... Sensación De Tener Algo Encajado En La Garganta", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2120faf70c6044d596" }, "content" : "acompañado De ... Sequedad En Los Ojos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2120faf70c6044d597" }, "content" : "acompañado De ... Tos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2120faf70c6044d598" }, "content" : "acompañado De ... Tos Que Produce Esputo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d526" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d599" }, "content" : "Provocado O Empeorado Por ...  Ciclo Menstrual", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d59a" }, "content" : "Provocado O Empeorado Por ...  Comer Ciertos Alimentos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d59b" }, "content" : "Provocado O Empeorado Por ...  El Consumo De Alcohol", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d59c" }, "content" : "Provocado O Empeorado Por ...  El Estrés", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d59d" }, "content" : "Provocado O Empeorado Por ...  Toser O Hacer Movimientos Bruscos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d59e" }, "content" : "Se Alivia Al Beber Más Agua", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d59f" }, "content" : "Se Alivia Al Cambiar De Posición", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5a0" }, "content" : "Se Alivia Al Comer Más Fibra", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5a1" }, "content" : "Se Alivia Al Evitar Ciertos Alimentos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5a2" }, "content" : "Se Alivia Con Antiácidos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5a3" }, "content" : "Se Alivia Con El Consumo De Ciertos Alimentos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5a4" }, "content" : "acompañado De ... Boca Seca", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5a5" }, "content" : "acompañado De ... Diarrea", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5a6" }, "content" : "acompañado De ... Erupciones Cutáneas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5a7" }, "content" : "acompañado De ... Estreñimiento", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5a8" }, "content" : "acompañado De ... Fiebre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5a9" }, "content" : "acompañado De ... Gases", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5aa" }, "content" : "acompañado De ... Heces Negras O Con Sangre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5ab" }, "content" : "acompañado De ... Hinchazón Abdominal", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5ac" }, "content" : "acompañado De ... Imposibilidad De Evacuar A Pesar De La Urgencia", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5ad" }, "content" : "acompañado De ... Náuseas O Vómitos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5ae" }, "content" : "acompañado De ... Pérdida De Peso No Voluntaria", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5af" }, "content" : "acompañado De ... Ruidos En El Estómago", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5b0" }, "content" : "es Agudo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5b1" }, "content" : "es Agudo, O Empezó De Repente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5b2" }, "content" : "es Constante", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5b3" }, "content" : "es Corrosivo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5b4" }, "content" : "es Crónica O Continuo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5b5" }, "content" : "es Intenso", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5b6" }, "content" : "es Intermitente O Esporádico", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5b7" }, "content" : "es Progresiva O Empeora Con El Tiempo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5b8" }, "content" : "es Sordo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5b9" }, "content" : "es Tipo Ardor", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5ba" }, "content" : "es Tipo Retorcijones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5bb" }, "content" : "está Situado En La Parte Superior Del Abdomen", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5bc" }, "content" : "se Encuentra En El Abdomen Pero Irradia A Otras Partes Del Cuerpo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5bd" }, "content" : "se Encuentra En La Parte Baja Del Abdomen", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5be" }, "content" : "se Encuentra En La Parte Media Del Abdomen", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2320faf70c6044d5bf" }, "content" : "se Encuentra En Uno O Ambos Lados Del Abdomen", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d527" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5c0" }, "content" : "Duración Del Dolor De Cabeza Es De Varios Minutos A Unas Pocas Horas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5c1" }, "content" : "Duración Del Dolor De Cabeza Es Inferior A Unos Pocos Minutos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5c2" }, "content" : "Ocurre Casi A Diario", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5c3" }, "content" : "Provocado O Empeorado Por ...  Cambio En Los Patrones De Sueño", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5c4" }, "content" : "Provocado O Empeorado Por ...  Cambios Hormonales", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5c5" }, "content" : "Provocado O Empeorado Por ...  Comer Ciertos Alimentos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5c6" }, "content" : "Provocado O Empeorado Por ...  El Estrés", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5c7" }, "content" : "Provocado O Empeorado Por ...  Las Actividades Cotidianas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5c8" }, "content" : "Provocado O Empeorado Por ...  Mala Postura", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5c9" }, "content" : "Provocado O Empeorado Por ...  Tener Orgasmos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5ca" }, "content" : "Provocado O Empeorado Por ...  Tocarse La Cara, Comer U Otros Movimientos Faciales", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5cb" }, "content" : "Provocado O Empeorado Por ... La Masticación", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5cc" }, "content" : "Se Alivia Al Recostarse En La Oscuridad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5cd" }, "content" : "Se Alivia Al Reposar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5ce" }, "content" : "Se Alivia Al Tomar Medicación Para El Dolor ", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5cf" }, "content" : "Se Hace Poco A Poco Cada Vez Más Frecuente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5d0" }, "content" : "Suele Ser A La Misma Hora Todos Los Días", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5d1" }, "content" : "acompañado De ...  Congestión O Moqueo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5d2" }, "content" : "acompañado De ... Cambio En La Personalidad, La Conducta O El Estado Mental", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5d3" }, "content" : "acompañado De ... Confusión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5d4" }, "content" : "acompañado De ... Convulsiones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5d5" }, "content" : "acompañado De ... Cuero Cabelludo Sensible", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5d6" }, "content" : "acompañado De ... Dificultad O Dolor Al Tragar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5d7" }, "content" : "acompañado De ... Dolor En La Mandíbula", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5d8" }, "content" : "acompañado De ... Dolor En Las Articulaciones O Los Músculos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5d9" }, "content" : "acompañado De ... Fiebre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5da" }, "content" : "acompañado De ... Inquietud O Agitación", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5db" }, "content" : "acompañado De ... Náuseas O Vómitos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5dc" }, "content" : "acompañado De ... Persistente Debilidad O Entumecimiento", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5dd" }, "content" : "acompañado De ... Problemas De Visión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2720faf70c6044d5de" }, "content" : "acompañado De ... Rigidez O Dolor En El Cuello", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5df" }, "content" : "acompañado De ... Sensibilidad A La Luz O Al Ruido", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5e0" }, "content" : "es Como Presión O Sensación De Opresión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5e1" }, "content" : "es De Leve A Moderado", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5e2" }, "content" : "es De Moderado A Fuerte", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5e3" }, "content" : "es Gradual", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5e4" }, "content" : "es Muy Muy Intenso", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5e5" }, "content" : "es Palpitante", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5e6" }, "content" : "es Precedido Por Alteraciones De La Visión O  Sensoriales En General", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5e7" }, "content" : "es Precedido Por El Uso Frecuente De Medicamentos Para El Dolor", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5e8" }, "content" : "es Punzante O Ardor", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5e9" }, "content" : "es Repentino", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5ea" }, "content" : "está Situado Alrededor De Un Ojo O Se Irradia Desde Un Ojo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5eb" }, "content" : "se Encuentra Alrededor De La Cara O La Frente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5ec" }, "content" : "se Encuentra Alrededor De Los Sienes", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5ed" }, "content" : "se Localiza A Ambos Lados De La Cabeza", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2820faf70c6044d5ee" }, "content" : "se Localiza En Un Lado De La Cabeza", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d528" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5ef" }, "content" : " Es Repentino E Intenso", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5f0" }, "content" : " Es Sordo O Constante", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5f1" }, "content" : "Empeora Al Moverse", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5f2" }, "content" : "Empeora Con Al Aplicar Presión O Tratar De Soportar El Peso", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5f3" }, "content" : "Empeora Con El Reposo O Inactividad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5f4" }, "content" : "Provocado O Empeorado Por ...  Apretar O Rechinar Los Dientes", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5f5" }, "content" : "Provocado Por ...  Uso Excesivo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5f6" }, "content" : "Provocado Por ... Una Lesión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5f7" }, "content" : "Provocado Por … Las Actividades Cotidianas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5f8" }, "content" : "acompañado De ... Contusión O Decoloración", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5f9" }, "content" : "acompañado De ... Deformidad Visible", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5fa" }, "content" : "acompañado De ... Disminución Del Rango De Movilidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5fb" }, "content" : "acompañado De ... Dolor En Otras Articulaciones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5fc" }, "content" : "acompañado De ... Enquilosamiento E Imposibilidad De Moverse", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5fd" }, "content" : "acompañado De ... Incapacidad Para Cargar Peso", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5fe" }, "content" : "acompañado De ... Inflamación", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2b20faf70c6044d5ff" }, "content" : "acompañado De ... Rigidez", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d529" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d600" }, "content" : "Provocado O Empeorado Por ...  El Estrés", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d601" }, "content" : "Provocado O Empeorado Por ...  Esfuerzo Físico", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d602" }, "content" : "Provocado O Empeorado Por ...  Mala Postura", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d603" }, "content" : "acompañado De ... Cambio En La Personalidad, La Conducta O El Estado Mental", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d604" }, "content" : "acompañado De ... Confusión O Dificultad Para Concentrarse", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d605" }, "content" : "acompañado De ... Contracciones Involuntarias De Músculos Del Cuello Y La Cabeza De Torsión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d606" }, "content" : "acompañado De ... Convulsiones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d607" }, "content" : "acompañado De ... Debilidad Muscular", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d608" }, "content" : "acompañado De ... Disminución Del Rango De Movilidad O Rigidez En El Cuello", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d609" }, "content" : "acompañado De ... Dolor De Cabeza", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d60a" }, "content" : "acompañado De ... Dolor De Hombro,  Brazo O Pecho", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d60b" }, "content" : "acompañado De ... Dolor En Varias Articulaciones De Todo El Cuerpo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d60c" }, "content" : "acompañado De ... Entumecimiento U Hormigueo En Las Extremidades", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d60d" }, "content" : "acompañado De ... Fiebre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d60e" }, "content" : "acompañado De ... Náuseas O Vómitos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d60f" }, "content" : "acompañado De ... Pérdida De Control De La Vejiga O Intestino", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d610" }, "content" : "acompañado De ... Pérdida Del Equilibrio O De La Coordinación", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d611" }, "content" : "empezó De Repente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d2f20faf70c6044d612" }, "content" : "empezó Gradualmente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52a" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d613" }, "content" : " Acompañado De ... Cambio En Hábitos De Orinar O Defecar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d614" }, "content" : " Acompañado De ... Debilidad, Entumecimiento U Hormigueo En La Pierna O El Pie", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d615" }, "content" : " Acompañado De ... Disminución De La Sensibilidad Al Dolor, Calor Y Frío", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d616" }, "content" : " Acompañado De ... Dolor En El Pie O La Pierna", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d617" }, "content" : " Acompañado De ... Dolor Ocular, Visión Borrosa O Sensibilidad A La Luz", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d618" }, "content" : " Acompañado De ... Encorvamiento De La Postura", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d619" }, "content" : " Acompañado De ... Fatiga O Debilidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d61a" }, "content" : " Acompañado De ... Inflamación", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d61b" }, "content" : " Acompañado De ... Parálisis En Diferentes Partes Del Cuerpo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d61c" }, "content" : " Acompañado De ... Punto O Nudo Duro En La Musculatura De La Espalda", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d61d" }, "content" : " Acompañado De ... Pérdida De Peso No Voluntaria", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d61e" }, "content" : " Acompañado De ... Rigidez En La Espalda Baja", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d61f" }, "content" : " Empeora Al Estar Sentado O De Pie Mucho Tiempo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d620" }, "content" : " Empeora Al Moverse", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d621" }, "content" : " Empeora Con El Reposo O Inactividad Prolongada", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d622" }, "content" : " Provocado Por ...  Uso Excesivo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d623" }, "content" : " Provocado Por ... Una Lesión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d624" }, "content" : " Provocado Por … Las Actividades Cotidianas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d625" }, "content" : " Se Alivia Al Agacharse O Reposar Sobre Algo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d626" }, "content" : "Provocado O Empeorado Por ...  Lesión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d627" }, "content" : "comenzó De Repente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d628" }, "content" : "empeora Poco A Poco Con El Tiempo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3020faf70c6044d629" }, "content" : "es Intermitente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52b" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d62a" }, "content" : "acompañado De ...  Congestión O Moqueo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d62b" }, "content" : "acompañado De ... Acidez Estomacal", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d62c" }, "content" : "acompañado De ... Amígdalas Rojas O Hinchadas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d62d" }, "content" : "acompañado De ... Dificultad O Dolor Al Tragar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d62e" }, "content" : "acompañado De ... Dificultad Para Respirar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d62f" }, "content" : "acompañado De ... Dolor De Cabeza O Dolor Facial", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d630" }, "content" : "acompañado De ... Dolores Musculares", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d631" }, "content" : "acompañado De ... Erupción En La Piel", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d632" }, "content" : "acompañado De ... Escalofríos O Sudoración", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d633" }, "content" : "acompañado De ... Estornudos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d634" }, "content" : "acompañado De ... Fiebre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d635" }, "content" : "acompañado De ... Inflamación Y Sensibilidad De Los Ganglios Linfáticos Del Cuello", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d636" }, "content" : "acompañado De ... Manchas Blancas O Pus En Las Amígdalas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d637" }, "content" : "acompañado De ... Mucosidad Nasal Amarillas O Verdosas ", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d638" }, "content" : "acompañado De ... Ojos Llorosos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d639" }, "content" : "acompañado De ... Palidez", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d63a" }, "content" : "acompañado De ... Piel O Labios De Color Azul", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d63b" }, "content" : "acompañado De ... Tos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3120faf70c6044d63c" }, "content" : "acompañado De … Ronquera O Afonía", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52c" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d63d" }, "content" : "Provocado O Empeorado Por ...  Las Actividades Cotidianas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d63e" }, "content" : "Provocado O Empeorado Por ...  Lesión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d63f" }, "content" : "Provocado O Empeorado Por ...  Reposo O Inactividad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d640" }, "content" : "Provocado O Empeorado Por ...  Uso Excesivo O Esfuerzo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d641" }, "content" : "acompañado De ... Debilidad Hombro O El Brazo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d642" }, "content" : "acompañado De ... Deformidad Visible", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d643" }, "content" : "acompañado De ... Disminución Del Rango De Movilidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d644" }, "content" : "acompañado De ... Entumecimiento U Hormigueo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d645" }, "content" : "acompañado De ... Espasmo Muscular", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d646" }, "content" : "acompañado De ... Incapacidad Para Mover El Hombro", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d647" }, "content" : "acompañado De ... Inflamación", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d648" }, "content" : "acompañado De ... Mucosidad Nasal Amarillas O Verdosas ", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d649" }, "content" : "acompañado De ... Rigidez En El Hombro", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d64a" }, "content" : "es Agudo O Fuerte", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d64b" }, "content" : "es Gradual", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d64c" }, "content" : "es Repentino", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3520faf70c6044d64d" }, "content" : "es Sordo O Es Constante", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52d" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d64e" }, "content" : "Acompañado De ... Pérdida De Visión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d64f" }, "content" : "Acompañado De ... Visión Borrosa", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d650" }, "content" : "Acompañado De ... Visión De Flashes Luminosos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d651" }, "content" : "Acompañado De ... Visión De Halos Alrededor De Las Luces", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d652" }, "content" : "Acompañado De ... Visión De Puntos Ciegos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d653" }, "content" : "Acompañado De ... Visión De Puntos Flotantes Oscuros", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d654" }, "content" : "Acompañado De ... Visión Pobre De Los Colores", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d655" }, "content" : "El Dolo De Ojos Es Más Bien  ... Malestar O Molestia", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d656" }, "content" : "El Dolo De Ojos Es Más Bien  ... Sequedad O Picor", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d657" }, "content" : "El Dolo De Ojos Es Más Bien  … Sensacion De Arena Dentro Del Ojo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d658" }, "content" : "El Dolo De Ojos Es Más Bien  … Sensacion De Arena U Objeto Dentro Del Ojo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d659" }, "content" : "Empeora  Al Mover El Ojo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d65a" }, "content" : "Empeora Con Aire Seco Y Cálido", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d65b" }, "content" : "Provocado O Empeorado Por ...  Lesión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d65c" }, "content" : "Provocado Por ...  Alergenos U Otros Irritantes", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d65d" }, "content" : "Provocado Por ... Una Lesión O Trauma", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d65e" }, "content" : "acompañado De ...  Bulto Rojo Y Doloroso En El Párpado", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d65f" }, "content" : "acompañado De ...  Congestión O Moqueo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d660" }, "content" : "acompañado De ...  Costra En Las Pestañas Después De Dormir", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d661" }, "content" : "acompañado De ...  Hinchazón Alrededor De Los Ojos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d662" }, "content" : "acompañado De ...  Lagrimeo Excesivo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d663" }, "content" : "acompañado De ...  Mucosidad Viscosa En O Alrededor Del Ojo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d664" }, "content" : "acompañado De ...  Ojo Enrojecido", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d665" }, "content" : "acompañado De ... Boca Seca", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d666" }, "content" : "acompañado De ... Dolor De Cabeza", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d667" }, "content" : "acompañado De ... Hemorragia En La Superficie De La Parte Blanca Del Ojo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d668" }, "content" : "acompañado De ... Náuseas O Vómitos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d669" }, "content" : "el Dolor De Ojos Es Más Bien ...  Dolor Fuerte", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d66a" }, "content" : "el Dolor De Ojos Es Más Bien ...  Enrojecimiento Sin Molestias O Dolor Realmante", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d66b" }, "content" : "el Dolor De Ojos Es Más Bien ...  Picazón O Ardor", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3820faf70c6044d66c" }, "content" : "el Dolor De Ojos Es Más Bien ...  Sensibilidad A La Luz", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52e" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d66d" }, "content" : "Provocado O Empeorado Por ...  El Esfuerzo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d66e" }, "content" : "Provocado O Empeorado Por ...  El Estrés", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d66f" }, "content" : "Provocado O Empeorado Por ...  Estar Tumbado Durante Mucho Tiempo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d670" }, "content" : "Provocado O Empeorado Por ...  Inspirar Profundamente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d671" }, "content" : "Provocado O Empeorado Por ...  Lesión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d672" }, "content" : "Provocado O Empeorado Por ...  Presionar El Pecho", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d673" }, "content" : "Provocado O Empeorado Por ... Al Comer O Beber", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d674" }, "content" : "Se Alivia Al Inclinarse Hacia Delante", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d675" }, "content" : "Se Alivia Al Reposar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d676" }, "content" : "Se Alivia Con Antiácidos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d677" }, "content" : "acompañado De ...  Ojo Enrojecido", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d678" }, "content" : "acompañado De ... Ansiedad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d679" }, "content" : "acompañado De ... Desmayos O Mareos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d67a" }, "content" : "acompañado De ... Dificultad O Dolor Al Tragar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d67b" }, "content" : "acompañado De ... Dolor De Cabeza", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d67c" }, "content" : "acompañado De ... Dolor En El Cuello, La Mandíbula, Los Brazos, Los Hombros O La Espalda", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d67d" }, "content" : "acompañado De ... Eructos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d67e" }, "content" : "acompañado De ... Falta De Aliento", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d67f" }, "content" : "acompañado De ... Fatiga Inexplicable", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d680" }, "content" : "acompañado De ... Fiebre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d681" }, "content" : "acompañado De ... Latido Del Corazón Rápido O Irregular", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d682" }, "content" : "acompañado De ... Náuseas O Vómitos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d683" }, "content" : "acompañado De ... Sudores", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d684" }, "content" : "acompañado De ... Tos Con Sangre O Flema", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d685" }, "content" : "acompañado De ... Tos Seca", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d686" }, "content" : "es Intermitente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d687" }, "content" : "es Más Bien  Agudo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d688" }, "content" : "es Más Bien  Como Compresión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d689" }, "content" : "es Más Bien  Constante O Corrosivo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3a20faf70c6044d68a" }, "content" : "es Más Bien  Desgarro O Rasgadura", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3b20faf70c6044d68b" }, "content" : "es Más Bien  Fuerte", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3b20faf70c6044d68c" }, "content" : "es Más Bien  Fuerte O Intenso", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3b20faf70c6044d68d" }, "content" : "es Más Bien  Opresión O Presión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3b20faf70c6044d68e" }, "content" : "es Más Bien  Repentino", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3b20faf70c6044d68f" }, "content" : "es Más Bien  Una Pequeña Molestia", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3b20faf70c6044d690" }, "content" : "es Más Bien Un Dolor Ardiente O Ardor", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d52f" } }
+{ "_id" : { "$oid" : "53875d3e20faf70c6044d691" }, "content" : "Empeora Al Estar Sentado O De Pie Mucho Tiempo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3e20faf70c6044d692" }, "content" : "Empeora Al Moverse", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3e20faf70c6044d693" }, "content" : "Empeora Con El Reposo O Inactividad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3e20faf70c6044d694" }, "content" : "Provocado Por ...  Uso Excesivo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3e20faf70c6044d695" }, "content" : "Provocado Por ... Una Lesión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3e20faf70c6044d696" }, "content" : "Provocado Por … Las Actividades Cotidianas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3e20faf70c6044d697" }, "content" : "acompañado De ... Calor En La Zona Afectada", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3e20faf70c6044d698" }, "content" : "acompañado De ... Contusión O Decoloración", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3e20faf70c6044d699" }, "content" : "acompañado De ... Crujido  O Chasquido", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3e20faf70c6044d69a" }, "content" : "acompañado De ... Disminución Del Rango De Movilidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3e20faf70c6044d69b" }, "content" : "acompañado De ... Dolor O Rigidez En Otras Articulaciones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3e20faf70c6044d69c" }, "content" : "acompañado De ... Enquilosamiento E Imposibilidad De Moverse", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3e20faf70c6044d69d" }, "content" : "acompañado De ... Enrojecimiento En La Piel", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3e20faf70c6044d69e" }, "content" : "acompañado De ... Erupciones Cutáneas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3f20faf70c6044d69f" }, "content" : "acompañado De ... Fiebre O Escalofríos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3f20faf70c6044d6a0" }, "content" : "acompañado De ... Incapacidad Para Cargar Peso", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3f20faf70c6044d6a1" }, "content" : "acompañado De ... Inflamación", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3f20faf70c6044d6a2" }, "content" : "acompañado De ... Rigidez", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3f20faf70c6044d6a3" }, "content" : "acompañado De ... Sensación De Inestabilidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3f20faf70c6044d6a4" }, "content" : "acompañado De ... Sensación De Roce", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3f20faf70c6044d6a5" }, "content" : "comenzó De Repente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3f20faf70c6044d6a6" }, "content" : "es Más Bien  Agudo O Intenso", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3f20faf70c6044d6a7" }, "content" : "es Más Bien  Sordo O Constante", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3f20faf70c6044d6a8" }, "content" : "está Situado A Lo Largo De Uno O Ambos Lados De La Rodilla", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3f20faf70c6044d6a9" }, "content" : "ha Ido Emperorando Poco A Poco", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3f20faf70c6044d6aa" }, "content" : "se Encuentra Alrededor De La Rótula", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3f20faf70c6044d6ab" }, "content" : "se Encuentra Detrás De La Rodilla", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d3f20faf70c6044d6ac" }, "content" : "se Encuentra En La Articulación De La Rodilla", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d530" } }
+{ "_id" : { "$oid" : "53875d4020faf70c6044d6ad" }, "content" : "Provocado O Empeorado Por ...  Actividad O Uso Excesivo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4020faf70c6044d6ae" }, "content" : "Provocado O Empeorado Por ...  Largos Períodos De Reposo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4020faf70c6044d6af" }, "content" : "Provocado O Empeorado Por ...  Lesión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4020faf70c6044d6b0" }, "content" : "Provocado O Empeorado Por ...  Zapatos Mal Ajustados", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4020faf70c6044d6b1" }, "content" : "abarca Todo El Pie", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4020faf70c6044d6b2" }, "content" : "acompañado De ... Calor En La Zona Afectada", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4020faf70c6044d6b3" }, "content" : "acompañado De ... Debilidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4020faf70c6044d6b4" }, "content" : "acompañado De ... Deformidad De Las Articulaciones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4020faf70c6044d6b5" }, "content" : "acompañado De ... Dificultad Para Ponerse De Puntillas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4020faf70c6044d6b6" }, "content" : "acompañado De ... Engrosamiento O Arrugamiento De La Piel", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4020faf70c6044d6b7" }, "content" : "acompañado De ... Enrojecimiento", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4020faf70c6044d6b8" }, "content" : "acompañado De ... Entumecimiento U Hormigueo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4020faf70c6044d6b9" }, "content" : "acompañado De ... Incapacidad Para Cargar Peso", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4120faf70c6044d6ba" }, "content" : "acompañado De ... Inflamación", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4120faf70c6044d6bb" }, "content" : "acompañado De ... Quemazón", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4120faf70c6044d6bc" }, "content" : "acompañado De ... Rigidez", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4120faf70c6044d6bd" }, "content" : "acompañado De ... Sensación De Inestabilidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4120faf70c6044d6be" }, "content" : "está Situado En El Talón", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4120faf70c6044d6bf" }, "content" : "está Situado En La Zona A Lo Largo Del Borde De La Uña Del Pie", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4120faf70c6044d6c0" }, "content" : "se Encuentra En La Parte Media Del Pie", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4120faf70c6044d6c1" }, "content" : "se Encuentra En La Parte Posterior Del Talón", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4120faf70c6044d6c2" }, "content" : "se Encuentra En La Parte Posterior Del Tobillo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4120faf70c6044d6c3" }, "content" : "se Encuentra En La Planta Del Pie", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4120faf70c6044d6c4" }, "content" : "se Encuentra En Un Dedo O La Parte Frontal Del Pie", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4120faf70c6044d6c5" }, "content" : "se Localiza En El Tobillo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d531" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6c6" }, "content" : "Empeora Al Toser, Levantar Peso O Agacharse", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6c7" }, "content" : "Empeora Con El Ciclo Menstrual", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6c8" }, "content" : "Empeora Con El Estrés", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6c9" }, "content" : "Empeora Con El Movimiento O La Actividad Física", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6ca" }, "content" : "acompañado De ... Abultamiento O Hinchazón En El Escroto", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6cb" }, "content" : "acompañado De ... Abultamiento O Protuberancia En La Ingle", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6cc" }, "content" : "acompañado De ... Arco Del Pie Plano O Aplanado", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6cd" }, "content" : "acompañado De ... Aumento De Peso", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6ce" }, "content" : "acompañado De ... Aumento Del Tamaño De Cintura", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6cf" }, "content" : "acompañado De ... Cambio En El Flujo Vaginal", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6d0" }, "content" : "acompañado De ... Cambios De Humor", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6d1" }, "content" : "acompañado De ... Dificultad Para Orinar O Vaciar Completamente La Vejiga", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6d2" }, "content" : "acompañado De ... Distensión Abdominal, Estreñimiento O Diarrea", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6d3" }, "content" : "acompañado De ... Dolor Al Defecar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6d4" }, "content" : "acompañado De ... Dolor En La Zona Baja De La Espalda", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6d5" }, "content" : "acompañado De ... Erupción En La Piel", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6d6" }, "content" : "acompañado De ... Fiebre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6d7" }, "content" : "acompañado De ... Heces Negras O Con Sangre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6d8" }, "content" : "acompañado De ... Imposibilidad De Lograr O Mantener La Erección", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6d9" }, "content" : "acompañado De ... Micción Dolorosa O Difícil", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6da" }, "content" : "acompañado De ... Micción Frecuente O Urgencia Para Orinar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6db" }, "content" : "acompañado De ... Náuseas O Vómitos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6dc" }, "content" : "acompañado De ... Orina Turbia Con Olor Fuerte", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6dd" }, "content" : "acompañado De ... Pene Curvado O Doblado Durante La Erección", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6de" }, "content" : "acompañado De ... Períodos Menstruales Irregulares", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6df" }, "content" : "acompañado De ... Protuberancias, Ampollas O Llagas Abiertas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6e0" }, "content" : "acompañado De ... Pérdida De Peso No Voluntaria", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6e1" }, "content" : "acompañado De ... Relación Sexual Dolorosa", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6e2" }, "content" : "acompañado De ... Sangrado Menstrual Excesivo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6e3" }, "content" : "acompañado De ... Sangrado Vaginal Anormal", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6e4" }, "content" : "acompañado De ... Sangre En El Semen", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6e5" }, "content" : "acompañado De ... Sangre En La Orina", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6e6" }, "content" : "acompañado De ... Secreciones De Pus  Por El Pene", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4520faf70c6044d6e7" }, "content" : "acompañado De ... Secreción Clara De Pene", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4620faf70c6044d6e8" }, "content" : "acompañado De ... Sensación De Mareo O Desmayo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4620faf70c6044d6e9" }, "content" : "acompañado De … Dolor De Espalda O De Costado", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4620faf70c6044d6ea" }, "content" : "comenzó De Repente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4620faf70c6044d6eb" }, "content" : "es Diferente A Los Dolores Menstruales Normales", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4620faf70c6044d6ec" }, "content" : "es Más Bien  Agudo O Tipo Retorcijones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4620faf70c6044d6ed" }, "content" : "es Más Bien  Cíclico O Recurrente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4620faf70c6044d6ee" }, "content" : "es Más Bien  Dolor Al Orinar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4620faf70c6044d6ef" }, "content" : "es Más Bien  Dolor Durante El Coito O La Eyaculación", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4620faf70c6044d6f0" }, "content" : "es Más Bien  Dolor Testicular", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4620faf70c6044d6f1" }, "content" : "es Más Bien  Picazón O Ardor Alrededor De Los Genitales, Las Nalgas O El Interior De Los Muslos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4620faf70c6044d6f2" }, "content" : "es Más Bien  Sordo O Constante", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4620faf70c6044d6f3" }, "content" : "es Más Bien  Una Molestia En El Pene", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4620faf70c6044d6f4" }, "content" : "es Más Bien  Una Molestia, Una Presión O Dolor En El Bajo Abdomen O En La Ingle", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4620faf70c6044d6f5" }, "content" : "es Más Bien Continuo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4620faf70c6044d6f6" }, "content" : "es Más Bien Dolor En Las Erecciones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d532" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d6f7" }, "content" : "Entumecimiento U Hormigueo Afecta A Una Mano", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d6f8" }, "content" : "Entumecimiento U Hormigueo Afecta Ambas Manos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d6f9" }, "content" : "Entumecimiento U Hormigueo Empezó De Repente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d6fa" }, "content" : "Entumecimiento U Hormigueo Empezó Poco A Poco", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d6fb" }, "content" : "Entumecimiento U Hormigueo Es Contínuo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d6fc" }, "content" : "Entumecimiento U Hormigueo Es Intermitente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d6fd" }, "content" : "Entumecimiento U Hormigueo Le Despierta Por La Noche", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d6fe" }, "content" : "Originado Por … Estar En Una Posición Durante Un Tiempo Largo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d6ff" }, "content" : "Provocado Por ...  Uso Repetitivo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d700" }, "content" : "Se Alivia Al Reposar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d701" }, "content" : "acompañado De ...  Entumecimiento, Dolor Y Cambios En El Color En Los Dedos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d702" }, "content" : "acompañado De ... Debilidad En El Brazo O En La Mano", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d703" }, "content" : "acompañado De ... Dolor Ardiente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d704" }, "content" : "acompañado De ... Dolor En El Brazo O En La Mano", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d705" }, "content" : "acompañado De ... Entumecimiento, Hormigueo O Debilidad En Las Piernas O Los Pies", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d706" }, "content" : "acompañado De ... Rigidez O Dolor En El Cuello", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4820faf70c6044d707" }, "content" : "acompañado De ... Sangrado Menstrual Excesivo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d533" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d708" }, "content" : "El Problema Va A Peor", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d709" }, "content" : "Provocado Por ... Una Lesión En El Cuello O La Parte Superior Del Hombro", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d70a" }, "content" : "acompañado De ...  Mayor Sensibilidad Al Frío", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d70b" }, "content" : "acompañado De ... Aumento De Peso No Deseado", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d70c" }, "content" : "acompañado De ... Debilidad Muscular", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d70d" }, "content" : "acompañado De ... Diarrea", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d70e" }, "content" : "acompañado De ... Dolor Abdominal", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d70f" }, "content" : "acompañado De ... Dolor En El Ano O El Recto", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d710" }, "content" : "acompañado De ... Dolores Musculares O Articulares", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d711" }, "content" : "acompañado De ... Fatiga Inexplicable", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d712" }, "content" : "acompañado De ... Fiebre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d713" }, "content" : "acompañado De ... Gas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d714" }, "content" : "acompañado De ... Mucosidad En Las Heces", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d715" }, "content" : "acompañado De ... Náuseas O Vómitos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d716" }, "content" : "acompañado De ... Piel Pálida Y Seca", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d717" }, "content" : "acompañado De ... Pérdida De Peso No Voluntaria", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d718" }, "content" : "acompañado De ... Retorcijones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d719" }, "content" : "acompañado De ... Sangre En Las Heces", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d71a" }, "content" : "es Constante O Recurrente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4920faf70c6044d71b" }, "content" : "es Reciente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d534" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d71c" }, "content" : " Se Produce A Lo Largo De Toda La Extremidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d71d" }, "content" : " Se Produce Alrededor De La Rodilla", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d71e" }, "content" : " Se Produce Alrededor Del Tobillo O Del Pie", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d71f" }, "content" : " Se Produce En Ambas Extremidades", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d720" }, "content" : " Se Produce En Una Extremidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d721" }, "content" : "Precedido Por Estar Sentado O De Pie Durante Mucho Tiempo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d722" }, "content" : "Precedido Por Inactividad O Después De Largos Períodos De Descanso", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d723" }, "content" : "Provocado O Empeorado Por ...  Actividad O Uso Excesivo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d724" }, "content" : "Provocado O Empeorado Por ...  Lesión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d725" }, "content" : "Se Alivia Al Caminar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d726" }, "content" : "acompañado De ... Deformidad De Las Articulaciones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d727" }, "content" : "acompañado De ... Endurecimiento De La Piel En La Zona Afectada", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d728" }, "content" : "acompañado De ... Entumecimiento U Hormigueo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d729" }, "content" : "acompañado De ... Falta De Aliento", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d72a" }, "content" : "acompañado De ... Falta De Apetito", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d72b" }, "content" : "acompañado De ... Fatiga O Debilidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d72c" }, "content" : "acompañado De ... Fácil Aparición De Moretones O Sangrado", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d72d" }, "content" : "acompañado De ... Hinchazón Abdominal U Otras Partes Del Cuerpo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d72e" }, "content" : "acompañado De ... Hinchazón Alrededor De Los Ojos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d72f" }, "content" : "acompañado De ... Imposibilidad De Apuntar Los Dedos Hacia Abajo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d730" }, "content" : "acompañado De ... Incapacidad Para Cargar Peso", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d731" }, "content" : "acompañado De ... Latido Del Corazón Rápido O Irregular", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d732" }, "content" : "acompañado De ... Molestias, Sensibilidad O Dolor En El área Afectada", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d733" }, "content" : "acompañado De ... Mucosidad En Las Heces", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d734" }, "content" : "acompañado De ... Náuseas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4b20faf70c6044d735" }, "content" : "acompañado De ... Orina De Color Marrón O Espumoso", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4c20faf70c6044d736" }, "content" : "acompañado De ... Pesadez En El Miembro Afectado", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4c20faf70c6044d737" }, "content" : "acompañado De ... Rigidez O Movimiento Limitado", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4c20faf70c6044d738" }, "content" : "acompañado De ... Toda La Pierna O La Pantorrilla Está Pálida Y Fría", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4c20faf70c6044d739" }, "content" : "acompañado De ... Tos Persistente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d4c20faf70c6044d73a" }, "content" : "acompañado De ... Vena Agrandada O Morada En La Pierna Afectada", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d535" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d73b" }, "content" : "Provocado O Empeorado Por ...  Cambio En La Posición Del Cuerpo O La Cabeza", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d73c" }, "content" : "Se Siente Una Sensación De Dar Vueltas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d73d" }, "content" : "Te Sientes Inestable", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d73e" }, "content" : "acompañado De ... Ansiedad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d73f" }, "content" : "acompañado De ... Confusión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d740" }, "content" : "acompañado De ... Dificultad Para Hablar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d741" }, "content" : "acompañado De ... Dolor De Cabeza Intenso", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d742" }, "content" : "acompañado De ... Dolor En El Cuello, La Mandíbula, Los Brazos, Los Hombros O La Espalda", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d743" }, "content" : "acompañado De ... Dolor En El Pecho O Presión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d744" }, "content" : "acompañado De ... Dolor O Presión En El Oído", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d745" }, "content" : "acompañado De ... Entumecimiento Facial", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d746" }, "content" : "acompañado De ... Entumecimiento O Parálisis De Un Lado Del Cuerpo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d747" }, "content" : "acompañado De ... Falta De Aliento", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d748" }, "content" : "acompañado De ... Fiebre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d749" }, "content" : "acompañado De ... Latidos Irregulares O Acelerados", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d74a" }, "content" : "acompañado De ... Náuseas O Vómitos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d74b" }, "content" : "acompañado De ... Pérdida De Audición", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d74c" }, "content" : "acompañado De ... Sudores", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d74d" }, "content" : "acompañado De ... Visión Borrosa O Doble", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d74e" }, "content" : "acompañado De ... Zumbido O Pitido En El Oído", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d74f" }, "content" : "están Empeorando O Progresando", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d750" }, "content" : "son Nuevos O Comenzaron De Repente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5020faf70c6044d751" }, "content" : "son Recurrentes O Ya Existián", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d536" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d752" }, "content" : "Provocado O Empeorado Por ...  Comer Ciertos Alimentos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d753" }, "content" : "Provocado O Empeorado Por ...  El Consumo De Alcohol", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d754" }, "content" : "Provocado O Empeorado Por ...  El Estrés", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d755" }, "content" : "acompañado De ... Acidez Estomacal", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d756" }, "content" : "acompañado De ... Ansiedad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d757" }, "content" : "acompañado De ... Cambio En Hábitos De Orinar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d758" }, "content" : "acompañado De ... Confusión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d759" }, "content" : "acompañado De ... Diarrea", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d75a" }, "content" : "acompañado De ... Dificultad Para Respirar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d75b" }, "content" : "acompañado De ... Distensión Abdominal O Abdomen Hinchado", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d75c" }, "content" : "acompañado De ... Dolor Abdominal,molestias O Retorcijones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d75d" }, "content" : "acompañado De ... Dolor De Cabeza", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d75e" }, "content" : "acompañado De ... Dolor En El Pecho, Opresión O Malestar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d75f" }, "content" : "acompañado De ... Dolor Muscular O Articular", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d760" }, "content" : "acompañado De ... Estreñimiento", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d761" }, "content" : "acompañado De ... Falta De Apetito", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d762" }, "content" : "acompañado De ... Fiebre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d763" }, "content" : "acompañado De ... Gases", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d764" }, "content" : "acompañado De ... Heces Negras O Con Sangre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d765" }, "content" : "acompañado De ... Hinchazón De Los Labios, Cara Y Lengua", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d766" }, "content" : "acompañado De ... Hinchazón De Pies Y Tobillos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d767" }, "content" : "acompañado De ... Latidos Irregulares O Acelerados", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5420faf70c6044d768" }, "content" : "acompañado De ... Mareos O Desmayos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5520faf70c6044d769" }, "content" : "acompañado De ... Orina Oscura", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5520faf70c6044d76a" }, "content" : "acompañado De ... Picazón En La Piel", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5520faf70c6044d76b" }, "content" : "acompañado De ... Piel U Ojos Amirellentos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5520faf70c6044d76c" }, "content" : "acompañado De ... Pérdida De Peso No Voluntaria", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5520faf70c6044d76d" }, "content" : "acompañado De ... Sensación De Saciedad Después De Comer Pequeñas Cantidades De Comida", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5520faf70c6044d76e" }, "content" : "acompañado De ... Sudores", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5520faf70c6044d76f" }, "content" : "acompañado De ... Urticaria O Erupción", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5520faf70c6044d770" }, "content" : "es Intermitente O Esporádico", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5520faf70c6044d771" }, "content" : "es Reciente ", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5520faf70c6044d772" }, "content" : "es Repentina ", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d537" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d773" }, "content" : "La Frecuencia Cardiaca Es Más Lenta De Lo Normal", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d774" }, "content" : "La Frecuencia Cardiaca Es Más Rápida De Lo Normal", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d775" }, "content" : "La Frecuencia Cardíaca Es Irregular", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d776" }, "content" : "Las Palpitaciones Ocurren A Menudo Al Hacer Ejercicio", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d777" }, "content" : "Palpitaciones Suelen Ocurrir Cuando Se Está Ansioso O Estresado", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d778" }, "content" : "Precedido Por El Consumo De Cafeína O Alcohol", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d779" }, "content" : "Precedido Por El Consumo De Cigarrillos O Drogas Recreativas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d77a" }, "content" : "Precedido Por El Uso De Medicamentos O Suplementos De Hierbas Naturales", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d77b" }, "content" : "acompañado De ... Desmayos O Mareos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d77c" }, "content" : "acompañado De ... Diarrea", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d77d" }, "content" : "acompañado De ... Dificultad Para Dormir", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d77e" }, "content" : "acompañado De ... Dolor De Cabeza", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d77f" }, "content" : "acompañado De ... Dolor En El Pecho O Malestar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d780" }, "content" : "acompañado De ... Falta De Aliento", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d781" }, "content" : "acompañado De ... Fatiga Inexplicable", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d782" }, "content" : "acompañado De ... Mareo O Aturdimiento", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d783" }, "content" : "acompañado De ... Nerviosismo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d784" }, "content" : "acompañado De ... Náuseas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d785" }, "content" : "acompañado De ... Pérdida Repentina De Peso", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d786" }, "content" : "acompañado De ... Sudores", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5720faf70c6044d787" }, "content" : "acompañado De ... Temblores", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d538" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d788" }, "content" : "El Problema Consiste En ...  Decoloración De Los Colores", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d789" }, "content" : "El Problema Consiste En ...  Incapacidad Para Distinguir Ciertos Matices De Color", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d78a" }, "content" : "El Problema Consiste En ...  Pérdida De La Visión Lateral", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d78b" }, "content" : "El Problema Consiste En ...  Pérdida De La Visión, Parcial O Total", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d78c" }, "content" : "El Problema Consiste En ...  Sensibilidad A La Luz", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d78d" }, "content" : "El Problema Consiste En ...  Visión Borrosa A Cualquier Distancia", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d78e" }, "content" : "El Problema Consiste En ...  Visión De Objetos Como Si Estuviesen En Un Túnel", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d78f" }, "content" : "El Problema Consiste En ...  Visión De Resplandores En  Luces Brillantes", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d790" }, "content" : "El Problema Consiste En ...  Visión Doble", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d791" }, "content" : "El Problema Consiste En ...  Visión Nublada, Borrosa U Opaca", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d792" }, "content" : "El Problema Consiste En ... Los Objetos Parecen Torcidos O Distorsionadas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d793" }, "content" : "El Problema Consiste En ... Mala Visión Nocturna", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d794" }, "content" : "El Problema Consiste En ... Mancha Borrosa O Ciega En El Centro De La Visión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d795" }, "content" : "El Problema Consiste En ... Rayas Oscuras O Tiras Rojas Bloqueando La Visión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d796" }, "content" : "El Problema Consiste En ... Ver Cosas Inexistentes, O Alucinaciones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d797" }, "content" : "El Problema Consiste En ... Ver Líneas Brillantes En Zigzag", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d798" }, "content" : "El Problema Consiste En ... Visión De Destellos De Luz", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d799" }, "content" : "El Problema Consiste En ... Visión De Halos Alrededor De Las Luces", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d79a" }, "content" : "El Problema Consiste En ... Visión De Manchas Flotantes O Tiras En El Campo De Visión", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d79b" }, "content" : "El Problema Consiste En … Visión Borrosa De Objetos Cercanos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d79c" }, "content" : "El Problema Consiste En … Visión Borrosa De Objetos Lejanos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d79d" }, "content" : "El Problema Consiste En … Visión De Puntos O Estrellas Brillantes", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5920faf70c6044d79e" }, "content" : "La Duración Es De Unos Minutos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d79f" }, "content" : "La Duración Es Por Lo General No Más De 30 Minutos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7a0" }, "content" : "Precedido Por El Uso De Medicamentos O Suplementos De Hierbas Naturales", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7a1" }, "content" : "Problema Afecta A ... Ambos Ojos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7a2" }, "content" : "Problema Afecta A ... Un Ojo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7a3" }, "content" : "También Existen Otros Trastornos Sensoriales", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7a4" }, "content" : "Vision Mejora Un Poco  Colocando Los Objetos Cerca De La Cara", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7a5" }, "content" : "Vision Mejora Un Poco  Con El Uso De Iluminación Brillante", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7a6" }, "content" : "Vision Mejora Un Poco  Con Los Objetos Lejanos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7a7" }, "content" : "Vision Mejora Un Poco  Entrecerrando Los Ojos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7a8" }, "content" : "acompañado De ... Confusión O Dificultad Para Hablar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7a9" }, "content" : "acompañado De ... Dolor De Cabeza", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7aa" }, "content" : "acompañado De ... Dolor Ocular O Molestia", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7ab" }, "content" : "acompañado De ... Enrojecimiento De Los Ojos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7ac" }, "content" : "acompañado De ... Entumecimiento O Parálisis De Un Lado Del Cuerpo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7ad" }, "content" : "acompañado De ... Fatiga Visual", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7ae" }, "content" : "acompañado De ... Historial De Diabetes", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7af" }, "content" : "acompañado De ... Mareos O Dificultad Para Caminar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7b0" }, "content" : "es Gradual O Progresivo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7b1" }, "content" : "es Precedida Por El Uso Reciente De Antibióticos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5a20faf70c6044d7b2" }, "content" : "es Reciente ", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5b20faf70c6044d7b3" }, "content" : "son Repentinos ", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d539" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7b4" }, "content" : "El Problema Consiste En ...  Dificultad Para Vaciar La Vejiga O Chorro De Orina Débil", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7b5" }, "content" : "El Problema Consiste En ...  Dolor O Ardor Al Orinar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7b6" }, "content" : "El Problema Consiste En ...  Hinchazón Alrededor De Los Ojos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7b7" }, "content" : "El Problema Consiste En ...  Micción Frecuente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7b8" }, "content" : "El Problema Consiste En ...  Picazón O Ardor Alrededor De Los Genitales, Las Nalgas O El Interior De Los Muslos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7b9" }, "content" : "El Problema Consiste En ...  Pérdida Involuntaria De Orina", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7ba" }, "content" : "El Problema Consiste En ...  Sangre En La Orina", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7bb" }, "content" : "El Problema Consiste En ... Dificultad Para Iniciar La Micción", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7bc" }, "content" : "El Problema Consiste En ... Dolor En El Bajo Abdomen O En La Ingle", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7bd" }, "content" : "El Problema Consiste En ... Dolor En La Espalda O En El Costado", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7be" }, "content" : "El Problema Consiste En ... Eyaculación Dolorosa", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7bf" }, "content" : "El Problema Consiste En ... Necesidad Fuerte Y Persistente De Orinar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7c0" }, "content" : "El Problema Consiste En ... Orina Turbia", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7c1" }, "content" : "El Problema Consiste En ... Picazón O Ardor Alrededor De Los Genitales, Las Nalgas O El Interior De Los Muslos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7c2" }, "content" : "El Problema Consiste En ... Relaciones Sexuales Dolorosas", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7c3" }, "content" : "El Problema Consiste En … Se Despierta Dos O Más Veces En La Noche Para Orinar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7c4" }, "content" : "Empeora Con El Ciclo Menstrual", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7c5" }, "content" : "Empeora Con El Estrés", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7c6" }, "content" : "acompañado De ... Cambio En El Flujo Vaginal", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7c7" }, "content" : "acompañado De ... Fatiga O Debilidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7c8" }, "content" : "acompañado De ... Fiebre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7c9" }, "content" : "acompañado De ... Mucha Sed O Hambre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7ca" }, "content" : "acompañado De ... Náuseas O Vómitos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7cb" }, "content" : "acompañado De ... Olor Vaginal", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7cc" }, "content" : "acompañado De ... Protuberancias, Ampollas O Llagas Abiertas Alrededor De Los Genitales", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7cd" }, "content" : "acompañado De ... Pérdida De Peso No Voluntaria", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7ce" }, "content" : "acompañado De ... Secreciones De Pus  Por El Pene", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7cf" }, "content" : "acompañado De ... Secreción Clara De Pene", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d5d20faf70c6044d7d0" }, "content" : "acompañado De ... Visión Borrosa", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53a" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7d1" }, "content" : "Aparece Sangre Dentro O Alrededor  Las Heces", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7d2" }, "content" : "Aparece Sangre En El Inodoro O En El Papel Higiénico", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7d3" }, "content" : "El Problema Consiste En ... Necesidad Fuerte Y Persistente De Orinar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7d4" }, "content" : "Provocado O Empeorado Por ...  Comer Ciertos Alimentos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7d5" }, "content" : "Provocado O Empeorado Por ...  El Consumo De Alcohol O Cafeína", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7d6" }, "content" : "Provocado O Empeorado Por ...  Esforzarse Al Defecar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7d7" }, "content" : "Se Alivia Al Beber Más Agua", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7d8" }, "content" : "Se Alivia Al Comer Más Fibra", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7d9" }, "content" : "Se Alivia Con El Consumo De Ciertos Alimentos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7da" }, "content" : "acompañado De ... Cambio En Sus Hábitos Intestinales", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7db" }, "content" : "acompañado De ... Diarrea", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7dc" }, "content" : "acompañado De ... Dolor Abdominal O Retorcijones", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7dd" }, "content" : "acompañado De ... Dolor Al Defecar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7de" }, "content" : "acompañado De ... Dolor Rectal", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7df" }, "content" : "acompañado De ... Estreñimiento", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7e0" }, "content" : "acompañado De ... Fatiga O Debilidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7e1" }, "content" : "acompañado De ... Fiebre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7e2" }, "content" : "acompañado De ... Heces De Poco Tamaño", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7e3" }, "content" : "acompañado De ... Necesidad Frecuente De Defecar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7e4" }, "content" : "acompañado De ... Náuseas O Vómitos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7e5" }, "content" : "acompañado De ... Picor En El Ano", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6320faf70c6044d7e6" }, "content" : "acompañado De ... Pérdida De Peso No Voluntaria", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53b" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7e7" }, "content" : "Provocado O Empeorado Por ...  Alergenos O Irritantes", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7e8" }, "content" : "Provocado O Empeorado Por ...  Esforzarse Al Defecar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7e9" }, "content" : "Provocado O Empeorado Por ...  Fumar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7ea" }, "content" : "Provocado O Empeorado Por ...  Hacer Esfuerzos Leve O Moderado", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7eb" }, "content" : "Provocado O Empeorado Por ...  La Exposición Al Aire Frío", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7ec" }, "content" : "acompañado De ... Dolor En El Pecho, Opresión O Malestar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7ed" }, "content" : "acompañado De ... Tos Seca", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7ee" }, "content" : "es Constante O Recurrente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7ef" }, "content" : "es Nuevo Comenzó Recientemente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7f0" }, "content" : " Acompañado De ... Aumento Rápido De Peso ", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7f1" }, "content" : " Acompañado De ... Dificultad O Dolor Al Tragar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7f2" }, "content" : " Acompañado De ... Dolor De Garganta", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7f3" }, "content" : " Acompañado De ... Dolor En El Pecho, Opresión O Malestar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7f4" }, "content" : " Acompañado De ... Falta De Aliento", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7f5" }, "content" : " Acompañado De ... Fatiga O Debilidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7f6" }, "content" : " Acompañado De ... Fiebre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7f7" }, "content" : " Acompañado De ... Hinchazón Abdominal U Otras Partes Del Cuerpo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7f8" }, "content" : " Acompañado De ... Latidos Irregulares O Acelerados", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7f9" }, "content" : " Acompañado De ... Piel O Labios De Color Azul", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7fa" }, "content" : " Acompañado De ... Tos Que Produce Esputo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7fb" }, "content" : " Acompañado De ... Tos Seca", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7fc" }, "content" : " Acompañado De … Ronquera O Afonía", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7fd" }, "content" : " Es Continuo O Recurrente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7fe" }, "content" : " Es Nuevo O Reciente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d7ff" }, "content" : " Provocado O Empeorado Por ...  Fumar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d6520faf70c6044d800" }, "content" : " Provocado O Empeorado Por ...  Hacer Esfuerzos Leve O Moderado", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53c" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d801" }, "content" : "La Tos Es Seca", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d802" }, "content" : "La Tos Produce Flemas O Esputos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d803" }, "content" : "Provocado O Empeorado Por ...  Alergenos O Irritantes", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d804" }, "content" : "acompañado De ...  Congestión O Moqueo", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d805" }, "content" : "acompañado De ... Dificultad O Dolor Al Tragar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d806" }, "content" : "acompañado De ... Dolor De Cabeza O Dolor Facial", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d807" }, "content" : "acompañado De ... Dolor De Garganta", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d808" }, "content" : "acompañado De ... Dolor U Opresión En El Pecho", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d809" }, "content" : "acompañado De ... Dolores Musculares", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d80a" }, "content" : "acompañado De ... Escalofríos O Sudoración", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d80b" }, "content" : "acompañado De ... Estornudos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d80c" }, "content" : "acompañado De ... Falta De Aliento", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d80d" }, "content" : "acompañado De ... Fatiga O Debilidad", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d80e" }, "content" : "acompañado De ... Fiebre", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d80f" }, "content" : "acompañado De ... Ojos Llorosos O Con Picor En Los Ojos", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d810" }, "content" : "acompañado De ... Pérdida De Apetito", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d811" }, "content" : "acompañado De ... Ronquera", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d812" }, "content" : "acompañado De ... Sibilancias  O Jadeos Al Respirar", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d813" }, "content" : "es Constante O Recurrente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d814" }, "content" : "es Nueva Comenzó Recientemente", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }
+{ "_id" : { "$oid" : "53875d7c20faf70c6044d815" }, "content" : "va Cada Vez A Peor", "sintoma_id" : { "$oid" : "53875d1920faf70c6044d53d" } }

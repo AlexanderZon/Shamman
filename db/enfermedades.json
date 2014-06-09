@@ -1,0 +1,253 @@
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f18" }, "content" : "Sinusitis Aguda" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f19" }, "content" : "Sinusitis Aguda" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1a" }, "content" : "fiebre Del Heno" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1b" }, "content" : "pólipos Nasales" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1c" }, "content" : "rinitis No Alérgica" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1d" }, "content" : "Sinusitis Crónica" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1e" }, "content" : "tabique Desviado" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1f" }, "content" : "resfriado Común" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f20" }, "content" : "Diarrea Asociada A Antibióticos" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f21" }, "content" : "La Enfermedad Celíaca" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f22" }, "content" : "Enfermedad De Crohn" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f23" }, "content" : "intoxicación Alimentaria" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f24" }, "content" : "Síndrome Del Intestino Irritable" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f25" }, "content" : "colitis Isquémica" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f26" }, "content" : "intolerancia A La Lactosa" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f27" }, "content" : "Colitis Ulcerosa" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f28" }, "content" : "La Obstrucción Intestinal" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f29" }, "content" : "colitis Seudomembranosa" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f2a" }, "content" : "Diarrea Del Viajero" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f2b" }, "content" : "gastroenteritis Virica" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f2c" }, "content" : "Anemia" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f2d" }, "content" : "enfermedad Arterial Coronaria" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f2e" }, "content" : "hipertensión Pulmonar" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f2f" }, "content" : "enfisema" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f30" }, "content" : "ataque Del Corazón" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f31" }, "content" : "La Insuficiencia Cardíaca" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f32" }, "content" : "La Enfermedad Pulmonar Intersticial" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f33" }, "content" : "Los Ataques De Pánico Y El Trastorno De Pánico" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f34" }, "content" : "pleuresía" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f35" }, "content" : "neumonía" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f36" }, "content" : "neumotórax" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f37" }, "content" : "embolia Pulmonar" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f38" }, "content" : "Asma" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f39" }, "content" : "Bronquitis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f3a" }, "content" : "cáncer De Esófago" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f3b" }, "content" : "cáncer De Boca" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f3c" }, "content" : "Cáncer De Garganta" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f3d" }, "content" : "esclerosis Lateral Amiotrófica" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f3e" }, "content" : "Sequedad En La Boca" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f3f" }, "content" : "sindrome De La Boca Seca" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f40" }, "content" : "espasmos  Esofágicos" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f41" }, "content" : "Esclerodermia Limitada " }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f42" }, "content" : "Síndrome De Sjogren" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f43" }, "content" : "Reflujo Exográstrico" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f44" }, "content" : "Cáncer De Colon" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f45" }, "content" : "enfermedad Celíaca" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f46" }, "content" : "Colecistitis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f47" }, "content" : "Diverticulitis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f48" }, "content" : "Endometriosis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f49" }, "content" : "intoxicación Alimentaria" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f4a" }, "content" : "Cálculos Biliares" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f4b" }, "content" : "obstrucción Intestinal" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f4c" }, "content" : "Cálculos Renales" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f4d" }, "content" : "Los Cólicos Menstruales" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f4e" }, "content" : "Pancreatitis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f4f" }, "content" : "La úlcera Péptica" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f50" }, "content" : "Herpes" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f51" }, "content" : "Apendicitis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f52" }, "content" : "intolerancia A La Lactosa" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f53" }, "content" : "Gases" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f54" }, "content" : "Gastritis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f55" }, "content" : "dolor De Estómago " }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f56" }, "content" : "Estreñimiento" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f57" }, "content" : "Diarrea" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f58" }, "content" : "gastroenteritis Viral " }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f59" }, "content" : "tumor Cerebral" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f5a" }, "content" : "cefalea En Racimos" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f5b" }, "content" : "encefalitis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f5c" }, "content" : "Arteritis De Células Gigantes" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f5d" }, "content" : "meningitis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f5e" }, "content" : "migraña" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f5f" }, "content" : "dolores De Cabeza De Rebote" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f60" }, "content" : "dolores De Cabeza Sinusal" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f61" }, "content" : "dolor De Cabeza Relacionado Con La Tensión Arterial" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f62" }, "content" : "trastornos Temporomandibulares" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f63" }, "content" : "neuralgia Del Trigémino" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f64" }, "content" : "necrosis Avascular" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f65" }, "content" : "dislocación De Cadera" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f66" }, "content" : "fractura De Cadera" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f67" }, "content" : "Desgarro Del Labrum De La Cadera" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f68" }, "content" : "La Artritis Reumatoide" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f69" }, "content" : "bursitis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f6a" }, "content" : "tendinitis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f6b" }, "content" : "distonía Cervical" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f6c" }, "content" : "espondilosis Cervical" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f6d" }, "content" : "estenosis Espinal" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f6e" }, "content" : "Hernia De Disco" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f6f" }, "content" : "dolor De Cabeza Relaccionado Con La Tensión Arterial" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f70" }, "content" : "artritis Reumatoide" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f71" }, "content" : "Esguinces Y Torceduras" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f72" }, "content" : "tumor Espinal" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f73" }, "content" : "espondilitis Anquilosante" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f74" }, "content" : "síndrome De Dolor Miofascial" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f75" }, "content" : "osteoartritis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f76" }, "content" : "Sinusitis Aguda" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f77" }, "content" : "epiglotitis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f78" }, "content" : "fiebre De Heno" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f79" }, "content" : "mononucleosis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f7a" }, "content" : "faringitis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f7b" }, "content" : "amigdalitis" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f7c" }, "content" : "ERGE" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f7d" }, "content" : "laringitis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f7e" }, "content" : "Gripe" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f7f" }, "content" : "Luxación Del Hombro" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f80" }, "content" : "hombro Congelado" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f81" }, "content" : "Lesión Del Manguito De Los Rotadores" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f82" }, "content" : "Separado Hombro" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f83" }, "content" : "blefaritis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f84" }, "content" : "Salpicaduras De Productos Químicos En El Ojo: Primeros Auxilios" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f85" }, "content" : "Abrasión Corneal : Primeros Auxilios" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f86" }, "content" : "Sequedad En Los Ojos" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f87" }, "content" : "Cuerpo Extraño En El Ojo: Primeros Auxilios" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f88" }, "content" : "glaucoma" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f89" }, "content" : "Iritis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f8a" }, "content" : "migraña Con Aura" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f8b" }, "content" : "neuritis óptica" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f8c" }, "content" : "orzuelo" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f8d" }, "content" : "Síndrome De Sjogren" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f8e" }, "content" : "uveítis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f8f" }, "content" : "Ojo Rojo " }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f90" }, "content" : "Hemorragia Subconjuntival " }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f91" }, "content" : "angina" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f92" }, "content" : "costillas Rotas" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f93" }, "content" : "ataque Al Corazón" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f94" }, "content" : "ataque De Pánico " }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f95" }, "content" : "disección Aórtica" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f96" }, "content" : "Pericarditis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f97" }, "content" : "costocondritis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f98" }, "content" : "espasmos  Esofágicos" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f99" }, "content" : "Herpes" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f9a" }, "content" : "insuficiencia Cardíaca" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f9b" }, "content" : "Reflujo Exogástrico" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f9c" }, "content" : "acidez" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f9d" }, "content" : "Lesión Del Ligamento Cruzado Anterior" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f9e" }, "content" : "Quiste De Baker" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7f9f" }, "content" : "condromalacia Rotuliana" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fa0" }, "content" : "Bursitis De Rodilla" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fa1" }, "content" : "osteoartritis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fa2" }, "content" : "Tendinitis Rotuliana" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fa3" }, "content" : "Lesión Del Ligamento Cruzado Posterior" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fa4" }, "content" : "Artritis Séptica" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fa5" }, "content" : "Menisco Rasgado" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fa6" }, "content" : "Gota" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fa7" }, "content" : "Seudogota" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fa8" }, "content" : "tendinitis De Aquiles" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fa9" }, "content" : "Ruptura Del Tendón De Aquiles" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7faa" }, "content" : "Fractura De Tobillo / Pie Roto" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fab" }, "content" : "bursitis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fac" }, "content" : "Pies-Planos" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fad" }, "content" : "Las Uñas Encarnadas" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fae" }, "content" : "fracturas Por Estrés" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7faf" }, "content" : "Metatarsalgia" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fb0" }, "content" : "neuroma De Morton" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fb1" }, "content" : "neuropatía Periférica" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fb2" }, "content" : "fascitis Plantar" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fb3" }, "content" : "verrugas Plantares" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fb4" }, "content" : "Juanetes" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fb5" }, "content" : "Callos" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fb6" }, "content" : "Cáncer De Testículo" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fb7" }, "content" : "cáncer De Ovario" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fb8" }, "content" : "La Torsión Testicular" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fb9" }, "content" : "Chlamydia" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fba" }, "content" : "El Herpes Genital" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fbb" }, "content" : "gonorrea" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fbc" }, "content" : "hernia Inguinal" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fbd" }, "content" : "infección Del Riñón" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fbe" }, "content" : "Los Cálculos Renales" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fbf" }, "content" : "orquitis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fc0" }, "content" : "prostatitis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fc1" }, "content" : "masa Escrotal" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fc2" }, "content" : "Infección Del Tracto Urinario" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fc3" }, "content" : "El Dolor Pélvico Crónico" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fc4" }, "content" : "menorragia " }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fc5" }, "content" : "Mittelschmerz" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fc6" }, "content" : "enfermedad Pélvica Inflamatoria " }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fc7" }, "content" : "sequedad Vaginal" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fc8" }, "content" : "Vaginitis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fc9" }, "content" : "vulvodinia" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fca" }, "content" : "verrugas Genitales" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fcb" }, "content" : "Enfermedad De Peyronie" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fcc" }, "content" : "cálculos En La Vejiga" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fcd" }, "content" : "quistes De Ovario" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fce" }, "content" : "fibromas Uterinos" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fcf" }, "content" : "epididimitis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fd0" }, "content" : "cistitis Intersticial" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fd1" }, "content" : "El Embarazo Ectópico" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fd2" }, "content" : "cólicos Menstruales" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fd3" }, "content" : "síndrome Premenstrual " }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fd4" }, "content" : "Lesión Del Plexo Braquial" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fd5" }, "content" : "La Neuropatía Periférica" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fd6" }, "content" : "Pinzamiento De Un Nervio" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fd7" }, "content" : "Síndrome Del Túnel Carpiano" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fd8" }, "content" : "Cáncer De Colon" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fd9" }, "content" : "fisura Anal O Hemorroides" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fda" }, "content" : "Diverticulitis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fdb" }, "content" : "El Hipotiroidismo " }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fdc" }, "content" : "Cirrosis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fdd" }, "content" : "Celulitis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fde" }, "content" : "trombosis Venosa Profunda " }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fdf" }, "content" : "Glomerulonefritis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fe0" }, "content" : "insuficiencia Cardíaca" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fe1" }, "content" : "El Linfedema" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fe2" }, "content" : "Tromboflebitis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fe3" }, "content" : "síndrome Nefrótico" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fe4" }, "content" : "Varices" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fe5" }, "content" : "ataques De Pánico Y El Trastorno De Pánico" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fe6" }, "content" : "apoplejía O Derrame Cerebral" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fe7" }, "content" : "Neuroma Acústico" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fe8" }, "content" : "vértigo Posicional Paroxístico Benigno " }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fe9" }, "content" : "Intoxicación Por Monóxido De Carbono" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fea" }, "content" : "arritmias Cardíacas" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7feb" }, "content" : "Enfermedad De Meniere" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fec" }, "content" : "Ataque Isquémico Transitorio " }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fed" }, "content" : "Hipotensión Ortostática " }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fee" }, "content" : "Infección Del Oído " }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fef" }, "content" : "insuficiencia Hepática Aguda" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7ff0" }, "content" : "insuficiencia Renal Crónica" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7ff1" }, "content" : "La Gastroparesia" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7ff2" }, "content" : "hepatitis " }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7ff3" }, "content" : "Apendicitis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7ff4" }, "content" : "alergia A Los Alimentos" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7ff5" }, "content" : "Gastritis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7ff6" }, "content" : "Fibrilación Auricular" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7ff7" }, "content" : "Bradicardia" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7ff8" }, "content" : "Contracciones Ventriculares Prematuras " }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7ff9" }, "content" : "hipertiroidismo " }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7ffa" }, "content" : "taquicardia" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7ffb" }, "content" : "astigmatismo" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7ffc" }, "content" : "Cataratas" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7ffd" }, "content" : "Retinopatía Diabética" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7ffe" }, "content" : "Degeneración Macular Seca" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa7fff" }, "content" : "hipermetropía" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa8000" }, "content" : "miopía" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa8001" }, "content" : "presbicia" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa8002" }, "content" : "degeneración Macular Húmeda" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa8003" }, "content" : "desprendimiento De Retina" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa8004" }, "content" : "herpes Genital" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa8005" }, "content" : "Ampliación De La Glándula De Prostática" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa8006" }, "content" : "diabetes Tipo 1" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa8007" }, "content" : "Claidimia" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa8008" }, "content" : "vejiga Hiperactiva" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa8009" }, "content" : "incontinencia Urinaria" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa800a" }, "content" : "pólipos De Colon" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa800b" }, "content" : "isquemia Intestinal" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa800c" }, "content" : "Proctitis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa800d" }, "content" : "Colitis Ulcerosa" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa800e" }, "content" : "Estreñimiento" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa800f" }, "content" : "La Fisura Anal" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa8010" }, "content" : "hemorroides" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa8011" }, "content" : "Asma" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa8012" }, "content" : "Bronquitis" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa8013" }, "content" : "Sinusitis Crónica" }
+{ "_id" : { "$oid" : "53875d8b20faf70b40fa8014" }, "content" : "Gripe" }
