@@ -124,6 +124,10 @@ module.exports.routes = {
     controller: 'adminDiseases',
     action: 'get'
   },
+  'get /admin/diseases/properties/:id?': {
+    controller: 'adminDiseases',
+    action: 'getProperties'
+  },
   'get /admin/diseases/create': {
     controller: 'adminDiseases',
     action: 'getCreate'
@@ -131,6 +135,9 @@ module.exports.routes = {
   'post /admin/diseases/create': {
     controller: 'adminDiseases',
     action: 'create'
+  },
+  'get /admin/diseases/update': function(req, res){
+    res.redirect('/admin/diseases');
   },
   'get /admin/diseases/update/:id?': {
     controller: 'adminDiseases',
@@ -144,9 +151,20 @@ module.exports.routes = {
     controller: 'adminDiseases',
     action: 'getDelete'
   },
+  'get /admin/disease/delete': function(req, res){
+    res.redirect('/admin/disease');
+  },
   'post /admin/diseases/delete/:id': {
     controller: 'adminDiseases',
     action: 'delete'
+  },
+  'get /admin/diseases/:id?/properties':{
+    controller: 'adminDiseases',
+    action: 'getOneProperties'
+  },
+  'get /admin/diseases/:id?/property':{
+    controller: 'adminDiseases',
+    action: 'getPropertiesNames'
   },
   'get /admin/diseases/:id?':{
     controller: 'adminDiseases',

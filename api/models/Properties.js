@@ -23,7 +23,7 @@ module.exports = {
 			type: 'TEXT',
 		},
 		user_id: {
-			type: 'INTEGER',
+			type: 'STRING',
 		},
 	},
 };

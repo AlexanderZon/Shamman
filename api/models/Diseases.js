@@ -10,7 +10,7 @@ module.exports = {
 	tableName: 'sh_diseases',
 	attributes: {
 		id: {
-			type: 'INTEGER',
+			type: 'STRING',
 		},
 		title: {
 			type: 'STRING',
@@ -20,7 +20,7 @@ module.exports = {
 			type: 'TEXT',
 		},
 		user_id: {
-			type: 'INTEGER',
+			type: 'STRING',
 		},
 	},
 };

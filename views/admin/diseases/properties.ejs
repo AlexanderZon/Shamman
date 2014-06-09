@@ -1,12 +1,12 @@
-<% title = 'Shamman | ' + __('Enfermedades') %>
+<% title = 'Shamman | ' + __('Propiedades') %>
 <script src="/js/jquery-1.11.1.min.js"></script>
 <div class="m-b-md">
-  <h3 class="m-b-none">Enfermedades</h3>
+  <h3 class="m-b-none">Propiedades</h3>
 </div>
 <section class="panel panel-default">
   <div class="row wrapper">
-    <div class="col-sm-5 m-b-xs">
-      <h4>Listado de Enfermedades</h4>
+    <div class="col-sm-9 m-b-xs">
+      <h4>Listado de Propiedades de la Enfermedad: <%= disease.title %></h4>
     </div>
     <div class="col-sm-4 m-b-xs">
     </div>
@@ -24,43 +24,43 @@
     <table class="table table-striped b-t b-light">
       <thead>
         <tr>
-          <th class="th-sortable" data-toggle="class">Enfermedad <!-- <span class="th-sort"> <i class="fa fa-sort-down text"></i> <i class="fa fa-sort-up text-active"></i> <i class="fa fa-sort"></i> </span> --> </th>
-          <th>Descripcion</th>
-          <th width="30">Características</th>
+          <!--<th class="th-sortable" data-toggle="class">Propiedad  <span class="th-sort"> <i class="fa fa-sort-down text"></i> <i class="fa fa-sort-up text-active"></i> <i class="fa fa-sort"></i> </span>  </th>-->
+          <th>Síntoma</th>
+          <th>Propiedad</th>
           <th>Acciones</th>
         </tr>
       </thead>
       <tbody>
-      <% for (var i = 0 ; i < dataDiseases.length ; i++) { %>
+      <% for (var i = 0 ; i < dataProperties.length ; i++) { %>
         <tr>
-          <td><%= dataDiseases[i].title %></td>
-          <td><%= dataDiseases[i].description %></td>
-          <td class="propertiesLength" data-symptom="<%= dataDiseases[i].id %>"><i class="fa fa-time-o text-warning text-active"></i></td>
+          <td class="symptomName" data-property="<%= dataProperties[i].property_id %>">[CARGANDO...]</td>
+          <td class="propertyName" data-property="<%= dataProperties[i].property_id %>">[CARGANDO...]</td>
           <!--
-          <td><%= __(dataDiseases[i].type) %></td>          
+          <td><%= __(dataProperties[i].type) %></td>          
           -->
           <td>
           <!--
-          <% if(dataDiseases[i].status == 'publish') { %>
+          <% if(dataProperties[i].status == 'publish') { %>
             <a href="#" class="active"><i class="fa fa-check text-success text-active"></i></a>
-          <% }else if(dataDiseases[i].status == 'trash'){ %>
+          <% }else if(dataProperties[i].status == 'trash'){ %>
             <a href="#" class="active"><i class="fa fa-times text-danger text-active"></i></a>
           <% }else{ %>
             <a href="#" class="active"><i class="fa fa-times text-warning text-active"></i></a>
           <% } %>
-      	  -->
+          -->
             &nbsp;
-            <a href="/admin/diseases/update/<%= dataDiseases[i].id %>" class="active"><i class="fa fa-pencil text-warning text-active"></i></a>
+            <a href="/admin/properties/update/<%= dataProperties[i].property_id %>" class="active"><i class="fa fa-pencil text-warning text-active"></i></a>
             &nbsp;
-            <a href="/admin/diseases/delete/<%= dataDiseases[i].id %>" class="active"><i class="fa fa-trash-o text-danger text-active"></i></a>
+            &nbsp;
+            <a href="/admin/properties/delete/<%= dataProperties[i].property_id %>" class="active"><i class="fa fa-trash-o text-danger text-active"></i></a>
             &nbsp;
           <!--
-          <% if(dataDiseases[i].status == 'publish') { %>
-            <a href="/admin/users/desactivate/<%= dataDiseases[i].id %>" class="active"><i class="fa fa-trash-o text-danger text-active"></i></a>
+          <% if(dataProperties[i].status == 'publish') { %>
+            <a href="/admin/users/desactivate/<%= dataProperties[i].id %>" class="active"><i class="fa fa-trash-o text-danger text-active"></i></a>
           <% }else { %>
-            <a href="/admin/users/activate/<%= dataDiseases[i].id %>" class="active"><i class="fa fa-smile-o text-warning text-active"></i></a>
+            <a href="/admin/users/activate/<%= dataProperties[i].id %>" class="active"><i class="fa fa-smile-o text-warning text-active"></i></a>
           <% } %>
-      	  -->
+          -->
           </td>
         </tr>
       <% } %>
@@ -71,7 +71,7 @@
     <div class="row">
       <div class="col-sm-4 hidden-xs">
       </div>
-      <div class="col-sm-4 text-center"> <small class="text-muted inline m-t-sm m-b-sm"><%= dataDiseases.length %> Resultados </small> </div>
+      <div class="col-sm-4 text-center"> <small class="text-muted inline m-t-sm m-b-sm"><%= dataProperties.length %> Resultados </small> </div>
       <!--
       <div class="col-sm-4 text-right text-center-xs">
         <ul class="pagination pagination-sm m-t-none m-b-none">
@@ -90,21 +90,23 @@
 </section>
 
 <script type="text/javascript">
+
   $(document).on('ready', function(){
-    $.each($('.propertiesLength'), function(){
+    $.each($('.symptomName'), function(){
       var elem = $(this);
-      console.log(elem.attr('data-symptom'));
-      var data = elem.attr('data-symptom');
+      console.log(elem.attr('data-property'));
+      var data = elem.attr('data-property');
       $.ajax({
-        url: '/admin/diseases/properties/'+data,
-        type: 'get'
+        url: '/admin/diseases/'+data+'/property/',
+        type: 'get',
       }).done(function (data){
         if(data.error){
           console.log('Symptom not valid!');
         }
         else{
           console.log('got Properties');
-          elem.html('<a href="/admin/diseases/' + elem.attr('data-symptom') + '/properties/">' + data.content + '</a>');
+          elem.html('<a href="/admin/diseases/' + elem.attr('data-property') + '/properties/">' + data.content.symptom + '</a>');
+          elem.siblings('.propertyName').html('<a href="/admin/diseases/' + elem.attr('data-property') + '/properties/">' + data.content.property + '</a>');
         }
       });
     });

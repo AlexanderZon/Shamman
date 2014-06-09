@@ -9,8 +9,9 @@
 module.exports = {
 	tableName: 'sh_property_disease',
 	attributes: {
-		id: 'INTEGER',
-		disease_id: 'INTEGER',
-		property_id: 'INTEGER',
+		id: 'STRING',
+		disease_id: 'STRING',
+		property_id: 'STRING',
+		user_id: 'STRING'
 	},
 };
