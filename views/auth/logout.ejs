@@ -14,7 +14,7 @@
   <div class="container aside-xl">
     <section class="m-b-lg white">
       <header class="wrapper text-center"> <strong><%= __('Do you really want to Logout from our system?') %></strong> </header>
-      <form action="logout" method="post">
+      <form action="/logout" method="post" >
         <input type='hidden' name='_csrf' value='<%= _csrf %>'>
         <div class="list-group">
         <button type="submit" class="btn btn-lg btn-primary btn-block"><%= __('Yes, I want') %></button>
