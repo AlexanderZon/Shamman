@@ -17,7 +17,7 @@ module.exports = {
 		},
 		title: {
 			type: 'STRING',
-			unique: true
+			unique: false
 		},
 		description: {
 			type: 'TEXT',

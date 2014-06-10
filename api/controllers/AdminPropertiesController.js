@@ -40,7 +40,7 @@ module.exports = {
           });
         }
         else{
-          console.log("Property Created! " + property);
+          console.log("Property Created! " + property.title);
           res.json({
             message: "Propiedad creada con éxito!",
             type: "sucessful",

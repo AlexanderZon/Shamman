@@ -1,15 +1,15 @@
 { "_id" : { "$oid" : "53875d8a20faf70b40fa7f18" }, "content" : "Sinusitis Aguda" }
 { "_id" : { "$oid" : "53875d8a20faf70b40fa7f19" }, "content" : "Sinusitis Aguda" }
-{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1a" }, "content" : "Fiebre Del Heno" }
-{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1b" }, "content" : "Pólipos Nasales" }
-{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1c" }, "content" : "Rinitis No Alérgica" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1a" }, "content" : "fiebre Del Heno" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1b" }, "content" : "pólipos Nasales" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1c" }, "content" : "rinitis No Alérgica" }
 { "_id" : { "$oid" : "53875d8a20faf70b40fa7f1d" }, "content" : "Sinusitis Crónica" }
-{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1e" }, "content" : "Tabique Desviado" }
-{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1f" }, "content" : "Resfriado Común" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1e" }, "content" : "tabique Desviado" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f1f" }, "content" : "resfriado Común" }
 { "_id" : { "$oid" : "53875d8a20faf70b40fa7f20" }, "content" : "Diarrea Asociada A Antibióticos" }
 { "_id" : { "$oid" : "53875d8a20faf70b40fa7f21" }, "content" : "La Enfermedad Celíaca" }
 { "_id" : { "$oid" : "53875d8a20faf70b40fa7f22" }, "content" : "Enfermedad De Crohn" }
-{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f23" }, "content" : "Intoxicación Alimentaria" }
+{ "_id" : { "$oid" : "53875d8a20faf70b40fa7f23" }, "content" : "intoxicación Alimentaria" }
 { "_id" : { "$oid" : "53875d8a20faf70b40fa7f24" }, "content" : "Síndrome Del Intestino Irritable" }
 { "_id" : { "$oid" : "53875d8a20faf70b40fa7f25" }, "content" : "colitis Isquémica" }
 { "_id" : { "$oid" : "53875d8a20faf70b40fa7f26" }, "content" : "intolerancia A La Lactosa" }
