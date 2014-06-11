@@ -23,7 +23,7 @@ module.exports = {
    *    `/auditory/get`
    */
    get: function (req, res) {
-    console.log(req.session);
+    //console.log(req.session);
     // Send a JSON response
     try{
       if(req.session.usertype == 'administrator'){

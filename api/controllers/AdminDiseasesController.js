@@ -237,9 +237,20 @@ module.exports = {
           console.log("AdminDiseasesController: getCreate NOT PROPERTIES");
         }
         else{
-          __data = req.session;
-          __data.properties = properties;
-          res.view('admin/diseases/create', __data);
+          Symptoms.find().done(function (err, symptoms){
+            if(err){
+              console.log("AdminDiseasesController: getCreate ERROR SYMPTOMS");
+            }
+            if(!symptoms){
+              console.log("AdminDiseasesController: getCreate ERROR NOTSYMPTOMS") 
+            }
+            else{
+              __data = req.session;
+              __data.properties = properties;
+              __data.symptoms = symptoms;
+              res.view('admin/diseases/create', __data);
+            }
+          });
         }
       });
       }
