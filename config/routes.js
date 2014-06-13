@@ -268,6 +268,16 @@ module.exports.routes = {
   'get /admin': {
     controller: 'admin',
     action: 'get'
+  },
+
+  'get /app': {
+    controller: 'app',
+    action: 'get'
+  },
+
+  'get /time': {
+    controller: 'time',
+    action: 'get'
   }
 
   /*

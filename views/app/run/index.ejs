@@ -1,1 +1,89 @@
-RUUUUUNNNN
+<!DOCTYPE html>
+<html lang="en" class="app">
+<head>
+
+<link rel="stylesheet" href="/css/app.v1.css" type="text/css" />
+<link rel="stylesheet" href="/js/jgrowl/jquery.jgrowl.min.css" type="text/css" />
+<!--[if lt IE 9]> <script src="js/ie/html5shiv.js"></script> <script src="js/ie/respond.min.js"></script> <script src="js/ie/excanvas.js"></script> <![endif]-->
+
+<script src="/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/js/jgrowl/jquery.jgrowl.min.js"></script>
+<meta charset="utf-8" />
+<title>Shamman | <%= __('Aplicación') %></title>
+<meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="stylesheet" href="/css/app.v1.css" type="text/css" />
+<link rel="shortcut icon" href="/images/logo.png">
+<!--[if lt IE 9]> <script src="js/ie/html5shiv.js"></script> <script src="js/ie/respond.min.js"></script> <script src="js/ie/excanvas.js"></script> <![endif]-->
+<!--[if lt IE 9]> <script src="js/ie/html5shiv.js"></script> <script src="js/ie/respond.min.js"></script> <script src="js/ie/excanvas.js"></script> <![endif]-->
+</head>
+<body class="">
+<section id="content" class="m-t-lg wrapper-md animated fadeInUp">
+  <div class="container aside-xl"> <a class="navbar-brand block" href="index.html">Shamman</a>
+    <section class="m-b-lg">
+      <header class="wrapper text-center"> <strong><%= __('Sign in to get in touch') %></strong> </header>
+      <% if(error){ %>
+      <header class="wrapper text-center"> <strong><%= question.title %></strong> </header>
+      <% } %>
+      <% for(var i = 0; i < question.options.length; i++){ %>
+      <form action="/app" method="post" id="login_form">
+        <input type='hidden' name='_csrf' value='<%= _csrf %>'  />
+        <input type='hidden' name='<%= question.name %>' value="<%= question.option[i].value %>" />
+        <button type="submit" class="btn btn-lg btn-primary btn-block"><%= question.options[i].title %></button>
+        <div class="line line-dashed"></div>
+      </form>
+      <% } %>
+    </section>
+  </div>
+</section>
+<!-- footer -->
+<footer id="footer">
+  <div class="text-center padder">
+    <p> <small><%= __('Web app framework base on Sails.js') %><br>
+      &copy; 2014</small> </p>
+  </div>
+</footer>
+<!-- / footer -->
+<!-- Bootstrap -->
+<!-- App -->
+
+<script type="text/javascript">
+  $(document).on('ready', function(){
+    $.jGrowl.defaults.closerTemplate = "<div>Ocultar todas las notificaciones</div>";
+    $('#login_form').on('submit', function(){
+      if(!validate()) return false;
+      else{
+        return true;
+      }
+    });
+  });
+
+  function eraseParsleyErrorClass(selector){
+    $('input,select,textarea').removeClass('parsley-error');
+    $(selector).focus();
+    $(selector).addClass('parsley-error');
+  }
+
+  function cleanFrom(){
+    $('input[type=text],input[type=email],input[type=password],input[type=date],input[type=time],textarea').val('');
+    $('select').val(null);
+  }
+
+  function validate(){
+    if($('#username').val()==''){
+      $.jGrowl("Esciba un nombre de usuario");
+      eraseParsleyErrorClass('#username');
+      return false;
+    }
+    else if($('#password').val()==''){
+      $.jGrowl("Esciba una contrseña");
+      eraseParsleyErrorClass('#password');
+      return false;
+    }
+    else {
+      return true;
+    }
+  }
+</script>
+</body>
+</html>
